@@ -9,7 +9,7 @@ Es gibt einen öffentlichen und privaten Schlüssel. Wenn **Host A** eine Datei 
 mit dem *öffentlichen Schüssel* **von Host B** verschlüsseln. **Nur** Host B kann die Datei mit seinem **privaten Schlüssel** entschlüsseln. 
 
 ## Symmetrische Verschlüsselung
-Hierbei gibt es nur **einen** Schlüssel für die Verschlüsslung und die Entschlüsslung. Eine Nachricht wird bspw. mit *Schlüssel F* verschlüsselt. Die Person, 
+Hierbei gibt es nur **einen** Schlüssel für die Verschlüsslung und die Entschlüsselung. Eine Nachricht wird bspw. mit *Schlüssel F* verschlüsselt. Die Person, 
 die die Nachricht entschlüsseln will, benötigt den **selben Schlüssel**. Das heisst der Schlüssel **muss** für die Sicherheit der Nachricht *geheim* 
 übermittelt werden. 
 

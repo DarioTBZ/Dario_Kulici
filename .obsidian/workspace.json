@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e6cdae58c1bdeff1",
+        "id": "8b80c71a7e956bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "d320d88afac9559b",
+            "id": "2a608d1e05b6a745",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,12 +163,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d320d88afac9559b",
+  "active": "2a608d1e05b6a745",
   "lastOpenFiles": [
-    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/AuthentifizierungvsAutorisierung.md",
-    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
-    "01_Module/01_M231 Datenschutz/Themen/LB3/Datensicherheit.md",
+    "01_Module/01_M231 Datenschutz/README.md",
+    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/VerschlüsselungÜbersicht.md",
+    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/CäsarVerschlüsselung.md",
     "README.md",
+    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/AuthentifizierungvsAutorisierung.md",
+    "01_Module/01_M231 Datenschutz/Themen/LB3/Datensicherheit.md",
     "02_Projekte/TextoPy/README.md",
     "01_Module/03_M319 Java/README.md",
     "Media/Bild.md",
@@ -217,8 +211,6 @@
     "Module/Ältere Module/1. Module/Modul 162/Konzeptionelle Datenbank.md",
     "Module/Ältere Module/1. Module/Modul 162/Definitionen Diskret und Stetig.md",
     "Module/Ältere Module/1. Module/Modul 162/30.8 Strukturierungsgrad und Wissenstreppe.md",
-    "Module/Ältere Module/1. Module/Modul 117/Projekt Heimnetzwerk/Subnetzmasken.md",
-    "Module/Ältere Module/1. Module/Modul 117/Projekt Heimnetzwerk/Beispielaufgabe.md",
     "Modul 162/Untitled.canvas"
   ]
 }
