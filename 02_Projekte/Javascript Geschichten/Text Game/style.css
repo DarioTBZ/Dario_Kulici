@@ -1,0 +1,23 @@
+h1 {
+    font-family: "Protest Riot", sans-serif;
+}
+#Titel {
+    margin: 5px;
+    font-size: 80px;
+    font-family: "Protest Riot", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+/* "#" CSS für ID ansprechen */
+
+body {
+    background-color: rgba(31, 29, 29, 0.705);
+    font-family: "Protest Riot", sans-serif;
+}
+#welcome-text {
+    color: white;
+    margin: 5px;
+    
+}
