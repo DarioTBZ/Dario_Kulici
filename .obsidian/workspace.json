@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2df10f20827c07c2",
+        "id": "3bcc628b5c051b28",
         "type": "tabs",
         "children": [
           {
-            "id": "c871eb566d9ded61",
+            "id": "80d8fb7d55cac44f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,9 +171,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9be03b0ec5586ca3",
+  "active": "80d8fb7d55cac44f",
   "lastOpenFiles": [
+    "Media/Bild.md",
     "01_Module/02_M123 Serverdienste/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
+    "Media",
     "01_Module/02_M123 Serverdienste/README-Dokumentation Serverdienste.md",
     "README.md",
     "02_Projekte/README-Projekte.md",
@@ -207,7 +209,6 @@
     "Module/Ältere Module/2. Module/Modul 231/Datensicherheit vs Datenschutz.md",
     "Module/Ältere Module/2. Module/Modul 231/Lehrmittel Basismodul DE.pdf",
     "Module/Ältere Module/2. Module/Modul 231/Arten der Authentifizierung.md",
-    "Module/Ältere Module/2. Module/Modul 231/Brief_Auskunftsrecht_Kulici.pdf",
     "Module/Ältere Module/1. Module/Modul 162/Notizen.md",
     "Module/Ältere Module/1. Module/Modul 162/Konzeptionelle Datenbank.md",
     "Module/Ältere Module/1. Module/Modul 162/Definitionen Diskret und Stetig.md",
@@ -218,7 +219,6 @@
     "Module/Ältere Module/1. Module/Modul 117/Notizen.md",
     "Module/Modul 123/HTTPS Grundlagen/Dokumentation Teil 7 eigene Webseite hochladen.md",
     "Module/Modul 123/DHCP Packet Tracer/Dokumentation Dario Kulici DHCP Labor.md",
-    "Module/Modul 123/DNS Packet Tracer/DNS Query/Queries.md",
     "Modul 162/Untitled.canvas"
   ]
 }
