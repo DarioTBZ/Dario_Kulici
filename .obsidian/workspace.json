@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3bcc628b5c051b28",
+        "id": "e6cdae58c1bdeff1",
         "type": "tabs",
         "children": [
           {
-            "id": "80d8fb7d55cac44f",
+            "id": "d320d88afac9559b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Module/03_M319 Java/README.md",
+                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Module/03_M319 Java/README.md",
+                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Module/03_M319 Java/README.md",
+                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Module/03_M319 Java/README.md"
+                "file": "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md"
               }
             }
           },
@@ -171,17 +171,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80d8fb7d55cac44f",
+  "active": "d320d88afac9559b",
   "lastOpenFiles": [
-    "01_Module/02_M123 Serverdienste/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
+    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/AuthentifizierungvsAutorisierung.md",
+    "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/Verschlüsselung Übersicht.md",
+    "01_Module/01_M231 Datenschutz/Themen/LB3/Datensicherheit.md",
+    "README.md",
+    "02_Projekte/TextoPy/README.md",
     "01_Module/03_M319 Java/README.md",
     "Media/Bild.md",
+    "01_Module/02_M123 Serverdienste/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
     "Media",
     "01_Module/02_M123 Serverdienste/README-Dokumentation Serverdienste.md",
-    "README.md",
     "02_Projekte/README-Projekte.md",
     "02_Projekte/TextoPy/README-Projekte.md",
-    "02_Projekte/TextoPy/README.md",
     "02_Projekte.md",
     "02_Projekte/TextoPy/TextoPyV2.py",
     "02_Projekte/TextoPy",
@@ -216,9 +219,6 @@
     "Module/Ältere Module/1. Module/Modul 162/30.8 Strukturierungsgrad und Wissenstreppe.md",
     "Module/Ältere Module/1. Module/Modul 117/Projekt Heimnetzwerk/Subnetzmasken.md",
     "Module/Ältere Module/1. Module/Modul 117/Projekt Heimnetzwerk/Beispielaufgabe.md",
-    "Module/Ältere Module/1. Module/Modul 117/Subnetz.md",
-    "Module/Ältere Module/1. Module/Modul 117/Notizen.md",
-    "Module/Modul 123/HTTPS Grundlagen/Dokumentation Teil 7 eigene Webseite hochladen.md",
     "Modul 162/Untitled.canvas"
   ]
 }

@@ -45,10 +45,10 @@ Ich habe die Themen **"PC-Sicherheit"** und **"Smartphone-Sicherheit"** gewählt
 ## Fragen 05 
 - Führen Sie regelmässig Backups durch?
 - Bewahren Sie Sicherheitskopien feuer- und diebstahlsicher auf?
-- Löschen Sie Daten vor Entsorung oder Verkauf des PCs vollständig?
+- Löschen Sie Daten vor Entsorgung oder Verkauf des PCs vollständig?
 ### Antworten
 - Alle meine Daten sind in der Cloud und werden jedes Mal wenn ich die Daten brauche direkt gebackupt. 
-- Nein tuhe ich nicht, da alles in der Cloud ist. Falls ich 10 Bitcoin hätte, würde ich sie auf einem **SEHR** starken USB Stick tun. 
+- Nein tue ich nicht, da alles in der Cloud ist. Falls ich 10 Bitcoin hätte, würde ich sie auf einem **SEHR** starken USB Stick tun. 
 - Ich musste es bisher nie machen. Wenn der Moment kommt, werde ich die Speichermedien neu formatieren bzw. alles löschen. 
 
 # Smartphone-Sicherheit
