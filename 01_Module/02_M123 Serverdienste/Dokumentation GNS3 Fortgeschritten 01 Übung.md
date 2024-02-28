@@ -1,6 +1,6 @@
 # Aufgabe 1: Der Konfigurationsfehler
 Nach der erfolgreichen Installation des Projekts habe ich mich an die **Konfiguration** gesetzt. Den alten Router löschen, den neuen importieren und verbinden. Mit dem Kabel Symbol an der linken Seite kann man Verknüpfungen machen. 
-![](Bild%201.png)
+[Bild1](/Media/Bild1.png)
 
 Der Ping war auch **erfolgreich**, wie man im Bild unten erkennen kann. Alle Pakete, die gesendet wurden, wurden auch empfangen. 
 
