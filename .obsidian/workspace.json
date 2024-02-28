@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Module/03_M319 Java/README-319.md",
+                "file": "01_Module/03_M319 Java/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Module/03_M319 Java/README-319.md",
+                "file": "01_Module/03_M319 Java/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Module/03_M319 Java/README-319.md",
+                "file": "01_Module/03_M319 Java/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Module/03_M319 Java/README-319.md"
+                "file": "01_Module/03_M319 Java/README.md"
               }
             }
           },
@@ -174,7 +174,7 @@
   "active": "80d8fb7d55cac44f",
   "lastOpenFiles": [
     "01_Module/02_M123 Serverdienste/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
-    "01_Module/03_M319 Java/README-319.md",
+    "01_Module/03_M319 Java/README.md",
     "Media/Bild.md",
     "Media",
     "01_Module/02_M123 Serverdienste/README-Dokumentation Serverdienste.md",
