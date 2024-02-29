@@ -1,5 +1,12 @@
+import static ch.tbz.lib.Input.inputString;
+
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String answer = "";
+        while (answer != "addition") {
+            answer = inputString("user:");
+        } 
+            
+        }
+        
     }
-}
