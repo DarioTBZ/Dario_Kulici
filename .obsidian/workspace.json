@@ -11,8 +11,12 @@
             "id": "2a608d1e05b6a745",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "01_Module/04_M164/Alles_über_MySQL.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01_Module/04_M164/Alles_über_MySQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01_Module/04_M164/Alles_über_MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01_Module/04_M164/Alles_über_MySQL.md"
+              }
             }
           },
           {
@@ -165,6 +173,10 @@
   },
   "active": "2a608d1e05b6a745",
   "lastOpenFiles": [
+    "01_Module/04_M164/Datenbankenvergleich.md",
+    "01_Module/04_M164/Alles_über_MySQL.md",
+    "01_Module/04_M164/Identifiying and non Identifying Beziehung.md",
+    "01_Module/04_M164",
     "02_Projekte/Javascript Geschichten/Tic Tac Toe/TTTlogic.js",
     "02_Projekte/Javascript Geschichten/Tic Tac Toe/TTTstyle.css",
     "02_Projekte/Javascript Geschichten/Tic Tac Toe/TTTIndex.html",
@@ -178,8 +190,6 @@
     "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/spielfigurRechts.png",
     "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/spielfigurLinks.png",
     "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/logik.js",
-    "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/index.html",
-    "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/design.css",
     "02_Projekte/Javascript Geschichten/jsWorld/Textures/penguins/arid_up.jpg",
     "02_Projekte/Javascript Geschichten/jsWorld/models/mech_drone/textures/Robot_specularGlossiness.png",
     "02_Projekte/Javascript Geschichten/jsWorld/models/mech_drone/textures/Robot_occlusion.png",
@@ -209,8 +219,6 @@
     "Module/Ältere Module/2. Module/Modul 231/Datensicherheit vs Datenschutz.md",
     "Module/Ältere Module/2. Module/Modul 231/Arten der Authentifizierung.md",
     "Module/Ältere Module/1. Module/Modul 162/Notizen.md",
-    "Module/Ältere Module/1. Module/Modul 162/Konzeptionelle Datenbank.md",
-    "Module/Ältere Module/1. Module/Modul 162/Definitionen Diskret und Stetig.md",
     "Modul 162/Untitled.canvas"
   ]
 }
