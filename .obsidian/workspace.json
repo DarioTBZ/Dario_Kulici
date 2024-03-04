@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b80c71a7e956bbf",
+        "id": "0b00824ccf622b7c",
         "type": "tabs",
         "children": [
           {
-            "id": "2a608d1e05b6a745",
+            "id": "865df853952966ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Module/04_M164/Alles_über_MySQL.md",
+                "file": "01_Module/03_M319 Java/Aufgaben/N1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Module/04_M164/Alles_über_MySQL.md",
+                "file": "01_Module/03_M319 Java/Aufgaben/N1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Module/04_M164/Alles_über_MySQL.md",
+                "file": "01_Module/03_M319 Java/Aufgaben/N1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Module/04_M164/Alles_über_MySQL.md"
+                "file": "01_Module/03_M319 Java/Aufgaben/N1.md"
               }
             }
           },
@@ -171,10 +171,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a608d1e05b6a745",
+  "active": "865df853952966ea",
   "lastOpenFiles": [
-    "01_Module/04_M164/Datenbankenvergleich.md",
+    "01_Module/03_M319 Java/README.md",
+    "02_Projekte/README.md",
+    "01_Module/03_M319 Java/Aufgaben/N1.md",
     "01_Module/04_M164/Alles_über_MySQL.md",
+    "01_Module/04_M164/Datenbankenvergleich.md",
     "01_Module/04_M164/Identifiying and non Identifying Beziehung.md",
     "01_Module/04_M164",
     "02_Projekte/Javascript Geschichten/Tic Tac Toe/TTTlogic.js",
@@ -203,7 +206,6 @@
     "01_Module/01_M231 Datenschutz/Themen/Verschlüsselung/AuthentifizierungvsAutorisierung.md",
     "01_Module/01_M231 Datenschutz/Themen/LB3/Datensicherheit.md",
     "02_Projekte/TextoPy/README.md",
-    "01_Module/03_M319 Java/README.md",
     "Media/Bild.md",
     "01_Module/02_M123 Serverdienste/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
     "01_Module/02_M123 Serverdienste/README-Dokumentation Serverdienste.md",
@@ -217,8 +219,6 @@
     "Module/ÜK Module/106/LB1.md",
     "Module/Modul 123/Fortgeschritten 01 HTTPS, Wireshark und Hosts File/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
     "Module/Ältere Module/2. Module/Modul 231/Datensicherheit vs Datenschutz.md",
-    "Module/Ältere Module/2. Module/Modul 231/Arten der Authentifizierung.md",
-    "Module/Ältere Module/1. Module/Modul 162/Notizen.md",
     "Modul 162/Untitled.canvas"
   ]
 }
