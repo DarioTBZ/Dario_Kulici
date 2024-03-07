@@ -40,4 +40,15 @@ Wenn Bedingungen erfüllt sind, können Anweisungen mehrfach wiederholt werden. 
 ### Abstraktion 
 Es hilft, wichtige Stücke Code in Funktionen zu tun. Das Programm zu unterteilen nennt man Abstraktion, damit man sieht was wo ist und welchem Zweck dient. 
 
+# Lernziele
+- I know what control flow means.
+- How to control the program sequence.
+- What conditions does JAVA have.
+- What means of control flow does JAVA have.
+
+
+- Flow Control ist der Kontrollfluss eines Programms. Man steuert den Ablauf eines Programms mit Abstraktionen, Iterationen und Selektionen. 
+- 
+
+
 https://gitlab.com/ch-tbz-it/Stud/m319/-/tree/main/N1-Flow_Control
