@@ -12,14 +12,27 @@ public class celciusfahrenheitcalculator {
             Double FtoC = input.nextDouble();
             Double calculationToFahrenheit = (FtoC - 32) * 5/9;
 
-            System.out.println("The sum is: " + calculationToFahrenheit);
+            if (calculationToFahrenheit == 0) {
+                System.out.println("This is the freezing point!");
+            } else if (FtoC == 212) {
+                System.out.println(calculationToFahrenheit + " celsius is over the boiling point");             
+            } else {
+                System.out.println("The sum is: " + calculationToFahrenheit);
+            }
 
         } else if (desiredUnit.equals("f")) {
             System.out.println("Enter celsius: ");
             Double CtoF = input.nextDouble();
             Double calculationToCelsius = (CtoF * 9/5) + 32;
 
-            System.out.println("The sum is: " + calculationToCelsius);
+            if (CtoF == 0) {
+                System.out.println("This is the freezing point!");
+            } else if (CtoF == 100) {
+                System.out.println(calculationToCelsius + " fahrenheit is over the boiling point");                
+            }
+            else {
+                System.out.println("The sum is: " + calculationToCelsius);
+            }
         }
     }
 }
