@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b00824ccf622b7c",
+        "id": "a4e90a4fd31ab139",
         "type": "tabs",
         "children": [
           {
-            "id": "865df853952966ea",
+            "id": "400eb1df3317d1de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md",
+                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md",
+                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md",
+                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md"
+                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md"
               }
             }
           },
@@ -171,13 +171,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865df853952966ea",
+  "active": "400eb1df3317d1de",
   "lastOpenFiles": [
+    "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
+    "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md",
     "01_Module/03_M319 Java/Programme/thunderstormCalculator.java",
     "01_Module/03_M319 Java/Programme/celciusfahrenheitcalculator.java",
     "01_Module/03_M319 Java/Programme/gallonconverter.java",
     "01_Module/03_M319 Java/Programme/RichtigFalsch.java",
-    "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md",
     "01_Module/03_M319 Java/README.md",
     "02_Projekte/README.md",
     "01_Module/04_M164/Alles_über_MySQL.md",
@@ -189,7 +190,6 @@
     "02_Projekte/Javascript Geschichten/Tic Tac Toe/TTTIndex.html",
     "02_Projekte/Javascript Geschichten/Tic Tac Toe",
     "02_Projekte/Javascript Geschichten/Text Game/style.css",
-    "02_Projekte/Javascript Geschichten/Text Game/logic.js",
     "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/zielbereich.png",
     "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/Wiese.avif",
     "02_Projekte/Javascript Geschichten/Projekt Liam Jamal/spielfigurRechts.png",
