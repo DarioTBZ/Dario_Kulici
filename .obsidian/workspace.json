@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a4e90a4fd31ab139",
+        "id": "91d2214f596421f8",
         "type": "tabs",
         "children": [
           {
-            "id": "400eb1df3317d1de",
+            "id": "acfdb1e9590578a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
+                "file": "01_Module/04_M164/Auftrag Mengenlehre.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22553d4c6b631dd2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
+                "file": "01_Module/04_M164/Auftrag Mengenlehre.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
+                "file": "01_Module/04_M164/Auftrag Mengenlehre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md"
+                "file": "01_Module/04_M164/Auftrag Mengenlehre.md"
               }
             }
           },
@@ -171,17 +172,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "400eb1df3317d1de",
+  "active": "9be03b0ec5586ca3",
   "lastOpenFiles": [
-    "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
+    "01_Module/04_M164/DDL CREATE -Relations.md",
+    "01_Module/04_M164/Auftrag Mengenlehre.md",
+    "01_Module/04_M164/Alles_über_MySQL.md",
     "01_Module/03_M319 Java/Aufgaben/N1_Flow-Control.md",
+    "01_Module/03_M319 Java/Aufgaben/E1_Debugger_SerieB.md",
     "01_Module/03_M319 Java/Programme/thunderstormCalculator.java",
     "01_Module/03_M319 Java/Programme/celciusfahrenheitcalculator.java",
     "01_Module/03_M319 Java/Programme/gallonconverter.java",
     "01_Module/03_M319 Java/Programme/RichtigFalsch.java",
     "01_Module/03_M319 Java/README.md",
     "02_Projekte/README.md",
-    "01_Module/04_M164/Alles_über_MySQL.md",
     "01_Module/04_M164/Datenbankenvergleich.md",
     "01_Module/04_M164/Identifiying and non Identifying Beziehung.md",
     "01_Module/04_M164",
@@ -217,8 +220,6 @@
     "Module/ÜK Module/106/Dokumentation Thema Datenbank.md",
     "Module/Ältere Module/2. Module/Modul 231/SRF Doku über Datenschutz.md",
     "Module/319/Info.md",
-    "Module/ÜK Module/106/LB1.md",
-    "Module/Modul 123/Fortgeschritten 01 HTTPS, Wireshark und Hosts File/Dokumentation GNS3 Fortgeschritten 01 Übung.md",
     "Modul 162/Untitled.canvas"
   ]
 }
