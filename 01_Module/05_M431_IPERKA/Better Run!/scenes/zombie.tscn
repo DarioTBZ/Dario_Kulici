@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://dheu7km4xpm2o"]
+
+[ext_resource type="Script" path="res://scripts/zombie.gd" id="1_cql0y"]
+[ext_resource type="Texture2D" uid="uid://dg18pontwxpc7" path="res://assets/Placeholders/TopDownShooter/Vector/vector_characters.svg" id="1_oqcy2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rmctl"]
+height = 38.0
+
+[node name="Zombie" type="CharacterBody2D"]
+scale = Vector2(1.2, 1.2)
+script = ExtResource("1_cql0y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("1_oqcy2")
+region_enabled = true
+region_rect = Rect2(8.33333, 245.222, 38.6667, 55.1111)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(1.2, 1.2)
+shape = SubResource("CapsuleShape2D_rmctl")

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5ngtoh3b5h14"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_762ig"]
+[ext_resource type="Texture2D" uid="uid://bylu5yin3u881" path="res://assets/Placeholders/Spritesheet/vector_characters.svg" id="2_4fwpc"]
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(2.65244, 2.48275)
+script = ExtResource("1_762ig")
+max_speed = 150
+acceleration = 500
+friction = 3000
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, 4)
+texture = ExtResource("2_4fwpc")
+region_enabled = true
+region_rect = Rect2(194.187, 490, 52.4307, 43.1603)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_smoothed = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-20.3586, -11.2778, -15.4575, -17.7223, -6.7862, -17.3195, -2.26207, -11.6806, 1.88506, 3.22223, -0.377011, 10.4723, 3.77011, 11.2778, 9.04827, 18.1251, 0.754023, 24.9723, -15.0805, 25.3751, -20.3586, 19.3334, -20.7356, 11.2778, -23.3747, 8.05558, -23.3747, 0, -20.7356, -3.22223)
+
+[node name="End_Of_Gun" type="Marker2D" parent="."]
+position = Vector2(29.0299, 12.8889)
+
+[node name="Gun_Direction" type="Marker2D" parent="."]
+position = Vector2(32, 12.889)
