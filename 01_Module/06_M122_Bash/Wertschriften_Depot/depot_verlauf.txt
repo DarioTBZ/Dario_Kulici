@@ -1,0 +1,3 @@
+2024-07-10 18:28:40: Depotwert: CHF 8489.113, Historischer Wert: CHF 8550.00, Differenz: 0%
+2024-07-10 18:31:14: Depotwert: CHF 8487.6412, Historischer Wert: CHF 8550.00, Differenz: 0%
+2024-07-10 18:31:59: Depotwert: CHF 8488.9037, Historischer Wert: CHF 8550.00, Differenz: 0%

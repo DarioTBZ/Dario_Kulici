@@ -29,7 +29,7 @@ fi
 
 #Systeminformationen
 if [ "$output_file" = true ]; then
-    log_file="$(date '+%Y-%m')-sys-$(hostname).log"
+    log_file="/Users/dariokulici/Documents/Dario_Kulici/01_Module/06_M122_Bash/$(date '+%Y-%m')-sys-$(hostname).log"
     display_system_info >> "$log_file"
 else
     display_system_info
