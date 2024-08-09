@@ -10,9 +10,8 @@ Die meisten Module sind bereits vorhanden. Mit der Zeit wird mehr Inhalt erstell
 
 Module: 
 
-[231 Datenschutz](01_Module/01_M231_Datenschutz/README)
-
-[123 Serverdienste](01_Module/02_M123_Serverdienste/README)
+- [231 Datenschutz](01_Module/01_M231_Datenschutz/README)
+- [123 Serverdienste](01_Module/02_M123_Serverdienste/README)
 
 [164 Datenbanken](01_Module/04_M164_Datenbanken/README)
 
