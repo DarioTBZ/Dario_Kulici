@@ -2,8 +2,6 @@
 
 In diesem Ordner sind meine Projekte, dazugehörige Dokumentationen und Experimente. Feel free to browse!
 
-#### C#:
-[Kurze C# Phase](C-Sharp/dings.cs)
 #### Javascript:
 - [Einkaufsliste](Javascript/Einkaufsliste/EIndex.html)
 - [3D Welt](Javascript/jsWorld/Index.html)
@@ -20,4 +18,4 @@ In diesem Ordner sind meine Projekte, dazugehörige Dokumentationen und Experime
 ##### Lernprojekte
 - [Kivy Modul](Python/LearningProjects/kivy_project.py)
 - [PyGame](Python/LearningProjects/PyGame.py)
-- [PyQt](Python/LearningProjects/PyQt6.py)
+- [PyQt6](Python/LearningProjects/PyQt6.py)
