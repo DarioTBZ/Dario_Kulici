@@ -1,7 +1,7 @@
 #!/bin/bash
 
 API_KEY="bc5a975b90e7226110a23875"
-API_URL="https://v6.exchangerate-api.com/v6//latest/CHF"
+API_URL="https://v6.exchangerate-api.com/v6/$API_KEY/latest/CHF"
 DATA_FILE="exchange_data.json"
 
 # Funktion zum Abrufen der aktuellen Wechselkurse
@@ -24,7 +24,7 @@ save_new_data() {
     echo "$1" > "$DATA_FILE"
 }
 
-# Funktion zur Berechnung der Differenz und Darstellung der Daten
+# Berechnung der Änderung Daten
 compare_and_display() {
     old_data=$(load_old_data)
     new_data="$1"
@@ -47,6 +47,8 @@ compare_and_display() {
                 color="\033[31m"  # rot
                 change="↓"
             fi
+
+            echo -e "color ist: $color jetzt rot"
 
             printf "%-10s: %-10s -> %-10s (%s%.4f%%\033[0m)\n" "$currency" "$old_rate" "$new_rate" "$color" "$percent_change"
         else
