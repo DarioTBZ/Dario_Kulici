@@ -11,13 +11,13 @@
 \" = double quotes
 ```
 
-#### Variables
+# Variables
 - ``int``
 - ``float``
 - ``char``
 - ``char[]``
 
-##### Call variables
+#### Call variables
 | Type       | Callable   | Name                 | Explanation                                                                               |
 | ---------- | ---------- | -------------------- | ----------------------------------------------------------------------------------------- |
 | ``int``    | ``%d``     | ``decimal``          | Stores whole numbers                                                                      |
