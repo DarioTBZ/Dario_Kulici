@@ -6,8 +6,8 @@ int main(){
     int age;
 
     printf("What is your name?\n");
-    scanf("%s", name); // Without Whitespaces
-    //fgets(name, 25, stdin);
+    //scanf("%s", name); // Without Whitespaces
+    fgets(name, 25, stdin);
 
     printf("How old are you?\n");
     scanf("%d", &age);    
