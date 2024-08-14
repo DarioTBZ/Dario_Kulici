@@ -11,7 +11,7 @@ Mit der Zeit werden hier mehr Inhalte erstellt werden.
 
 ## LB3 Relevant
 
-[Mein Passwort Manager](/Themen/LB3/MeinPasswortManager.md)
+[Mein Passwort Manager](/01_M231_Datenschutz/Themen/LB3/MeinPasswortManager.md)
 
 [Auskunftsrecht PDF](/Themen/LB3/Auskunftsrecht/Brief_Auskunftsrecht_Kulici.pdf)
 
