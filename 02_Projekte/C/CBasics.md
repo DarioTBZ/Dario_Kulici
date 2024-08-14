@@ -36,6 +36,8 @@ int main(){
 	int age = 23;
 
 	printf("I am %d years old", age)
+
+	return 0;
 }
 ```
 
@@ -45,6 +47,7 @@ Define what type of data has to be displayed.
 | Decimal Precision | Minimum field width | left align |
 | ----------------- | ------------------- | ---------- |
 | %.1               | %1                  | %-         |
+
 Example:
 ```
 	float Ware1 = 3.45;
@@ -82,6 +85,8 @@ The classic function for user input is `scanf()`.
 
 Example with `scanf()`
 ```
+#include <stdio>
+
 int main(){
 	int age;
 	
@@ -96,6 +101,8 @@ The problem with `scanf()` is that it can't store white spaces. If you still wan
 
 Example with `fgets()`:
 ```
+#include <stdio>
+
 int main(){
 	char full_name[25];
 
@@ -111,6 +118,8 @@ int main(){
 When you execute this program you'll notice that a newline separates the sentence. That's because `fgets()` registered the enter key. It's a bit advanced to remove that newline but there is the code.
 
 ```
+#include <stdio>
+
 int main(){
 	char full_name[25];
 
