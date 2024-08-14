@@ -24,4 +24,5 @@
 | ``float``  | ``%f``   | ``float``          |
 | ``char``   | ``%c``   | ``character``      |
 | ``char[]`` | ``%s``   | ``array (string)`` |
+
 The `char[]` variable is just an array of characters. Strings don't exist in C, because they are objects and C is not a object oriented language. 
