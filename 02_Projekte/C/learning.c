@@ -1,24 +1,18 @@
 #include <stdio.h>
 
 int main(){
-
-    // Commenting in C
-
-    /*  Escape Sequences  
-        \n = newline
-        \t = tab
     
-    printf("1\t2\t3\t4\n\n");
-    
-    printf("\"I like Pizza\" - Abraham Lincoln\n\n");
-     */
+    char name[25];
+    int age;
 
-    int age = 16;
-    char letter = "I"; // single letter
-    char name[] = "Bro"; // array of characters, basically a string
+    printf("What is your name?\n");
+    scanf("%s", name); // Without Whitespaces
+    //fgets(name, 25, stdin);
 
-    printf("Good morning %s\n", name);
-    printf("You are %d years old\n", age);
+    printf("How old are you?\n");
+    scanf("%d", &age);    
+
+    printf("\nYou're name is %s and you are %d years old\n\n",name, age);
 
     return 0;
 }
