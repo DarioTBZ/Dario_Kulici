@@ -21,7 +21,7 @@ int main() {
 
     float f = a / b;
 
-    printf("%.2f", f);
+    printf("%.2f", c);
     
 
     return 0;
