@@ -24,13 +24,13 @@
 | ``float``  | ``%f``     | ``float``            | Stores decimal numbers but is not precise                                                 |
 | `double`   | `%lf`      | `double`             | Stores a lot more numbers and **more precise**                                            |
 | ``char``   | ``%c, %d`` | `character, decimal` | You can convert it to a character using the asci table or just use it for numbers with %d |
-| ``char[]`` | ``%s``     | ``array (string)``   | A list of variables                                                                       |
+| ``char[]`` | ``%s``     | ``string``           | Multiple characters attached to each other                                                |
 
 The `char[]` type is just an array of characters. Strings don't exist in C, because they are objects and C is not a object oriented language. 
 
 You would call a variable like that. 
 ```
-#include <stdio>
+#include <stdio.h>
 
 int main(){
 	int age = 23;
@@ -85,7 +85,7 @@ The classic function for user input is `scanf()`.
 
 Example with `scanf()`
 ```
-#include <stdio>
+#include <stdio.h>
 
 int main(){
 	int age;
@@ -101,7 +101,7 @@ The problem with `scanf()` is that it can't store white spaces. If you still wan
 
 Example with `fgets()`:
 ```
-#include <stdio>
+#include <stdio.h>
 
 int main(){
 	char full_name[25];
@@ -118,7 +118,7 @@ int main(){
 When you execute this program you'll notice that a newline separates the sentence. That's because `fgets()` registered the enter key. It's a bit advanced to remove that newline but there is the code.
 
 ```
-#include <stdio>
+#include <stdio.h>
 
 int main(){
 	char full_name[25];
@@ -192,4 +192,37 @@ int main() {
 ```
 
 [Sourcecode](math_functions.c) 
+
+# Functions
+In C functions are important. The main function is called every time you wanna run a program. There is no program without a function. 
+
+Exp. 
+```
+#include <stdio.h>
+
+int main()
+{
+	printf("This is the main function.");
+
+	return 0;
+}
+```
+
+We can also create custom functions. That would work like that.
+
+```
+#include <stdio.h>
+
+void custom_function()
+{
+	printf("This is a custom function.");
+}
+
+int main()
+{
+	printf("This is still the main function.");
+
+	return 0;
+}
+```
 
