@@ -193,7 +193,7 @@ int main() {
 }
 ```
 
-[Sourcecode](math_functions.c) 
+[Sourcecode](Learn/math_functions.c)
 
 # Functions
 
