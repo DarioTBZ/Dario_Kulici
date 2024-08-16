@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main() {
-    
+int main()
+{
+
     char calculation;
     bool valid_calc = false;
     double first_digit;
@@ -12,7 +13,6 @@ int main() {
 
     printf("What calculation would you like to run?(+ - * /)\n");
     scanf("%c", &calculation);
-
 
     printf("Enter first digit:");
     scanf("%lf", &first_digit);
@@ -33,7 +33,7 @@ int main() {
     case '/':
         sum = first_digit / second_digit;
         break;
-    
+
     default:
         printf("%c is not a valid type.", calculation);
         break;
@@ -55,13 +55,12 @@ int main() {
         printf("\nVery accurate: ");
         printf("%lf %c %lf = %lf", first_digit, calculation, second_digit, sum);
         break;
-    
+
     default:
         printf("\nPrinting readable version: ");
         printf("%.1lf %c %.1lf = %.1lf", first_digit, calculation, second_digit, sum);
         break;
     }
-
 
     return 0;
 }

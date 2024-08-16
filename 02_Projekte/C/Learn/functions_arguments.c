@@ -1,12 +1,7 @@
 #include <stdio.h>
 
-void birthday()
+void birthday(char name[])
 {
-    char name[15];
-
-    printf("Who's birthday is it?\n");
-    scanf("%s", &name);
-
     printf("\nHaaaappy birthday to you");
     printf("\nHappy birthday TO you");
     printf("\nHappy BIRTHDAY dear %s", name);
@@ -15,8 +10,10 @@ void birthday()
 
 int main()
 {
+    char name[] = "Dario";
 
-    birthday();
+
+    birthday(name);
 
     return 0;
 }

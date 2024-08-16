@@ -12,6 +12,7 @@
 ```
 
 # Format Specifier %
+
 - ``int``
 - ``float``
 - ``char``
@@ -134,6 +135,7 @@ int main(){
 ```
 
 # Math
+
 Here are some of the most used mathematical functions.
 ```
 #include <stdio.h>
@@ -194,6 +196,7 @@ int main() {
 [Sourcecode](math_functions.c) 
 
 # Functions
+
 In C functions are important. The main function is called every time you wanna run a program. There is no program without a function. 
 
 Exp. 
@@ -226,3 +229,6 @@ int main()
 }
 ```
 
+#### Arguments and Parameters
+
+After creating a function maybe there are variables that are needed in the function. The problem is that functions can only see variables that are declared in the variable itself. So to solve this issue we can just pass the variables we need to pass along as arguments when calling the function. 

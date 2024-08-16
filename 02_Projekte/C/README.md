@@ -1,7 +1,7 @@
 # C programming
 
 ### C-Basics
-- [Basics](CBasics.md)
+- [Basics](C_Basics.md)
 
 ### Source Code
-- [Code](learning.c) 
+- [Calculator](/learn/calculator.c) 
