@@ -1,7 +1,17 @@
-# C programming
+# Programming with C
 
 ### C-Basics
-- [Basics](C_Basics.md)
+- [Basics Documentation](C_Basics.md)
 
 ### Source Code
+
+#### Programs
 - [Calculator](Learn/calculator.c) 
+- [Celsius to Fahrenheit](Learn/celsius_to_fahrenheit.c)
+- [Circle Calculation](Learn/cirlce_calculation.c)
+- [Triangle Calculation](Learn/triangle_calc.c)
+- [Grade Evaluator](Learn/grade_evaluator.c)
+
+#### Language Practice 
+- [If Else Statements](Learn/if_else_statements.c)
+- [Math Functions](Learn/math_functions.c)
