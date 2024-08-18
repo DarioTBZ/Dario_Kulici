@@ -232,3 +232,20 @@ int main()
 #### Arguments and Parameters
 
 After creating a function maybe there are variables that are needed in the function. The problem is that functions can only see variables that are declared in the variable itself. So to solve this issue we can just pass the variables we need to pass along as arguments when calling the function. 
+
+# If Else and Ternary Operator
+
+Normally you would write an if else statement like this. 
+
+```
+if (condition)
+{
+	printf("Output1");
+}
+else
+{
+	printf("Output2");
+}
+```
+
+
