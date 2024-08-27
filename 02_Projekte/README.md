@@ -19,3 +19,10 @@ In diesem Ordner sind meine Projekte, dazugehörige Dokumentationen und Experime
 - [Kivy Modul](Python/LearningProjects/kivy_project.py)
 - [PyGame](Python/LearningProjects/PyGame.py)
 - [PyQt6](Python/LearningProjects/PyQt6.py)
+
+##### VSC Extensions
+- Prettier - Code formatter
+- Material Icon Theme
+- Polacode
+- Code Runner
+- Code Spell Checker
