@@ -21,4 +21,4 @@ Beim Instance Type wählte ich t2.micro, weil wenig Leistung benötigt wird. Es 
 <img width="600" alt="instance_type" src="https://github.com/user-attachments/assets/e5772639-58c6-471b-b906-2c5b1516513a">
 
 
-***Noch nicht fertig***
+# ***Noch nicht fertig***
