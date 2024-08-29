@@ -2,9 +2,7 @@
 # Virtuelle Maschine erstellen
 #### Instanz erstellen
 Damit eine Windows Server VM erstellt werden kann, musste ich ich zuerst auf AWS einloggen. Danach unter EC2, der Service der Virtuelle Server in der Cloud, eine neue Instanz erstellen. 
-
-<img width="495" alt="launch_instance" src="https://github.com/user-attachments/assets/e5535ebc-9718-456d-9ccd-e7f1aca6ea6e">
-
+<img src="/Media/launch_instance.png" width="50%" height="50%">
 #### Namen
 Als nächstes den Namen der VM festlegen. Der Namen beeinflusst die Einstellungen der VM **nicht**. 
 
@@ -18,4 +16,4 @@ In diesem Fall wählte ich Windows Server 2019. Es gibt auch andere Versionen. D
 #### Instance Type
 Beim Instance Type wählte ich t2.micro, weil wenig Leistung benötigt wird. Es gäbe auch stärkere VM's, die aber kostenpflichtig sind. 
 
-<img width="589" alt="instance_type" src="https://github.com/user-attachments/assets/e5772639-58c6-471b-b906-2c5b1516513a">
+<img width="600" alt="instance_type" src="https://github.com/user-attachments/assets/e5772639-58c6-471b-b906-2c5b1516513a">
