@@ -2,7 +2,9 @@
 # Virtuelle Maschine erstellen
 #### Instanz erstellen
 Damit eine Windows Server VM erstellt werden kann, musste ich ich zuerst auf AWS einloggen. Danach unter EC2, der Service der Virtuelle Server in der Cloud, eine neue Instanz erstellen. 
-<img src="/Media/launch_instance.png" width="50%" height="50%">
+
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/e5535ebc-9718-456d-9ccd-e7f1aca6ea6e">
+
 #### Namen
 Als nächstes den Namen der VM festlegen. Der Namen beeinflusst die Einstellungen der VM **nicht**. 
 
