@@ -19,4 +19,6 @@ In diesem Fall wählte ich Windows Server 2019. Es gibt auch andere Versionen. D
 Beim Instance Type wählte ich t2.micro, weil wenig Leistung benötigt wird. Es gäbe auch stärkere VM's, die aber kostenpflichtig sind. 
 
 <img width="600" alt="instance_type" src="https://github.com/user-attachments/assets/e5772639-58c6-471b-b906-2c5b1516513a">
-****Noch nicht fertig***
+
+
+***Noch nicht fertig***
