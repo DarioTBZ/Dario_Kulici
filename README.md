@@ -6,8 +6,6 @@ Falls etwas unklar ist bitte unter der E-Mail Adresse dario.kulici@edu.tbz.ch me
 
 # Inhalte
 
-Die meisten Module sind bereits vorhanden. Mit der Zeit wird mehr Inhalt erstellt. 
-
 Aktuelle Module:
 - [346 Cloud](01_Module/08_M346_Cloud/README.md) 
 
