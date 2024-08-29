@@ -26,3 +26,8 @@ In diesem Ordner sind meine Projekte, dazugehörige Dokumentationen und Experime
 - Polacode
 - Code Runner
 - Code Spell Checker
+
+##### Obsidian Themes
+- Blue Topaz
+- Obsidian gruvbox
+- Things
