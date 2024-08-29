@@ -1,4 +1,6 @@
 
+- [Zurück zum README](../README.md)
+
 ## Fragen
 - Sie kennen die drei Betriebsmodelle und können Sie erklären.
 - Sie kennen die Unterteilung zwischen Public und Private Cloud und können Sie erklären.

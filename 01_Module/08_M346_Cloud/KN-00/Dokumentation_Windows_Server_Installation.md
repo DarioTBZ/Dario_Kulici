@@ -1,6 +1,4 @@
-
-#### Zurück <--
-- [346 README](../README.md) 
+- [Zurück zum README](../README.md) 
 
 # Virtuelle Maschine erstellen
 #### Instanz erstellen
