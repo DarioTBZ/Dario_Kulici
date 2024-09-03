@@ -1,10 +1,14 @@
-import socket
-import threading
+import socket, threading, datetime, time
 
 SERVER = socket.gethostbyname(socket.gethostname())
 PORT = 55555 # Has to be an unused port
 ADDR = (SERVER, PORT)
 FORMAT = "utf-8"
+now = datetime.now()
+
+# System commands
+SYS_QUIT = "!quit"
+SYS_HELP = "!help"
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)
@@ -13,28 +17,60 @@ server.listen()
 clients = []
 nicknames = []
 
-def broadcast(message):
+def broadcast(message, sender_client):
     for client in clients:
-        client.send(message)
+        if client != sender_client:
+            client.send(message)
 
-def handle_client(client):
+
+def break_connection(client, addr):
+    index = clients.index(client)
+    clients.remove(client)
+    client.close()
+    nickname = nicknames[index]
+    broadcast(f"{nickname} left the chat.".encode(FORMAT), client)
+    print(f"Disconnected from {addr}, ({nickname}).")
+    nicknames.remove(nickname)
+
+def check_msg(msg, client):
+    match msg.decode(FORMAT):
+        case "!quit": # replace manually if changing SYS constants
+            client.send(SYS_QUIT.encode(FORMAT))
+            break_connection(client)
+            return 1
+        case "!help": # replace manually if changing SYS constants
+            client.send(f"""------------------------------------
+                        
+Available commands: 
+                        
+    {SYS_QUIT} - Quits the server.
+    {SYS_HELP} - Prints this menu
+                        
+Type in the chat to communicate with others. 
+        
+------------------------------------
+                        """.encode(FORMAT))
+        case _:
+            return 0
+    
+
+def handle_client(client, addr):
     while True:
         try:
             message = client.recv(1024)
-            broadcast(message)
+            match check_msg(message, client):
+                case 1: # = client quits server
+                    break
+
+            broadcast(message, client)
         except:
-            index = clients.index(client)
-            clients.remove(client)
-            client.close()
-            nickname = nicknames[index]
-            broadcast(f"{nickname} left the chat.".encode(FORMAT))
-            nicknames.remove(nickname)
+            break_connection(client, addr)
             break
 
 def receive():
     while True:
         client, addr = server.accept()
-        print(f"Connected with {str(addr)}")
+        print(f"Connected with {str(addr)}.")
 
         # Get nickname from client
         client.send("NICK".encode(FORMAT))
@@ -43,11 +79,18 @@ def receive():
         clients.append(client)
 
         print(f"Nickname of the client is {nickname}")
-        broadcast(f"{nickname} joined the chat!".encode(FORMAT))
-        client.send("Connected to the server!".encode(FORMAT))
+        broadcast(f"{nickname} joined the chat!".encode(FORMAT), client)
+        client.send("Connected to the server! Type !help to see a list of commands".encode(FORMAT))
 
-        thread = threading.Thread(target=handle_client, args=(client,))
+        thread = threading.Thread(target=handle_client, args=(client, addr,))
         thread.start()
+
+
+
+def process_timer():
+    while True:
+        time.sleep(5)
+        print(now.strftime("%d.%m.%Y %H.%M"), " active threads: ", threading.active_count() - 1)
 
 
 
@@ -61,4 +104,8 @@ print(f"""
     Server is online and listening...
     ------------------------------------
       """)
+process_thread = threading.Thread(target=process_timer)
+process_thread.start()
+
 receive()
+
