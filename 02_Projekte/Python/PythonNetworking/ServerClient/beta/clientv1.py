@@ -1,7 +1,7 @@
 import socket
 import threading
 
-SERVER = "10.20.1.59"
+SERVER = ""
 PORT = 55555
 FORMAT = "utf-8"
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -15,6 +15,9 @@ def login():
     if exit == "n":
         return 1
     else:
+        SERVER = input("IP (bsp. 10.10.1.1): ")
+        if SERVER == "":
+            SERVER = "10.20.101.62"
         client.connect((SERVER, int(PORT)))
         return 0
 
