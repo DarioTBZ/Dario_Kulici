@@ -4,7 +4,10 @@ SERVER = "192.168.1.116"
 PORT = 54155 # Has to be an unused port
 ADDR = (SERVER, PORT)
 FORMAT = "utf-8"
+<<<<<<< HEAD:02_Projekte/Python/PythonNetworking/ServerClient/server.py
 #now = datetime.now()
+=======
+>>>>>>> refs/remotes/origin/main:02_Projekte/Python/PythonNetworking/ServerClient/beta/serverv1.1.py
 
 # System commands
 SYS_QUIT = "!quit"
@@ -87,11 +90,14 @@ def receive():
 
 
 
+<<<<<<< HEAD:02_Projekte/Python/PythonNetworking/ServerClient/server.py
 #def process_timer():
  #   while True:
   #      time.sleep(5)
    #     print(now.strftime("%d.%m.%Y %H.%M"), " active threads: ", threading.active_count() - 1)
 
+=======
+>>>>>>> refs/remotes/origin/main:02_Projekte/Python/PythonNetworking/ServerClient/beta/serverv1.1.py
 
 
 print(f"""
