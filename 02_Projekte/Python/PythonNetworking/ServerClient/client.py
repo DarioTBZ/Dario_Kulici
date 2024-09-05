@@ -1,8 +1,8 @@
 import socket
 import threading
 
-SERVER = "10.20.1.59"
-PORT = 55555
+SERVER = "192.168.1.116"
+PORT = 54155
 FORMAT = "utf-8"
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

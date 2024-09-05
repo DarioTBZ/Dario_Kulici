@@ -1,10 +1,10 @@
 import socket, threading, datetime, time
-
-SERVER = socket.gethostbyname(socket.gethostname())
-PORT = 55555 # Has to be an unused port
+# socket.gethostbyname(socket.gethostname())
+SERVER = "192.168.1.116"
+PORT = 54155 # Has to be an unused port
 ADDR = (SERVER, PORT)
 FORMAT = "utf-8"
-now = datetime.now()
+#now = datetime.now()
 
 # System commands
 SYS_QUIT = "!quit"
@@ -87,10 +87,10 @@ def receive():
 
 
 
-def process_timer():
-    while True:
-        time.sleep(5)
-        print(now.strftime("%d.%m.%Y %H.%M"), " active threads: ", threading.active_count() - 1)
+#def process_timer():
+ #   while True:
+  #      time.sleep(5)
+   #     print(now.strftime("%d.%m.%Y %H.%M"), " active threads: ", threading.active_count() - 1)
 
 
 
@@ -104,8 +104,8 @@ print(f"""
     Server is online and listening...
     ------------------------------------
       """)
-process_thread = threading.Thread(target=process_timer)
-process_thread.start()
+#process_thread = threading.Thread(target=process_timer)
+#process_thread.start()
 
 receive()
 
