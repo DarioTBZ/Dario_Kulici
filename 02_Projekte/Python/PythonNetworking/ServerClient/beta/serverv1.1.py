@@ -1,13 +1,9 @@
 import socket, threading, datetime, time
 # socket.gethostbyname(socket.gethostname())
-SERVER = "192.168.1.116"
+SERVER = "127.0.0.1"
 PORT = 54155 # Has to be an unused port
 ADDR = (SERVER, PORT)
 FORMAT = "utf-8"
-<<<<<<< HEAD:02_Projekte/Python/PythonNetworking/ServerClient/server.py
-#now = datetime.now()
-=======
->>>>>>> refs/remotes/origin/main:02_Projekte/Python/PythonNetworking/ServerClient/beta/serverv1.1.py
 
 # System commands
 SYS_QUIT = "!quit"
@@ -19,6 +15,15 @@ server.listen()
 
 clients = []
 nicknames = []
+
+def server_terminal():
+    while True:
+        command = input()
+        match command:
+            case "kill":
+                return 1
+            case _:
+                pass
 
 def broadcast(message, sender_client):
     for client in clients:
@@ -88,16 +93,14 @@ def receive():
         thread = threading.Thread(target=handle_client, args=(client, addr,))
         thread.start()
 
+        
 
 
-<<<<<<< HEAD:02_Projekte/Python/PythonNetworking/ServerClient/server.py
-#def process_timer():
- #   while True:
-  #      time.sleep(5)
-   #     print(now.strftime("%d.%m.%Y %H.%M"), " active threads: ", threading.active_count() - 1)
-
-=======
->>>>>>> refs/remotes/origin/main:02_Projekte/Python/PythonNetworking/ServerClient/beta/serverv1.1.py
+def process_timer():
+    while True:
+        time.sleep(60)
+        now = datetime.datetime.now()
+        print(now.strftime("%Y.%m.%d, %H:%M:"), " active threads: ", threading.active_count() - 1)
 
 
 print(f"""
@@ -110,8 +113,15 @@ print(f"""
     Server is online and listening...
     ------------------------------------
       """)
-#process_thread = threading.Thread(target=process_timer)
-#process_thread.start()
 
-receive()
 
+
+while server_terminal > 0:
+    pass
+else:
+    receive()
+    process_thread = threading.Thread(target=process_timer)
+    process_thread.start()
+
+    process_thread = threading.Thread(target=process_timer)
+    process_thread.start()

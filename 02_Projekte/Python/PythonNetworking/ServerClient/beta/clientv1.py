@@ -1,13 +1,8 @@
 import socket
 import threading
 
-<<<<<<< HEAD:02_Projekte/Python/PythonNetworking/ServerClient/client.py
 SERVER = "192.168.1.116"
 PORT = 54155
-=======
-SERVER = ""
-PORT = 55555
->>>>>>> refs/remotes/origin/main:02_Projekte/Python/PythonNetworking/ServerClient/beta/clientv1.py
 FORMAT = "utf-8"
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
