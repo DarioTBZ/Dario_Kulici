@@ -1,17 +1,36 @@
 import socket, threading, datetime, time
-# socket.gethostbyname(socket.gethostname())
+
 SERVER = "127.0.0.1"
-PORT = 54155 # Has to be an unused port
-ADDR = (SERVER, PORT)
+PORT = 54155
 FORMAT = "utf-8"
 
 # System commands
 SYS_QUIT = "!quit"
 SYS_HELP = "!help"
 
+# Decide if server should run on localhost or ip address in network
+def deployment():
+    choose_deployment = ""
+    while choose_deployment not in ["l", "n"]:
+        print("Do you want to deploy the server on localhost or network? [l, n]")
+        choose_deployment = input()
+    return choose_deployment
+
+choose_deployment = deployment()
+
+if choose_deployment == "l":
+    SERVER = "127.0.0.1"
+elif choose_deployment == "n":
+    HOST_IP = socket.gethostbyname(socket.gethostname())
+    SERVER = HOST_IP
+
+ADDR = (SERVER, PORT)
+
+# Create socket and set server to listen for incoming connections
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)
 server.listen()
+server_running = True
 
 clients = []
 nicknames = []
@@ -21,6 +40,8 @@ def server_terminal():
         command = input()
         match command:
             case "kill":
+                server_running = False
+                server.close()
                 return 1
             case _:
                 pass
@@ -64,6 +85,8 @@ Type in the chat to communicate with others.
 
 def handle_client(client, addr):
     while True:
+        if server_running == False:
+            break
         try:
             message = client.recv(1024)
             match check_msg(message, client):
@@ -77,6 +100,9 @@ def handle_client(client, addr):
 
 def receive():
     while True:
+        if server_running == False:
+            break
+
         client, addr = server.accept()
         print(f"Connected with {str(addr)}.")
 
@@ -98,14 +124,18 @@ def receive():
 
 def process_timer():
     while True:
-        time.sleep(60)
+        if server_running == False:
+            break
+
         now = datetime.datetime.now()
         print(now.strftime("%Y.%m.%d, %H:%M:"), " active threads: ", threading.active_count() - 1)
+        time.sleep(60)
+        
 
-
+server_start = datetime.datetime.now()
 print(f"""
     ------------------------------------
-    Server:
+    Server started at {server_start.strftime("%H:%M:%S")}:
     
     IP: {SERVER}
     Port: {PORT}
@@ -114,14 +144,10 @@ print(f"""
     ------------------------------------
       """)
 
+process_thread = threading.Thread(target=process_timer)
+process_thread.start()
 
+server_terminal = threading.Thread(target=server_terminal)
+server_terminal.start()
 
-while server_terminal > 0:
-    pass
-else:
-    receive()
-    process_thread = threading.Thread(target=process_timer)
-    process_thread.start()
-
-    process_thread = threading.Thread(target=process_timer)
-    process_thread.start()
+receive()
