@@ -29,9 +29,9 @@ Hier muss man einen Key erstellen, mit dem der eigene Computer identifiziert wer
 #### Netzwerkeinstellungen 
 Die Netzwerkeinstellungen kann man so lassen. Man könnte hier beispielsweise eine Regel für SSH oder HTTPS hinzufügen. 
 
-<img width="801" alt="network_settings" src="https://github.com/user-attachments/assets/b54594ce-9998-4dfb-b6c8-fb4e0f46220a"> 
+<img width="600" alt="network_settings" src="https://github.com/user-attachments/assets/b54594ce-9998-4dfb-b6c8-fb4e0f46220a"> 
 
 #### Beweis
 Beim starten der Instanz muss man nur noch den vorher erhaltenen Private Key hochladen und kann sich beispielsweise per RDP auf den Server verbinden. 
 
-<img width="1306" alt="Beweis" src="https://github.com/user-attachments/assets/4b102dbf-c474-47d3-a97c-fde25f595f64">
+<img width="600" alt="Beweis" src="https://github.com/user-attachments/assets/4b102dbf-c474-47d3-a97c-fde25f595f64">
