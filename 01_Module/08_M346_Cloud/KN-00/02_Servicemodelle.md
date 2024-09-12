@@ -49,6 +49,15 @@ Software as a Service ist eigentlich ein Produkte, die man als Benutzer eher ken
 - Fortnite
 - Eigentlich fast jede Software auf dem Markt
 
+## Function as a Service (FaaS)
+FaaS ist ein Service, bei der eine Funktion als "Plugin" in einem Unternehmen verwendet wird. Es baut auf SaaS auf, weil das Netzwerk, der Server und die Applikation vom Anbieter verwaltet wird. 
+
+#### Beispiele 
+- AWS Lambda 
+- Google Cloud Functions
+- Netlify Functions
+
 # Quellen 
 - [Gitlab Servicemodelle](https://gitlab.com/ser-cal/m346/-/blob/main/KN00/x_res/Servicemodelle.md) 
-- [ChatGPT, Frage enthalten](https://chatgpt.com/share/6befa201-a3aa-4228-83d9-7ae40dda4ed0) 
+- [PaaS - ChatGPT](https://chatgpt.com/share/6befa201-a3aa-4228-83d9-7ae40dda4ed0) 
+- [FaaS - ChatGPT](https://chatgpt.com/share/328d6ada-567a-4a50-a526-c4299bb18954) 
