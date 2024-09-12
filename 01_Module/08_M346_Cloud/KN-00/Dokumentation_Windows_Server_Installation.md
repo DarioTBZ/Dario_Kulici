@@ -20,6 +20,15 @@ In diesem Fall wählte ich Windows Server 2019. Es gibt auch andere Versionen. D
 Beim Instance Type wählte ich t2.micro, weil wenig Leistung benötigt wird. Es gäbe auch stärkere VM's, die aber kostenpflichtig sind. 
 
 <img width="600" alt="instance_type" src="https://github.com/user-attachments/assets/e5772639-58c6-471b-b906-2c5b1516513a">
+#### Key Pair erstellen
+Hier muss man einen Key erstellen, mit dem der eigene Computer identifiziert werden kann. Dies dient der Anmeldung auf dem Server. 
 
+bild hier
 
-# ***Noch nicht fertig***
+#### Netzwerkeinstellungen 
+Die Netzwerkeinstellungen kann man so lassen. Man könnte hier beispielsweise eine Regel für SSH oder HTTPS hinzufügen. 
+
+bild hier
+
+#### Beweis
+Beim starten der Instanz muss man nur noch den vorher erhaltenen Private Key hochladen und kann sich beispielsweise per RDP auf den Server verbinden. 
