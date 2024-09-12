@@ -3,5 +3,5 @@
 ### Übersicht 
 
 - ![Windows Server auf AWS Cloud einrichten](Dokumentation_Windows_Server_Installation.md)
-- ![Betriebsmodelle](Betriebsmodelle.md)
+- ![01_Betriebsmodelle](01_Betriebsmodelle.md)
 
