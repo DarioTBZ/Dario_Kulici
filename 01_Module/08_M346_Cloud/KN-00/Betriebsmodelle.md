@@ -1,7 +1,7 @@
 
 - [Zurück zum README](01_Module/08_M346_Cloud)
 
-## Fragen
+# Lernziele
 - Sie kennen die drei Betriebsmodelle und können Sie erklären.
 - Sie kennen die Unterteilung zwischen Public und Private Cloud und können Sie erklären.
 - Sie können Beispiele zu den Betriebsmodellen nennen (mit Hilfe der unter verlinkten Ressource und des Internets). 
@@ -20,7 +20,7 @@ Eine On Premise Nutzung sind serverbasierte Programme, die auf lokalen Rechnern 
 Weil die Systeme im eigenen Netzwerk operieren, hat man auch die maximale Kontrolle und eine hohe Sicherheit. Die Kosten sind höher, da man die Server und Applikationen einkaufen muss. Je nach Hardware & Software ist die Skalierbarkeit beschränkt und der Kostenaufwand steigt. 
 
 #### Private Cloud
-Eine private Cloud ist einer oder mehrere eigene Server, die im Internet als private Cloudumgebung genutzt werden. Diese Lösung ist ähnlich wie eine On Premise Lösung, unterscheidet sich aber dadurch, dass die vollen Vorteile einer Cloud genutzt werden können, weil sie den gleichen nutzen hat wie eine public Cloud und man die volle Kontrolle über sie hat. 
+Eine Private Cloud ist einer oder mehrere eigene Server, die im Internet als Private Cloudumgebung genutzt werden. Diese Lösung ist ähnlich wie eine On Premise Lösung, unterscheidet sich aber dadurch, dass die vollen Vorteile einer Cloud genutzt werden können, weil sie den gleichen nutzen hat wie eine Public Cloud und man die volle Kontrolle über sie hat. 
 
 ##### Vorteile
 - Anpassung auf Anforderungen des Unternehmens
@@ -30,7 +30,7 @@ Eine private Cloud ist einer oder mehrere eigene Server, die im Internet als pri
 - hohe Hardwarekosten
 - hohe Wartungskosten
 
-Da eine private Cloud on Premise ist, behält man die Sicherheit und Kontrolle. Das heisst auch, dass hohe Hardwarekosten anfallen. Dazu kommt, dass regelmässig Wartungen und Anpassungen an der Cloud gemacht werden müssen. 
+Da eine Private Cloud on Premise ist, behält man die Sicherheit und Kontrolle. Das heisst auch, dass hohe Hardwarekosten anfallen. Dazu kommt, dass regelmässig Wartungen und Anpassungen an der Cloud gemacht werden müssen. 
 
 #### Public Cloud 
 Unter dem Begriff Public Cloud versteht man eine Cloud, die von externen Anbietern gehostet wird. Man bezahlt monatlich oder jährlich für diesen Dienst. Dabei können mehrere Unternehmen auf den gleichen Server Daten und Applikationen haben. Die Wartung wird vom Cloud Anbieter gemacht. 
@@ -46,13 +46,35 @@ Die Hardwarekosten übernimmt der Cloud Anbieter, weswegen die Anschaffungskoste
 
 
 #### Hybrid Cloud
-Die Kombination aus einer private und public Cloud ist eine Hybrid Cloud. Dabei werden wichtige Daten oder Applikationen eher auf der private Cloud gespeichert und Daten, die keine hohe Wichtigkeit haben, auf der public Cloud gelassen werden. 
+Die Kombination aus einer Privaten oder on Premise und Public Cloud ist eine Hybrid Cloud. Dabei werden wichtige Daten oder Applikationen eher auf der Privaten Cloud gespeichert und Daten, die keine hohe Wichtigkeit haben, auf der Public Cloud gelassen werden. 
 
 ##### Vorteile
+- mehr Kontrolle
+- strikte Sicherheitsmassnahmen
 
 ##### Nachteile
+- höherer Aufwand
+- Technisch komplex
+- Weniger Überblick
 
+Mit einer Hybrid Cloud hat man die Kontrolle, welche Daten man wohin verschieben möchte. Beispielsweise gehören wichtige Daten eher in die Private Cloud (bzw. On Premise Lösung), weil sie möglicherweise auf der Public Cloud nicht 100% sicher sind. Da man entscheiden kann, was wo gespeichert oder benutzt werden soll, sind es auch strikte Sicherheitsmassnahmen. Die Implementation einer Hybrid Cloud ist technisch sehr komplex, weshalb der Aufwand grösser und teurer ist. Ausserdem hat man weniger Überblick auf die Daten und Anwendungen, weil verschiedene Speicherorte vorhanden sind. 
 
+## Unterschied Private und Public Cloud
+
+#### Unterschiede
+- Infrastruktur
+- Kosten
+- Sicherheit
+- Aufwand
+
+Die Private Cloud befindet sich im Gegensatz zur Public Cloud im eigenen Netzwerk. Dazu kostet die Private Cloud mehr, weil man Server und Programme selber finanzieren muss. Bei der Public Cloud hat meistens ein Anbieter die Software und die Infrastruktur bereitgestellt. Um die Sicherheit kümmert sich, bei einer Public Cloud, der Anbieter und bei der Private Cloud die Firma. Der allgemeine Aufwand ist bei einer Private Cloud also höher und anfangs teuerer. Langfristig lohnt sich aber je nach Situation eine Private Cloud mehr. Für einen ähnlichen Preis gibt es auch starke und effiziente Public Cloud Lösungen, die ohne den grossen Aufwand einen guten Service bereitstellen. 
+
+## Betriebsmodelle
+
+- AWS Cloud
+- Google Cloud
+- IBM Cloud
+- Microsoft Azure
 
 ## Quellen
 - [Gitlab Inhalt](https://gitlab.com/ser-cal/m346/-/blob/main/KN00/x_res/Betriebsmodelle.md) 
@@ -60,3 +82,5 @@ Die Kombination aus einer private und public Cloud ist eine Hybrid Cloud. Dabei 
 - [On Premise Vor und Nachteile](https://www.swidoc.ch/de/blog/reader/on-premise-vs-cloud-das-sind-vor-und-nachteile#:~:text=Nachteile%20von%20On%2DPremises&text=Sie%20m%C3%BCssen%20Hardware%2C%20Software%2DLizenzen,eigenen%20Server%20und%20Rechenzentren%20beschr%C3%A4nkt.) 
 - [Private Cloud Recherche](https://www.atlassian.com/de/devops/frameworks/private-cloud) 
 - [Public Cloud Recherche](https://teamdrive.com/blog-de/public-cloud-fuer-unternehmen/) 
+- [Allgemeine Informationen über Hybrid Cloud](https://www.oracle.com/ch-de/cloud/hybrid-cloud/what-is-hybrid-cloud/) 
+- [Vor und Nachteile Hybrid Cloud](https://www.ibm.com/de-de/think/insights/hybrid-cloud-advantages-disadvantages) 
