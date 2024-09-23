@@ -2,5 +2,6 @@
 
 ### [KN-00](KN-00/README.md)
 - [Windows Server in der Cloud einrichten](KN-00/Dokumentation_Windows_Server_Installation.md)
-- [Betriebsmodelle](KN-00/Betriebsmodelle.md) 
+- [01_Betriebsmodelle](KN-00/01_Betriebsmodelle.md) 
+- [02_Servicemodelle](KN-00/02_Servicemodelle.md) 
 
