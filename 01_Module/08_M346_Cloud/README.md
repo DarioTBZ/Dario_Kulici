@@ -6,4 +6,5 @@
 - [02_Servicemodelle](KN-00/02_Servicemodelle.md) 
 - [03_Cloud-Init](KN-00/03_Cloud-Init.md) 
 - [04_Virtualisierung](KN-00/04_Virtualisierung.md) 
+- [05_AWS-Speicherdienste](KN-00/05_AWS-Speicherdienste.md) 
 
