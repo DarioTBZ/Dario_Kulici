@@ -15,10 +15,11 @@ Ein Beispiel für einen Type 2 Hypervisor ist die VMware Workstation. Diese Art 
 #### Hyperscaler
 Ein Hyperscaler bietet grössere und flexiblere Rechenzentren als herkömmliche Rechenzentren an. Der Hauptunterschied ist dabei, dass wenn mehr Leistung benötigt wird, diese sofort zur Verfügung gestellt werden kann. Bei einem normalen Rechenzentrum müsste man warten bis die Hardware verfügbar ist oder erst installiert wird. 
 
-![](../Media/KN-00/Hyperscaler_Bild.png)
+![Hyperscaler_Bild](https://github.com/user-attachments/assets/c678d07a-af49-4da0-ae6a-1d6792d3993d)
 
 #### Cloud-System Schichten
 [Siehe Servicemodelle](02_Servicemodelle.md) 
+
 ## Quellen
 - [Begriff Erklärung](https://it-service.network/it-lexikon/virtualisierung/#:~:text=Unter%20dem%20Begriff%20Virtualisierung%20ist,von%20verschiedenen%20Nutzern%20verwendet%20werden.) 
 - [Hypervisor Type 1 & 2](https://aws.amazon.com/de/compare/the-difference-between-type-1-and-type-2-hypervisors/) 
