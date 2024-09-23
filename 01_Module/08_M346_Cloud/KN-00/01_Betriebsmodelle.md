@@ -1,6 +1,3 @@
-
-- [Zurück zum README](01_Module/08_M346_Cloud/README.md)
-
 # Lernziele
 - Sie kennen die drei Betriebsmodelle und können Sie erklären.
 - Sie kennen die Unterteilung zwischen Public und Private Cloud und können Sie erklären.

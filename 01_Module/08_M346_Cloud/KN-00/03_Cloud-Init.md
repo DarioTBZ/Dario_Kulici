@@ -1,4 +1,3 @@
-
 # Cloud-Init
 
 #### Beschreibung
@@ -11,8 +10,11 @@ Mit dem YAML Format kann man Informationen in eine Datei speichern und beispiels
 
 
 #### Vorteile Cloud-Init
+- Automatische Konfiguration
+- Zeitersparnis
+- Leichte Wiederverwendung
 
-- 
+Mit einer fertigen Konfiguration erspart man sich viel Zeit, um eine Cloud-Instanz zu erstellen, anstatt sie jedes Mal erneut manuell zu konfigurieren. 
 
 ## Quellen
 - [Cloud-Init Beschreibung](https://contabo.com/blog/de/was-ist-cloud-init/) 

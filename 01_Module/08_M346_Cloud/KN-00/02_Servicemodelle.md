@@ -1,6 +1,3 @@
-
-- [Zurück zum README](01_Module/08_M346_Cloud/README.md)
-
 # Lernziele 
 - Sie kennen die vier Servicemodelle und können Sie erklären.
 - Sie wissen welches Servicemodell auf einem anderen aufbaut (z.B. PaaS auf IaaS).
