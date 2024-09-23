@@ -10,6 +10,7 @@ Zu vergleichende Instanztypen:
 | ------------- | ----- | ------------ | ------ | ------------------- |
 | t2.micro      | 1     | i386, x86_64 | 1      | Low to Moderate     |
 | m4.large      | 4     | x86_64       | 16     | High                |
+
 Die Architektur ist hier nicht sehr bedeutend. Falls der Large Type eine ARM Architektur hätte, hätte man sagen können, dass man Strom spart. In diesem Fall ist es nicht wirklich ein Unterschied. 
 
 #### Preisvergleich
@@ -20,6 +21,7 @@ Die Preise variieren je nach Betriebssystem, weswegen der *Durchschnitt* der vie
 | ------------- | -------------- | ------------- | --------------- |
 | t2.micro      | 0.01635$       | 0.39$         | 11.77$          |
 | m4.large      | 0.1552$        | 3.72$         | 111.74$         |
+
 Mit der t2.micro Instanz würde man erst nach 61 Stunden auf **einen Dollar** kosten kommen. Mit dem m4.large hingegen schon nach 6.5 Stunden. Die m4.large Instanz kostet 10 Mal mehr als die t2.micro Instanz. 
 
 #### Use-Cases
