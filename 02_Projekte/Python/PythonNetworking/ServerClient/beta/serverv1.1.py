@@ -7,6 +7,7 @@ FORMAT = "utf-8"
 # System commands
 SYS_QUIT = "!quit"
 SYS_HELP = "!help"
+SYS_GAME = "!rps"
 
 # Decide if server should run on localhost or ip address in network
 def deployment():
@@ -46,6 +47,10 @@ def server_terminal():
             case _:
                 pass
 
+def rps(client):
+    client.send("rps".encode(FORMAT))
+    print("Sent message")
+
 def broadcast(message, sender_client):
     for client in clients:
         if client != sender_client:
@@ -78,7 +83,12 @@ Available commands:
 Type in the chat to communicate with others. 
         
 ------------------------------------
+                    
                         """.encode(FORMAT))
+        case "!rsp":
+            game_thread = threading.Thread(target=rps(client))    
+            game_thread.start()
+
         case _:
             return 0
     
@@ -128,7 +138,7 @@ def process_timer():
             break
 
         now = datetime.datetime.now()
-        print(now.strftime("%Y.%m.%d, %H:%M:"), " active threads: ", threading.active_count() - 1)
+        print(now.strftime("%Y.%m.%d, %H:%M:%S:"), " active threads: ", threading.active_count() - 1)
         time.sleep(60)
         
 

@@ -18,19 +18,28 @@ def login():
         SERVER = input("IP (bsp. 10.10.1.1): ")
         if SERVER == "":
             SERVER = "10.20.101.62"
-        client.connect((SERVER, int(PORT)))
+        try:
+            client.connect((SERVER, int(PORT)))
+        except:
+            print("No Server was found under this ip address.")
+            return 1
         return 0
 
 def receive():
     while True:
         try:
             message = client.recv(1024).decode(FORMAT)
-            if message == "NICK":
-                client.send(nickname.encode(FORMAT))
-            elif message == "!quit":
-                break
-            else:
-                print(message)
+            match message:
+                case "NICK":
+                    client.send(nickname.encode(FORMAT))
+                case "!quit":
+                    break
+                case "rps":
+                    print("Joined Rock Paper Scissors Game.")
+
+                case _:
+                    print(message)
+
         except:
             print("You successfully exited the server...")
             client.close()
@@ -47,11 +56,14 @@ def write():
             case "!help":
                 client.send("!help".encode(FORMAT))
             case _:
-                message = f"{nickname}: {text}"
-                client.send(message.encode(FORMAT))
+                try:
+                    message = f"{nickname}: {text}"
+                    client.send(message.encode(FORMAT))
+                except:
+                    print("test")
 
 if login() > 0:
-    print("Quitting...")
+    print("Connection closed")
 else:
     receive_thread = threading.Thread(target=receive)
     receive_thread.start()
