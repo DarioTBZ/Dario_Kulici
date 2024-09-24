@@ -28,6 +28,7 @@ Hier sieht man die Liste der erstellten Buckets.
 Hier die funktionierende statische Webseite.
 
 ### Objektliste
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/152b79af-2e6e-4249-a290-8496a85ea77b">
 
 ### Eigenschaften von "Static website hosting"
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/22fb41b5-3deb-4c64-9f1c-82c16e35d636">
