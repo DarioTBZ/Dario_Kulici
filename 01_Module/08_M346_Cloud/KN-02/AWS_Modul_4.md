@@ -18,19 +18,18 @@ Das ist ein Bild mit den Inbound Regeln. Man muss den Port 80 freischalten, dami
 # 4.2 S3
 
 ### Liste der Buckets
-PlaceholderListederBuckets
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/e5831f6e-d574-4705-871a-62d5e8ed10af">
 
 Hier sieht man die Liste der erstellten Buckets. 
 
 ### Statische Webseite
-PlaceholderStaticWebsite
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/d63fc5fe-f328-4765-9a9f-0339c441a8a2">
 
 Hier die funktionierende statische Webseite.
 
 ### Objektliste
-PlaceholderObjectsList
 
 ### Eigenschaften von "Static website hosting"
-PlaceholderEigenschaften
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/22fb41b5-3deb-4c64-9f1c-82c16e35d636">
 
 Ein Bild mit den Eigenschaften von Static website hosting. 
