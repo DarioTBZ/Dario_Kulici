@@ -13,4 +13,5 @@
 - [Challenge B](KN-01/Challenge_B.md) 
 
 ### [KN-02](KN-02/README.md) 
-- [AWS Modul 4](KN-02/AWS_Modul_4.md) 
+- [Challenge A](KN-02/Challenge_A.md)
+- [Challenge B](KN-02/Challenge_B.md) 

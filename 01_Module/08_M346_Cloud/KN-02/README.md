@@ -1,4 +1,5 @@
 # KN-02
 
 ### Übersicht
-- [AWS Modul 4](AWS_Modul_4.md) 
+- [Challenge A](Challenge_A.md) 
+- [Challenge B](../KN-01/Challenge_B.md) 
