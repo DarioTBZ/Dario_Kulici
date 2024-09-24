@@ -24,6 +24,7 @@ Ist eine Migration zur AWS-Cloud sinnvoll und wie viel Geld wird gespart? Die Pr
 | Administration (20% Stelle) |        1'000.- |
 | Diverses (Lizenzen etc.)    |        2'500.- |
 | **Gesamtkosten AWS Low**    | **4'182.70.-** |
+
 \*Es wurden Linux Instanzen ausgewählt, da es kein Windows Betriebssystem an sich als Variante gab. 
 
 #### X-Large Variante pro Monat
@@ -35,6 +36,7 @@ Ist eine Migration zur AWS-Cloud sinnvoll und wie viel Geld wird gespart? Die Pr
 | Administration (20% Stelle) |        1'000.- |
 | Diverses (Lizenzen etc.)    |        2'500.- |
 | **Gesamtkosten AWS Low**    | **7’599.10.-** |
+
 \*Es wurden Linux Instanzen ausgewählt, da es kein Windows Betriebssystem an sich als Variante gab. 
 
 #### Vergleichstabelle Varianten

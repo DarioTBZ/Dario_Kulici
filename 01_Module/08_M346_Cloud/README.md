@@ -10,3 +10,4 @@
 
 ### [KN-01](KN-01/README.md) 
 - [01_Challenge_A](KN-01/Challenge_A.md) 
+- [02_Challenge_B](KN-01/Challenge_B.md) 
