@@ -15,6 +15,6 @@ Der Zugriff auf die Instanz hat sauber funktioniert.
 ### Zweiter Key
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/39afac5a-9b4f-4989-b73a-5d55141170c0">
 
-Mit dem zweiten Key, der im selben Ordner ist, hat der Zugang *nicht funktioniert* Auf der Instanz habe ich den Key Dario-1 ausgewählt. Der zweite Key wird gar **nicht verwendet**, weshalb er auch **nicht funktioniert**. 
+Mit dem zweiten Key, der im selben Ordner ist, hat der Zugang *nicht funktioniert*. Auf der Instanz habe ich den Key Dario-1 ausgewählt. Der zweite Key wird gar **nicht verwendet**, weshalb er auch **nicht funktioniert**. 
 
 Erst wenn er auf der Instanz ausgewählt wird, kann er funktionieren, weil die Instanz erst dann auf einen anderen Key hört. 
