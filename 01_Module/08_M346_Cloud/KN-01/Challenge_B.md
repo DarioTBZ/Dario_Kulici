@@ -5,6 +5,8 @@
 
 Ist eine Migration zur AWS-Cloud sinnvoll und wie viel Geld wird gespart? Die Preise werden auf 3 Jahre hochgerechnet. 
 
+### Auftrag
+
 #### On-Premise Kosten pro Monat
 
 | **Kostenart**                |  **Betrag** |
