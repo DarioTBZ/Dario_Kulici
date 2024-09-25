@@ -24,3 +24,6 @@ Der Zugriff schlägt fehl, weil der zweite Schlüssel von der Cloud-Init Config 
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/38190a0c-ec36-4c69-89fd-f8b53d5c3794">
 
 Hier erkennt man, dass die Cloud-Init Config erfolgreich war. Wget und Curl wurden installiert, was heisst, dass die Config war komplett erfolgreich. 
+
+# Mehrere Keys hinterlegen
+Es können natürlich mehrere Computer auf diese Instanz zugreifen. Dafür muss der Public Key von der Maschine, die Zugriff benötigt auf der Instanz unter authorized_keys eingetragen werden. 
