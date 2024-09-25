@@ -5,36 +5,32 @@ Wenn man einen Datenbankserver hat, der viel Leistung verbraucht und der Webserv
 ## Datenbankserver
 
 ### Admin Login auf Datenbank
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/f5ec97eb-abe9-4a54-aa64-35b277ec2407">
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/efdb8cc4-ff24-4e40-9390-19bcb87b6831">
 
-Auf dem Bild erkennt, man das erfolgreiche Login auf den Admin Account. Damit es aber dazu kam, musste ich mich zuerst mit dem Root anmelden und das Admin Passwort ändern. Nach einer kurzen Recherche fand ich es heraus und konnte mich dann erfolgreich anmelden. 
+Auf den Bildern erkennt, man das erfolgreiche Login auf den Admin Account. Damit es aber dazu kam, musste ich mich zuerst mit dem Root anmelden und das Admin Passwort ändern. Nach einer kurzen Recherche fand ich es heraus und konnte mich dann erfolgreich anmelden. 
 
 ### Per Telnet Port testen
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/ae84cf1c-10fc-4417-a5a8-8dd1436bcd45">
 
 Der Port ist offen und es kam eine kryptische Nachricht zurück. So weiss man, dass der Port offen ist und funktioniert. 
 
 ## Webserver 
 
 ### index.html
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/e5481e1d-0f10-44a2-b9c8-a72c8adfb639">
 
 Bild der Index.html Datei. 
 
 ### info.php
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/ba4f4d20-b4bb-4a85-b080-9c3d5ef7a765">
 
 Bild der info.php Datei.
 
 ### db.php
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/6c5b2347-1f14-4ac3-a902-9024381e9a45">
 
 Hier war wichtig, dass die Login Daten und die IP Adresse der Datenbank richtig eingetragen sind, weil sonst nichts angezeigt werden würde. 
-
-### adminer
-Placeholder
-
-Hier auch das Login der Datenbank nutzen. 
 
 ## Fazit
 Ich habe anfangs sehr viel Fehler gemacht. Die Cloud-Init Datei war die ersten vier Instanzen falsch und ich habe es erst dann bemerkt, dank der cloud-init-output Datei. Der SSH Key war auch zuerst falsch formattiert und war erst später richtig. 
