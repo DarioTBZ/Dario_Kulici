@@ -20,10 +20,7 @@ Das wäre noch das Beweisbild, dass man mit der URL auf das Bild kommt. Anbei no
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/cf6fb83e-5d8e-42f2-875b-ded42ecb8acd">
 
 **URL:** https://tbzstoragekulici.s3.amazonaws.com/Cloud_Computing.jpg
-<<<<<<< HEAD
 
 ### Nachteile der Speicherart
 
-Objekte so zu speichern ist flexibel und praktisch. Aber wenn man 100 Bilder hat, muss man 100 verschiedene Links öffnen, was es sehr umständlich macht, diese Speicherart zu nutzen. 
-=======
->>>>>>> origin/main
+Objekte so zu speichern ist flexibel und praktisch. Aber wenn man 100 Bilder hat, muss man 100 verschiedene Links öffnen, was es sehr umständlich macht, diese Speicherart zu nutzen.
