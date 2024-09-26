@@ -24,4 +24,4 @@
 
 ### [KN-04](KN-04/README.md)
 - [Challenge A](KN-04/Challenge_A) 
-- [Challenge B](KN-04/Challenge_B.md) 
+- [Challenge B](01_Module/08_M346_Cloud/KN-04/Challenge_C.md) 
