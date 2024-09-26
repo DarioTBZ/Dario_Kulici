@@ -22,10 +22,10 @@ Das wäre noch das Beweisbild, dass man mit der URL auf das Bild kommt. Anbei no
 **URL:** https://tbzstoragekulici.s3.amazonaws.com/Cloud_Computing.jpg
 
 ### Beweisbild auf der Webseite
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/fa4fec43-2da3-4103-8827-dde3dd74aca7">
 
 Hier sieht man, dass das Bild auch erfolgreich auf einer Webserverinstanz eingebettet wurde. 
 
 ### Nachteile der Speicherart
 
-Objekte so zu speichern ist flexibel und praktisch. Aber wenn man 100 Bilder hat, muss man 100 verschiedene Links öffnen, was es sehr umständlich macht, diese Speicherart zu nutzen.
+Objekte so zu speichern ist flexibel und praktisch. Aber wenn man 100 Bilder hat, muss man 100 verschiedene Links öffnen, was es sehr umständlich macht, diese Speicherart zu nutzen. 
