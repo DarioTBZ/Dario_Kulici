@@ -5,18 +5,18 @@
 
 Ich habe als erstes den Bucket erstellt. Unter Permissions habe ich das Script von KN-02 eingefügt. Hier war wichtig, dass der unique Bucketname eingetragen wird. Anbei das Bild. 
 
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/9c133f6e-a306-4bbe-b39b-d235f1ed7375">
 
 ### URL in den Properties
 
 Nachdem ich das Bild hochgeladen habe, stand unter Properties die URL, mit der man auf das Bild kommt. Im Bild sieht man sie rot markiert.  
 
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/f5f67eb0-e936-491e-8474-1496546128a3">
 
 ### Beweisbild
 
 Das wäre noch das Beweisbild, dass man mit der URL auf das Bild kommt. Anbei noch die URL, um es selber zu sehen. 
 
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/cf6fb83e-5d8e-42f2-875b-ded42ecb8acd">
 
 **URL:** https://tbzstoragekulici.s3.amazonaws.com/Cloud_Computing.jpg
