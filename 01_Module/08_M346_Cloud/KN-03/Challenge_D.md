@@ -32,7 +32,27 @@ Bild der info.php Datei.
 
 Hier war wichtig, dass die Login Daten und die IP Adresse der Datenbank richtig eingetragen sind, weil sonst nichts angezeigt werden würde. 
 
+
+## Cloud-Init Datei
+
+| Befehl          | Wert         | Auswirkung                                                 |
+| --------------- | ------------ | ---------------------------------------------------------- |
+| users           | -            | User können hier erfasst werden.                           |
+| name            | String       | Name des Users                                             |
+| sudo            | String       | Ob dieser User ein Sudoer sein darf.                       |
+| groups          | String       | Gruppen, in denen der User sein soll.                      |
+| home            | String       | Das Homeverzeichnis des Users.                             |
+| shell           | String       | Standard Shell                                             |
+| ssh_pwauth      | True / False | Ob man sich per SSH mit Passwort einloggen kann.           |
+| disbale_root    | True / False | Ob der Root Account deaktiviert werden soll.               |
+| package_update  | True / False | Ob die fehlenden Paketupdates herunterladen werden sollen. |
+| package_upgrade | True / False | Ob die Updates angewendet werden sollen.                   |
+| packages        | String       | Welche zusätzlichen Pakete heruntergeladen werden sollen.  |
+| runcmd          | String       | Welche Befehle ausgeführt werden sollen.                   |
+| write_files     | String       | Was für Dateien wo erstellt werden.                        |
+
+
 ## Fazit
-Ich habe anfangs sehr viel Fehler gemacht. Die Cloud-Init Datei war die ersten vier Instanzen falsch und ich habe es erst dann bemerkt, dank der cloud-init-output Datei. Der SSH Key war auch zuerst falsch formattiert und war erst später richtig. 
+Ich habe anfangs sehr viel Fehler gemacht. Die Cloud-Init Datei war die ersten vier Instanzen falsch und ich habe es erst dann bemerkt, dank der cloud-init-output Datei. Der SSH Key war auch zuerst falsch formatiert und war erst später richtig. 
 
 Am Schluss  hab ich mich auf jeden Fall sehr gefreut, dass ich es geschafft habe. 
