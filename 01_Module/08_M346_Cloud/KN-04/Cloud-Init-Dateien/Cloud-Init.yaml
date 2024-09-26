@@ -1,0 +1,39 @@
+#cloud-config
+users:
+  - name: dario
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    home: /home/dario
+    shell: /bin/bash
+    ssh_authorized_keys:
+      -	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCGqtx0Oo7cFZavwtzOgd32J2O9CrKWrVbEznmFfG4zQ4rJGxb1JCGNMwT9EryDezz7Mh0fKuAEHC2GIzpGr3Z1FbLB0lOWNDbWvBEp9w39lG5oTMdLjpw2ZtHIGSeoD0mxbwjsp7yXX6LerIaMs3HahTUJn9Xx/boSFEg8xgdctfwYiHaNaZxDLH9b/rivcn/De3vEM+qo+souBMxx1IOpSzQhbXAc0BueiTJ3XL4CWqOrJQQUpyLapGtPW+LSuo0mHyYGZn+Ny0JeThLXREoEHDdegy0Qw9RiaiIoJgBGZ31Y1MBOxTfgdE9iRNpdGVHsYAg3f+KPnQt2mxkxrcOz dario
+disable_root: false
+package_update: true  
+packages:
+  - apache2
+  - php
+write_files:
+  - content: |
+      <?php phpinfo(); ?>
+    path: /var/www/html/info.php
+    permissions: '0644'
+write_files:
+- content: |
+  <?php
+  $ihrname = "Dario";
+  ?>
+
+  <html>
+  <head>
+  <title><?php echo $ihrname; ?></title>
+  </head>
+  <body>
+  <h1>Top Cloud Wallpaper</h1>
+  <br />
+  <img src="https://tbzstoragekulici.s3.amazonaws.com/Cloud_Computing.jpg" alt="Bild aus S3-Bucket">
+  </body>
+  </html>
+  path: /var/www/html/index.php
+  permissions: '0644'
+runcmd:
+  - sudo systemctl <Ergänzen> <Ergänzen>
