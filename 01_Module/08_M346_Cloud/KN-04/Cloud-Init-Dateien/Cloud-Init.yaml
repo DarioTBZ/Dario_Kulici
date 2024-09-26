@@ -36,4 +36,5 @@ write_files:
   path: /var/www/html/index.php
   permissions: '0644'
 runcmd:
-  - sudo systemctl <Ergänzen> <Ergänzen>
+  - sudo systemctl enable apache2
+  - sudo systemctl start apache2
