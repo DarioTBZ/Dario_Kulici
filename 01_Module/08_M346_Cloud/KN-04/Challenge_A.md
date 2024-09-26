@@ -1,5 +1,5 @@
 
-# Public S3 Bucket erstellen
+# Public S3 Bucket erstellen und auf Webseite einbinden
 
 ### Script einfügen
 
@@ -20,6 +20,11 @@ Das wäre noch das Beweisbild, dass man mit der URL auf das Bild kommt. Anbei no
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/cf6fb83e-5d8e-42f2-875b-ded42ecb8acd">
 
 **URL:** https://tbzstoragekulici.s3.amazonaws.com/Cloud_Computing.jpg
+
+### Beweisbild auf der Webseite
+Placeholder
+
+Hier sieht man, dass das Bild auch erfolgreich auf einer Webserverinstanz eingebettet wurde. 
 
 ### Nachteile der Speicherart
 
