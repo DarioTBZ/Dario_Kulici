@@ -36,7 +36,7 @@ Damit das Volume der Instanz hinzugefügt werden kann, muss es im gleichen Daten
 ### Volume erstellen und anfügen
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/6b4b61a6-c0d3-497b-b79d-3e261d8299af">
 
-Hier sieht man, dass ich die richtige Availability Zone ausgewählt habe und musste nur noch die richtige Instanz auswählen. Wenn man auf das Drop Down Menu, geht sieht man noch die Instanzen Namen. 
+Hier sieht man, dass ich die richtige Availability Zone ausgewählt habe und musste nur noch die richtige Instanz auswählen. Wenn man auf das Drop Down Menu geht, sieht man noch die Instanzen Namen. 
 
 ### Ordner in neuem Volumen erstellen
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/6c53f0d0-fadc-4c0c-8391-d81a0ee09679">
