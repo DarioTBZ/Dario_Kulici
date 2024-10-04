@@ -1,11 +1,11 @@
 
 ## Speicherdienste Vergleich
 
-| Persistenz | Geschwindigkeit | Sicherheit    | Standorte                                                   | Use-case                                       | Andwendungsbeispiel              |
-| ---------- | --------------- | ------------- | ----------------------------------------------------------- | ---------------------------------------------- | -------------------------------- |
-| Ja         | Eher langsam    | Verschlüsselt | Weltweit verfügbar                                          | Objektspeicherung von unveränderten Daten      | Bilder oder Videos               |
-| Ja         | Schnell         | Verschlüsselt | Bestimmte Regionen (Availability Zone)                      | Blockspeicherung, Datenbanken, Betriebssysteme | Datenbankhosting                 |
-| Ja         | Mittel          | Verschlüsselt | Bestimmte Regionen aber gleichzeitiger Zugriff ist möglich. | Netzwerkdateisystem für EC2 Instanzen          | Teilen von Konfigurationsdateien |
+| Name                  | Persistenz | Geschwindigkeit | Sicherheit    | Standorte                                                   | Use-case                                       | Andwendungsbeispiel              |
+| --------------------- | ---------- | --------------- | ------------- | ----------------------------------------------------------- | ---------------------------------------------- | -------------------------------- |
+| S3 Bucket             | Ja         | Eher langsam    | Verschlüsselt | Weltweit verfügbar                                          | Objektspeicherung von unveränderten Daten      | Bilder oder Videos               |
+| Elastic Block Storage | Ja         | Schnell         | Verschlüsselt | Bestimmte Regionen (Availability Zone)                      | Blockspeicherung, Datenbanken, Betriebssysteme | Datenbankhosting                 |
+| Elastic File System   | Ja         | Mittel          | Verschlüsselt | Bestimmte Regionen aber gleichzeitiger Zugriff ist möglich. | Netzwerkdateisystem für EC2 Instanzen          | Teilen von Konfigurationsdateien |
 
 Zusammenfassend kann man sagen, dass ich der S3 Bucket für grosse Dateien lohnt, die sich selten ändern, der EBS ideal für hohe Leistungen ist und EFS top für gleichzeitigen Zugriff von mehreren Instanzen ist. 
 
