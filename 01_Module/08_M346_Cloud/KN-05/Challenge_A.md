@@ -28,6 +28,9 @@ Hier erkennt man die IP-Adresse der Instanz. Wichtig war hier, dass die Instanz 
 Auf diesen Bildern erkennt man, die IP-Adresse und den Loadtest. 
 
 ### Fazit
-Ich brauchte mehrere Versuche, bis ich die VPC richtig erstellt hatte. Was ich noch nicht ganz verstehe ist, warum ich vier Subnetze erstellen musste. 
+Ich brauchte mehrere Versuche, bis ich die VPC richtig erstellt hatte. Anfangs verstand ich nicht ganz warum man vier Subnetze erstellen sollte. 
+
+Jetzt denke ich, dass man die öffentlich zugänglichen Services im öffentlichen Subnetz deployed und das Backend von bspw. dem Webserver also eine Datenbank im privaten Subnetz. Die Privaten Subnetze können durch das NAT ins Internet und aber umgekehrt nicht gefunden werden. So erreicht man, dass die Datenbank nicht direkt über das Internet zugänglich ist. 
+
 ## Quellen
 - [Was ist eine VPC? - ChatGPT](https://chatgpt.com/share/670e42b6-c5bc-8010-8804-c0788d0cee37) 
