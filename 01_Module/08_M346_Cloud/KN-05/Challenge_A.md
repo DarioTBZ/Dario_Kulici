@@ -4,25 +4,25 @@
 Eine Virtual Private Cloud ist ein privates Netzwerk, das man komplett kontrolliert. Grundsätzlich ist es ein Firmen oder Heimnetzwerk, einfach in der Cloud. Man kann also Server oder sonstige Geräte in diesem Netzwerk isoliert betreiben. 
 
 ### VPC erstellen
-Placeholder01
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/b185e9fd-250b-44c4-98f1-b9a6b8db1c74">
 
 Ich habe die VPC nach Vorgaben erstellt. 
 
 ### Instanz erstellen in VPC
-Placeholder02
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/0f49a22e-9b1c-42ad-870c-816038065eb4">
 
 Danach erstelle ich die Instanz. Komischerweise zeigte es die Security group, die ich zuerst erstelle nicht an, weshalb ich sie auf dem Menu der Instanz erstelle musste. Deshalb bekam bei der **Benotung** (siehe unten) nicht die volle Punktzahl. 
 
-Placeholder06
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/a58e7618-b6c4-46ab-941a-b970214a1bb8">
 
 ### Netzwerkeinstellungen der Instanz
-Placeholder03
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/d3a9ee95-5caf-4092-a9ca-ebde9d7ff63b">
 
 Hier erkennt man die IP-Adresse der Instanz. Wichtig war hier, dass die Instanz nicht in der Standard-VPC erstellt wurde, sondern in dem VPC, das ich erstellt hatte. 
 
 ### Beweise
-Placeholder04
-Placeholder
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/a906f172-a69c-4322-bc7d-6c849e5535f9">
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/75b3501f-fb2d-4c7e-85ba-dcdab50f39da">
 
 Auf diesen Bildern erkennt man, die IP-Adresse und den Loadtest. 
 
