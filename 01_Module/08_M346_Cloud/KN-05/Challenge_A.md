@@ -26,5 +26,8 @@ Placeholder
 
 Auf diesen Bildern erkennt man, die IP-Adresse und den Loadtest. 
 
+### Fazit
+Ich brauchte mehrere Versuche, bis ich die VPC richtig erstellt hatte. Was ich noch nicht ganz verstehe ist, warum ich vier Subnetze erstellen musste. 
+
 ## Quellen
 - [Was ist eine VPC? - ChatGPT](https://chatgpt.com/share/670e42b6-c5bc-8010-8804-c0788d0cee37) 
