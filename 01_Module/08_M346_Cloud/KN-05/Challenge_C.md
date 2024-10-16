@@ -38,7 +38,7 @@ Auf dem Bild erkennt man den funktionierenden Webserver und die öffentliche IP 
 ### SSH Zugriff Webserver
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/a335e828-9c2f-4f44-a405-7d8691671f71">
 
-Hier sieht man, dass der SSH Zugriff ebenfalls erfolgreich ist (ping 10.0.4.46). Die private IP Adresse habe ich von den Instanzdetails auf AWS entnommen. 
+Hier sieht man, dass der SSH Zugriff ebenfalls erfolgreich ist (ssh 10.0.4.46). Die private IP Adresse habe ich von den Instanzdetails auf AWS entnommen. 
 
 ### Erfolgreicher Ping
 <img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/a316fe70-9257-4d9a-a998-ec63a58ace91">
