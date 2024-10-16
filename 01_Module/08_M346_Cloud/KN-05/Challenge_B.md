@@ -44,7 +44,7 @@ Name: M346-KUL-NAT-1A
 ### VPC Übersicht
 Ich habe die VPC nach den Angaben erstellt. Standardmässig wird für jede AZ je ein private route table erstellt. Für die public subnets wurde nur ein route table erstellt, weshalb ich das für die privaten Subnetze auch so umsetzte. Im folgenden Bild erkennt man, dass nur noch ein route table für beide private subnets ersichtlich ist. 
 
-Placeholder01
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/c97916e2-4b48-415e-b0c1-7ec6ca99ff14">
 
 ### Erklärung
 Erst später bemerkte ich, dass man nur die VPC erstellen musste und die Subnetze manuell erstellen sollte. Ich habe die Subnetze schon bei der VPC Erstellung erstellt. Nachher musste ich nur noch die Subnetze umbenennen, den doppelten route table löschen, damit für public und private je ein route table existierte und den internet gateway + NAT gateway umbenennen. Der NAT Gateway war zwar nicht in der Übung, ist aber praktisch zu haben. 
