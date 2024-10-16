@@ -31,16 +31,16 @@ Die momentane Konfiguration ist *weder Redundant noch immer Verfügbar*. Das lie
 Die optimale Lösung wäre, den Webserver auf **mehrere Instanzen** in verschiedenen AZ aufzuteilen. So würde der **Webservice nicht ausfallen**, falls eine Instanz einen Fehler oder ein Problem hat. Ausserdem sollte man *pro AZ einen Gateway* haben, denn wenn die AZ mit dem Gateway offline ist, verlieren alle Instanzen in den private subnets die Internetverbindung. 
 
 ### Beweis Webseite
-Placeholder01
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/2ff0dfe8-e795-4a47-89bb-c48545dc46fe">
 
 Auf dem Bild erkennt man den funktionierenden Webserver und die öffentliche IP Adresse (3.238.77.83). 
 
 ### SSH Zugriff Webserver
-Placeholder02
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/a335e828-9c2f-4f44-a405-7d8691671f71">
 
 Hier sieht man, dass der SSH Zugriff ebenfalls erfolgreich ist (ping 10.0.4.46). Die private IP Adresse habe ich von den Instanzdetails auf AWS entnommen. 
 
 ### Erfolgreicher Ping
-Placeholder03
+<img width=50% height=50% alt="launch_instance" src="https://github.com/user-attachments/assets/a316fe70-9257-4d9a-a998-ec63a58ace91">
 
 Der Ping vom Webserver auf die Instanz im privaten Subnetz gelingt mir. 
