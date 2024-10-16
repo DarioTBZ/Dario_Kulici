@@ -28,11 +28,14 @@ Name: M346-KUL-Public-RT
 
 ##### Private route table
 Name: M346-KUL-Private-RT
+
 VPC: M346-KUL-VPC
+
 Subnet associations: Private-1A, Private-1B
 
 ##### Internet gateway
 Name: M346-KUL-IGW
+
 VPC: M346-KUL-VPC
 
 ##### NAT gateway
