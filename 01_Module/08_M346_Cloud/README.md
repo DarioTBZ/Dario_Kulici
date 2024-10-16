@@ -29,3 +29,4 @@
 
 ### [KN-05](KN-05/README.md) 
 - [Challenge A](KN-05/Challenge_A.md) 
+- [Challenge B](KN-05/Challenge_B.md) 
