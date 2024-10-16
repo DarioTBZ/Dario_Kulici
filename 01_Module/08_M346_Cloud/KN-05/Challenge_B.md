@@ -7,19 +7,19 @@ Name: M346-KUL-VPC
 IPv4 CIDR Block: 10.0.0.0/16
 
 ##### Subnetze
-Name: M346-KUL-Public-1A
+Name: M346-KUL-**Public-1A**
 AZ: us-east-1a
 IPv4 CIDR Block: 10.0.1.0/24
 
-Name: M346-KUL-Public-1B
+Name: M346-KUL-**Public-1B**
 AZ: us-east-1b
 IPv4 CIDR Block: 10.0.2.0/24
 
-Name: M346-KUL-Private-1A
+Name: M346-KUL-**Private-1A**
 AZ: us-east-1a
 IPv4 CIDR Block: 10.0.3.0/24
 
-Name: M346-KUL-Private-1B
+Name: M346-KUL-**Private-1B**
 AZ: us-east-1b
 IPv4 CIDR Block: 10.0.4.0/24
 
