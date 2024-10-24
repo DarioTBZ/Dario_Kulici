@@ -1,7 +1,3 @@
----
-tags:
-  - KN
----
 ### Aufgabe 1: High Availability
 Beschreiben Sie anhand von folgenden zwei Use-Cases, welche **HA-Massnahmen** sie jeweils präventiv umsetzen würden. 
 

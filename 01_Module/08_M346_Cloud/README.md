@@ -32,7 +32,7 @@
 - [Challenge B](KN-05/Challenge_B.md) 
 - [Challenge C](KN-05/Challenge_C.md) 
 
-[KN-06](KN-06/README.md) 
+### [KN-06](KN-06/README.md) 
 - [Challenge A](KN-06/Challenge_A.md) 
 - [Challenge B](KN-06/Challenge_B.md) 
 - [Challenge C](KN-06/Challenge_C.md) 
