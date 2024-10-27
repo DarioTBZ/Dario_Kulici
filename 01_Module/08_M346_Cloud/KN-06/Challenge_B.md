@@ -14,3 +14,23 @@ Unter "Load Balancers" wählte ich die Option Application Load Balancer. Dieser 
 
 Placeholder03
 
+Als nächstes wählte ich den "target type" "Instances" und setzte den Namen fest. 
+
+Placeholder04
+
+Hier unter "Regsiter targets" muss ich die erstellten Instanzen auswählen. 
+
+Placeholder05
+
+Das hier ist die Übersicht von der **Target Group**. Eine Target Group empfängt den einkommenden definierten traffic und leitet ihn an die dementsprechenden Instanzen weiter. 
+
+Placeholder06
+
+Um die Load Balancer Konfiguration abzuschliessen muss die Target Group nur noch dem Load Balancer hinzugefügt werden. Dieser ist nach einigen Minuten bereit. 
+
+Placeholder 07
+
+Das Beweisvideo ist hier auf der Repo hochgeladen. Da ich das Lab beenden muss, wird alles gelöscht. 
+
+### Fazit
+Ein Load Balancer ist sehr effektiv. Jetzt da ich weiss, wie dieser funktioniert und aufgesetzt wird, bin ich gespannt, wie es weiter geht. 
