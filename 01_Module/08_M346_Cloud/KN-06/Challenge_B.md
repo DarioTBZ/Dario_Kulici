@@ -18,11 +18,11 @@ Als nächstes wählte ich den "target type" "Instances" und setzte den Namen fes
 
 <img width=50% height=50% alt="Placeholder4" src="https://github.com/user-attachments/assets/0f278ffd-576f-43de-965c-6a4d656e0052">
 
-Hier unter "Regsiter targets" muss ich die erstellten Instanzen auswählen. 
+Hier unter "Register targets" muss ich die erstellten Instanzen auswählen. 
 
 <img width=50% height=50% alt="Placeholder5" src="https://github.com/user-attachments/assets/ddc34725-b790-4d29-b719-c04bbc0a0abe">
 
-Das hier ist die Übersicht von der **Target Group**. Eine Target Group empfängt den einkommenden definierten traffic und leitet ihn an die dementsprechenden Instanzen weiter. 
+Das hier ist die Übersicht von der **Target Group**. Eine Target Group empfängt den einkommenden definierten traffic und leitet ihn an die dementsprechenden Instanzen weiter. In diesem Fall ist es HTTP also Port 80. 
 
 <img width=50% height=50% alt="Placeholder6" src="https://github.com/user-attachments/assets/fa0bae07-0ac8-4273-809d-1e2e0474483f">
 
@@ -32,7 +32,9 @@ Um die Load Balancer Konfiguration abzuschliessen muss die Target Group nur noch
 
 Das Beweisvideo ist hier auf der Repo hochgeladen. Da ich das Lab beenden muss, wird alles gelöscht. 
 
+
 [Beweis Video](https://github.com/user-attachments/assets/74646616-6807-4a59-8b70-e4312b772e75)
+
 
 ### Fazit
 Ein Load Balancer ist sehr effektiv. Jetzt da ich weiss, wie dieser funktioniert und aufgesetzt wird, bin ich gespannt, wie es weiter geht. 
