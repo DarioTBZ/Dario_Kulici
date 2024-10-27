@@ -23,7 +23,7 @@ Damit die fault tolerance so *tief wie möglich* bleibt, würde ich erstens eine
 
 Bei einem Cloud-Provider werden höchstwahrscheinlich die selben Massnahmen getroffen, weil die Datenzentren auch Netzwerk und Strom brauchen. Das Netzwerk bei einem Cloud-Provider hat einen anderen Aufbau, weshalb es eine kompliziertere Sache wäre, aber das Prinzip grundsätzlich gleich bleibt. 
 
-
+--- 
 
 ### Aufgabe 3: Load Balancer
 Es gibt drei Typen von load balancer, die alle einen eigenen Zweck haben.
@@ -47,7 +47,7 @@ Jeder load balancer entscheidet welche EC2 Instanz am gesundesten ist und leitet
 #### Auto Scaling und Load Balancer
 Um eine hohe Skalierbarkeit und Verfügbarkeit zu erreichen kann man den Auto-Scaling-Service von AWS mit einem Load Balancer **kombinieren**. Somit werden EC2 Instanzen je nach **Nachfrage gelöscht oder erstellt** und ein Load Balancer *verteilt den traffic basierend auf den bestehenden Instanzen*. Damit bösartige Attacken wie z.B eine **DDoS-Attacke verhindert** werden kann nutzt man den **Cloud-Watch Service** von AWS. Dieser überwacht bspw. CPU-Auslastung und Speicher und gibt einen **Alarm** aus, falls er auffällige Muster erkennt. Somit kann mit Cloud-Watch die Leistung von Load Balancers überwacht und bei Bedarf optimiert werden. 
 
-
+---
 
 ### Aufgabe 4: Auto-Scaling
 Amazon Auto-Scaling skaliert Instanzen je nach Richtlinie. Beispielsweise kann man den Auto-Scaler so einstellen, dass er sobald die CPU-Auslastung von EC2 Instanzen zu hoch wird, eine oder mehrere neue Instanzen erstellt. Genauso kann er Instanzen bei geringer Nutzung löschen, um Ressourcen und Geld zu sparen. Eine andere Richtlinie wäre die geplante Skalierung. Hier definiert man wann wie viele Instanzen laufen sollen. Wenn man beispielsweise weiss, dass um 0:00 bis 6:00 Morgens wenig Anfragen kommen, wird die Anzahl Instanzen auf ein **Minimum reguliert**. Insgesamt gibt es noch ein paar weitere Richtlinien, aber je nach Situation oder Wunsch kann eine passende Richtlinie gewählt werden. 
