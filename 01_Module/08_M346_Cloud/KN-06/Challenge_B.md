@@ -30,9 +30,9 @@ Um die Load Balancer Konfiguration abzuschliessen muss die Target Group nur noch
 
 <img width=50% height=50% alt="Placeholder7" src="https://github.com/user-attachments/assets/fcd10ab8-539f-48f7-98a2-9daee02a5a79">
 
-Das Beweisvideo ist hier auf der Repo hochgeladen. Da ich das Lab beenden muss, wird alles gelöscht. 
 
 ---
+Anbei ist das Beweis Video. Das Lab wird nach dem Beenden gelöscht, weshalb ich es aufgenommen habe. 
 
 [Beweis Video](https://github.com/user-attachments/assets/74646616-6807-4a59-8b70-e4312b772e75)
 
