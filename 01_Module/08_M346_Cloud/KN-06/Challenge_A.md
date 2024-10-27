@@ -7,7 +7,7 @@ Beschreiben Sie anhand von folgenden zwei Use-Cases, welche **HA-Massnahmen** si
 ##### Lösung
 Damit bei einem Stromausfall die Availability bleibt, würde ich mehrere Stromquellen nutzen. Das heisst sobald eine Stromquelle ausfällt hat man noch eine oder mehrere andere. Ein Beispiel für "Backup-Strom" wäre eine USV. Falls ein Erdbeben dort auftauchen würde, wo eine Firma alle Ihre Server hat, hätte die Firma ein riesiges Problem. Deswegen würde ich mehrere Datenzentren an verschiedenen Orten haben, damit falls ein Erdbeben oder eine sonstige Katastrophe auftauchen würde, nicht alle Server verloren wären. 
 
-
+---
 
 ### Aufgabe 2: Fault Tolerance
 Erklären Sie anhand von **drei** Beispielen, welche **Redundanzen** Sie einführen würden, wenn Sie verantwortlich wären für einen **kleinen Serverraum** einer Kleinfirma.  
