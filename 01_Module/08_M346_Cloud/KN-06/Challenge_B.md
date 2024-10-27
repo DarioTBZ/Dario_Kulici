@@ -7,8 +7,7 @@ Nachdem die Instanz gestartet wurde wählte ich unter "Aktion" die Option "Launc
 
 Nachdem die zwei Instanzen vollständig gestartet waren, öffnete ich die öffentliche IP-Adresse. Auf beiden Instanzen erkannte man die erstellte HTML Webseite. 
 
-<img width=50% height=50% alt="Placeholder2" src="">
-![Placeholder02](https://github.com/user-attachments/assets/bf629eb6-4d3c-45be-b6f6-f81d5dd623e8)
+<img width=50% height=50% alt="Placeholder2" src="https://github.com/user-attachments/assets/bf629eb6-4d3c-45be-b6f6-f81d5dd623e8">
 
 ### Load Balancer erstellen
 Unter "Load Balancers" wählte ich die Option Application Load Balancer. Dieser kann HTTP(S) Anfragen effizient und intelligent verarbeiten. 
