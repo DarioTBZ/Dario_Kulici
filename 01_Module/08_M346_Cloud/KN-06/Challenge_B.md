@@ -20,7 +20,7 @@ Als nächstes wählte ich den "target type" "Instances" und setzte den Namen fes
 
 Hier unter "Regsiter targets" muss ich die erstellten Instanzen auswählen. 
 
-<img width=50% height=50% alt="Placeholder5" src="https://github.com/user-attachments/assets/be14778f-6f42-4056-9d96-a7e6d820cc2e">
+<img width=50% height=50% alt="Placeholder5" src="https://github.com/user-attachments/assets/ddc34725-b790-4d29-b719-c04bbc0a0abe">
 
 Das hier ist die Übersicht von der **Target Group**. Eine Target Group empfängt den einkommenden definierten traffic und leitet ihn an die dementsprechenden Instanzen weiter. 
 
