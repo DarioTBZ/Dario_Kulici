@@ -34,7 +34,7 @@ Um die Load Balancer Konfiguration abzuschliessen muss die Target Group nur noch
 ---
 Anbei ist das Beweis Video. Das Lab wird nach dem Beenden gelöscht, weshalb ich es aufgenommen habe. 
 
-[Beweis Video](https://github.com/user-attachments/assets/74646616-6807-4a59-8b70-e4312b772e75)
+[Beweis Video](https://github.com/user-attachments/assets/f22c5514-443e-4701-895d-408b81f92b20)
 
 ---
 
