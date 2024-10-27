@@ -32,9 +32,11 @@ Um die Load Balancer Konfiguration abzuschliessen muss die Target Group nur noch
 
 Das Beweisvideo ist hier auf der Repo hochgeladen. Da ich das Lab beenden muss, wird alles gelöscht. 
 
+---
 
 [Beweis Video](https://github.com/user-attachments/assets/74646616-6807-4a59-8b70-e4312b772e75)
 
+---
 
 ### Fazit
 Ein Load Balancer ist sehr effektiv. Jetzt da ich weiss, wie dieser funktioniert und aufgesetzt wird, bin ich gespannt, wie es weiter geht. 
