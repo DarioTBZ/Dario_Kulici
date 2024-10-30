@@ -38,3 +38,7 @@
 - [Challenge C](KN-06/Challenge_C.md) 
 - [Challenge D](KN-06/Challenge_D.md) 
 - [Challenge E](KN-06/Challenge_E.md) 
+
+### [KN-07](KN-07/README.md) 
+- [Challenge B](KN-07/Challenge_B.md) 
+- [Challenge C](KN-07/Challenge_C.md) 
