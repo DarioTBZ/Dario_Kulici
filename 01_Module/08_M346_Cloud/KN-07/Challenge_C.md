@@ -5,7 +5,7 @@ Damit nicht jeder den Quellcode für die Webseite hat, schränkt man den Zugriff
 
 <img width=50% height=50% alt="Placeholder01" src="https://github.com/user-attachments/assets/d69d354c-9d1e-4db5-af05-3930bfb9ea84">
 
-Nach Aufgabe wählte ich S3ReadOnlyAccess aus. ![Placeholder11](https://github.com/user-attachments/assets/e73607f8-1070-43a4-b29c-9433c77d607d)
+Nach Aufgabe wählte ich S3ReadOnlyAccess aus.
 
 
 <img width=50% height=50% alt="Placeholder02" src="https://github.com/user-attachments/assets/76b41d61-1b2e-4814-9d7c-1570c4d0c56d">
