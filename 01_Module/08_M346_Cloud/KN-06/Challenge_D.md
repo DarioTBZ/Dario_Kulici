@@ -32,3 +32,4 @@ Zum Schluss muss der Load Balancer nur noch unter der Auto Scaling Group ausgew√
 ### Fazit
 Alles in allem hat es sauber funktioniert und ich hatte keine Schwierigkeiten bei der Aufgabe. Der Load Balancer funktioniert gut. Anbei ein Beweisvideo. 
 
+https://github.com/user-attachments/assets/60093100-03ee-4544-b2e0-6f0c13317d9b
