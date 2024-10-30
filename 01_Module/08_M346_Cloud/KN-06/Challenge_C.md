@@ -21,15 +21,15 @@ Dieser Code aktualisiert die Instanz mit den neusten Paketen, lädt das Paket ht
 ### Auto Scaling Group
 Der zweite Schritt ist, die Autoscaling Group zu erstellen und das Launch Template auswählen. Auf dem Bild sieht man, das ausgewählte Launch Template. 
 
-Placeholder01
+<img width=50% height=50% alt="Placeholder01" src="https://github.com/user-attachments/assets/69f79e69-5c12-412f-b14a-872bccf7682b">
 
 Hier überprüfe ich kurz, ob die Instanzen in verschiedenen Availability Zones sind. 
 
-Placeholder02
+<img width=50% height=50% alt="Placeholder02" src="https://github.com/user-attachments/assets/3d908079-88b1-4452-babf-06fecd2239e1">
 
 Auf dem Bild sieht man, dass sie in den Availability Zones 1a und 1b sind. Anbei noch der Beweis, dass der Code funktioniert hat. 
 
-Placeholder03
+<img width=50% height=50% alt="Placeholder03" src="https://github.com/user-attachments/assets/fbdaaa00-8ff1-4ff0-9633-4a75803ff3a9">
 
 ### Fazit
 Ich habe die Auto Scaling Group erstellt, ein Launch Template erstellt und ausgewählt und die Namen korrekt gesetzt. 
