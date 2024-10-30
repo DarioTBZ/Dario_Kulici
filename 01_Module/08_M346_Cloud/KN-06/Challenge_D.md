@@ -33,3 +33,5 @@ Zum Schluss muss der Load Balancer nur noch unter der Auto Scaling Group ausgew√
 Alles in allem hat es sauber funktioniert und ich hatte keine Schwierigkeiten bei der Aufgabe. Der Load Balancer funktioniert gut. Anbei ein Beweisvideo. 
 
 https://github.com/user-attachments/assets/60093100-03ee-4544-b2e0-6f0c13317d9b
+
+Der Load Balancer erh√§lt den traffic und leitet ihn an die Target Group weiter. Dabei skaliert die Auto Scaling Group die Anzahl Instanzen. Soweit ich weiss wird die **Auto Scaling Group nicht der Target Group zugewiesen**. 
