@@ -52,4 +52,4 @@ Hier sieht man den Alarm und die erstellten Instanzen.
 ### Fazit
 Eine Dynamic Scaling Policy ist sehr effizient und vorteilhaft. Wenn mehr Benutzer auf eine Webseite zugreifen und die Leistung ans Maximum getrieben wird, ist es effizient mehr Instanzen zu erstellen. Es werden auch Kosten gespart, weil die Instanzen wieder gelöscht werden nachdem sie nicht mehr gebraucht werden. 
 
-Der Load Balancer erhält den traffic und leitet ihn an die Target Group weiter. Dabei skaliert die Auto Scaling Group die Anzahl Instanzen. Soweit ich weiss wird die **Auto Scaling Group nicht der Target Group zugewiesen**. 
+Der Load Balancer erhält den traffic und leitet ihn an die Target Group weiter. Dabei skaliert die Auto Scaling Group die Anzahl Instanzen. Soweit ich weiss wird die **Auto Scaling Group nicht der Target Group zugewiesen**. Auf der Target Group muss der Load Balancer ausgewählt werden. 
