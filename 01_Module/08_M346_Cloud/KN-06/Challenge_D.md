@@ -30,6 +30,5 @@ Zum Schluss muss der Load Balancer nur noch unter der Auto Scaling Group ausgew�
 <img width=50% height=50% alt="Placeholder06" src="https://github.com/user-attachments/assets/74e9ef73-62fb-41cc-b51a-023c0a7ace18">
 
 ### Fazit
-Alles in allem hat es sauber funktioniert und ich hatte keine Schwierigkeiten bei der Aufgabe. Da ich momentan nur einen Laptop zur Verfügung habe, kann ich nicht beweisen, dass der Load Balancer funktioniert und den traffic tatsächlich verteilt. Ich kann nur ein Bild aufzeigen, wo er aktiv ist. 
+Alles in allem hat es sauber funktioniert und ich hatte keine Schwierigkeiten bei der Aufgabe. Der Load Balancer funktioniert gut. Anbei ein Beweisvideo. 
 
-<img width=50% height=50% alt="Placeholder07" src="https://github.com/user-attachments/assets/575011e7-feff-4767-89d7-2f13d119c2a4">

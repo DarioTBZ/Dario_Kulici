@@ -35,3 +35,5 @@ Auf dem Bild sieht man, dass sie in den Availability Zones 1a und 1b sind. Anbei
 Ich habe die Auto Scaling Group erstellt, ein Launch Template erstellt und ausgewählt und die Namen korrekt gesetzt. 
 
 Der Auto Scaler erstellt je nach Einstellung neue Instanzen und löscht diese wieder. Der Unterschied zu einem Load Balancer ist, dass der Load Balancer den **traffic** auf Instanzen verteilt und ein Auto Scaler **Instanzen erstellt**. In Kombination sind diese Services sehr effizient und werden sicher bei den meisten Firmen so benutzt. 
+
+High Availability bedeutet hohe Verfügbarkeit. Eine Firma hat beispielsweise ein Produkt, das sie bereitstellt. Es ist eine App, die etwas kann. Diese App muss gehostet werden, damit Nutzer auf sie zugreifen können. Das Ziel ist es, die **App 24/7 online** zu haben, damit Nutzer für sie **bezahlen**. Wenn die App offline ist oder crashed bezahlen die Nutzer nicht, weil sie nicht wissen ob sie immer verfügbar ist. Deswegen ist eine High Availability nötig, um zu vermeiden, dass das die App keine Einnahmen bringt. 
