@@ -17,7 +17,8 @@ Eine elektronische Umfrage erstellen und Ergebnisse dokumentieren.
 
 ## Fortschritt
 - [ ] Leitfragen / Hypothesen
-- [ ] Dokumentation
+- [ ] Umfrage erstellen
+- [ ] Ergebnisse dokumentieren
 
 ## Zusatz
 - 4 Leitfragen
