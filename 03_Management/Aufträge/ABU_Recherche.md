@@ -7,7 +7,7 @@ Eine elektronische Umfrage erstellen und Ergebnisse dokumentieren.
 
 ## Abgabe
 
-- [ ] **Dokumentation** 
+- **Dokumentation** 
 
 #### Dokumentation
 - [ ] Einleitung (Themenwahl, Leitfragen/Hypothesen, Vorgehen), 0.5 Seiten
