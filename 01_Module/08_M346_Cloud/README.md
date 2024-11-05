@@ -42,3 +42,6 @@
 ### [KN-07](KN-07/README.md) 
 - [Challenge B](KN-07/Challenge_B.md) 
 - [Challenge C](KN-07/Challenge_C.md) 
+
+### [KN-08](KN-08/README.md) 
+- [Auftrag KN-08](KN-08/Auftrag.md) 
