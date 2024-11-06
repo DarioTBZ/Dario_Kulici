@@ -30,7 +30,7 @@ Das Server Script muss von den Instanzen heruntergeladen werden. Für das habe i
 
 Ich erstellte einen S3 Bucket und legte alle benötigten Dateien darin ab. Dabei musste ich die Permissions anpassen, sodass der Bucket öffentlich zugänglich wurde. 
 
-Placeholder05
+<img width=50% height=50% alt="Placeholder05" src="https://github.com/user-attachments/assets/0b722a78-d92f-4de6-81f4-e5e040b997ca">
 
 ### Master Server
 
@@ -88,8 +88,8 @@ Diese ist etwas komplexer. Zusammengefasst werden notwendige Pakete für den Ser
 
 Um sicherzustellen, dass das Konzept funktioniert habe ich sehr sehr viel getestet. Anbei schaffte ich es zwei Clients auf zwei verschiedene Chatroom Server zu verbinden, aber die Nachrichten sah man leider nicht auf beiden Clients. Auf den Bildern sieht man die IPs von den Instanzen auf den Clients und auf AWS. 
 
-Placeholder03
-Placeholder04
+<img width=50% height=50% alt="Placeholder03" src="https://github.com/user-attachments/assets/21bd4b50-f51c-4aa4-a232-520681e4d7f9">
+<img width=50% height=50% alt="Placeholder04" src="https://github.com/user-attachments/assets/66135bc3-3da7-4a6c-be02-babf05f2434c">
 
 Das Problem war hauptsächlich, dass die Chatroom Server die Nachrichten von den Clients nie an andere Server sendete, weshalb die Clients nicht miteinander kommunizieren konnten. 
 
@@ -97,8 +97,8 @@ Das Problem war hauptsächlich, dass die Chatroom Server die Nachrichten von den
 
 Schlussendlich schaffte ich es endlich das Konzept umzusetzen. Zwar hatte ich keinen Load Balancer oder Auto Scaling Group, aber dafür ganz viel Erfahrung mit AWS + Python. Auf den Bildern erkennt man den erfolgreichen Versuch, bei dem sich zwei Clients an den Master Server verbinden und miteinander kommunizieren können. 
 
-Placeholder08
-Placeholder06
+<img width=50% height=50% alt="Placeholder08" src="https://github.com/user-attachments/assets/586f80bb-a8db-44d4-89dc-21719ef1760e">
+<img width=50% height=50% alt="Placeholder06" src="https://github.com/user-attachments/assets/9f288942-b807-49ee-b4c9-1dc99cd4ea74">
 
 ## Fazit
 
