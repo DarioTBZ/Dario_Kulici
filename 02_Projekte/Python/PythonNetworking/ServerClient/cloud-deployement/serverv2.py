@@ -1,12 +1,42 @@
 import socket
 import threading
 import redis
+import json
+import time
+import requests
+
+def get_public_ip():
+    try:
+        token = requests.put(
+            "http://169.254.169.254/latest/api/token",
+            headers={"X-aws-ec2-metadata-token-ttl-seconds": "21600"}
+        ).text
+
+        public_ip = requests.get(
+            "http://169.254.169.254/latest/meta-data/public-ipv4",
+            headers={"X-aws-ec2-metadata-token": token}
+        ).text
+
+        return public_ip
+
+    except requests.RequestException as e:
+        print(f"Error retrieving public IP: {e}")
+        exit(1)
+
+def get_network_ip():
+    with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+        s.connect(("8.8.8.8", 80))
+        return s.getsockname()[0]
 
 clients = []
 nicknames = []
-
 client_lock = threading.Lock()
-HOST_IP = socket.gethostbyname(socket.gethostname())
+HOST_IP = get_network_ip()
+CHATROOM_PORT = 5555
+PUBLIC_IP = get_public_ip()
+
+master_ip = '10.0.1.143'
+master_port = 6000
 
 try:
     redis_client = redis.StrictRedis(host=HOST_IP, port=6379, decode_responses=True)
@@ -17,6 +47,43 @@ except redis.exceptions.ConnectionError as e:
 
 pubsub = redis_client.pubsub()
 pubsub.subscribe("chatroom")
+
+def register_with_master():
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as master_socket:
+            master_socket.connect((master_ip, master_port))
+            registration_message = json.dumps({
+                "action": "heartbeat",
+                "server_ip": HOST_IP,
+                "server_port": CHATROOM_PORT
+            })
+            master_socket.send(registration_message.encode('utf-8'))
+            response = json.loads(master_socket.recv(1024).decode('utf-8'))
+            if response.get("status") == "ok":
+                print("Successfully registered with Master Server.")
+            else:
+                print("Registration failed:", response.get("message"))
+    except Exception as e:
+        print(f"Error registering with Master Server: {e}")
+
+def send_heartbeat():
+    while True:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as heartbeat_socket:
+                heartbeat_socket.connect((master_ip, master_port))
+                heartbeat_message = json.dumps({
+                    "action": "heartbeat",
+                    "server_ip": PUBLIC_IP,
+                    "server_port": CHATROOM_PORT
+                })
+                heartbeat_socket.send(heartbeat_message.encode('utf-8'))
+                response = json.loads(heartbeat_socket.recv(1024).decode('utf-8'))
+                if response.get("status") != "ok":
+                    print("Heartbeat failed:", response.get("message"))
+                time.sleep(10)
+        except Exception as e:
+            print(f"Error sending heartbeat: {e}")
+            time.sleep(10)
 
 def broadcast(message):
     try:
@@ -39,17 +106,20 @@ def handle_client(client):
                 break
             elif message == "!help":
                 client.send("Commands:\n!quit - Leave the chat\n!help - Show this help message".encode('utf-8'))
+            elif message == "!ip":
+                client.send(f"Puglic IP: {PUBLIC_IP}, Private IP: {HOST_IP}")
             else:
                 broadcast(message)
         except Exception as e:
             print(f"Error handling client: {e}")
             with client_lock:
-                index = clients.index(client)
-                clients.remove(client)
-                client.close()
-                nickname = nicknames[index]
-                broadcast(f"{nickname} has left the chat!")
-                nicknames.remove(nickname)
+                if client in clients:
+                    index = clients.index(client)
+                    clients.remove(client)
+                    client.close()
+                    nickname = nicknames[index]
+                    broadcast(f"{nickname} has left the chat!")
+                    nicknames.remove(nickname)
             break
 
 def handle_redis_messages():
@@ -74,11 +144,17 @@ def receive():
         thread.start()
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(('0.0.0.0', 5555))
+server.bind((HOST_IP, CHATROOM_PORT))
 server.listen()
 
-print("Server is running...")
+print("Chatroom Server is running...")
+
+register_with_master()
+
+heartbeat_thread = threading.Thread(target=send_heartbeat)
+heartbeat_thread.start()
 
 redis_thread = threading.Thread(target=handle_redis_messages)
 redis_thread.start()
+
 receive()

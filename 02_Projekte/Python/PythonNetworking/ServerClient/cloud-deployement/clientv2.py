@@ -1,11 +1,33 @@
 import socket
 import threading
+import json
 
 nickname = input("Choose your nickname: ")
-ipaddress = input("IP Address: ")
+master_ip = input("Master Server IP Address: ")
+master_port = 6000
 
+# Connect to Master Server
+master_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+master_client.connect((master_ip, master_port))
+
+# Request Chatroom Server Connection
+request = json.dumps({"action": "connect_to_chatroom"})
+master_client.send(request.encode('utf-8'))
+
+response = json.loads(master_client.recv(1024).decode('utf-8'))
+if response.get("status") == "ok":
+    ipaddress = response["server_ip"]
+    port = response["server_port"]
+    print(f"Connecting to chatroom server at {ipaddress}:{port}")
+    master_client.close()
+else:
+    print("Error:", response.get("message"))
+    master_client.close()
+    exit(1)
+
+# Connect to Chatroom Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect((ipaddress, 5555))
+client.connect((ipaddress, port))
 
 def receive():
     while True:

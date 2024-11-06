@@ -1,0 +1,13 @@
+#cloud-config
+packages:
+  - redis
+  - python3-redis
+  - python3-requests
+
+runcmd:
+  - sudo sed -i "s/^bind .*/bind 0.0.0.0/" /etc/redis/redis.conf
+  - sudo sed -i "s/^protected-mode yes/protected-mode no/" /etc/redis/redis.conf
+  - sudo systemctl restart redis
+  - wget -O /home/ubuntu/chatroom_server.py https://s3.amazonaws.com/BUCKET_NAME/FILE_NAME
+  - chmod +x /home/ubuntu/chatroom_server.py
+  - nohup python3 /home/ubuntu/chatroom_server.py > /home/ubuntu/chatroom_server.log 2>&1 &
