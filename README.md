@@ -7,11 +7,12 @@ Falls etwas unklar ist bitte unter der E-Mail Adresse dario.kulici@edu.tbz.ch me
 # Inhalte
 
 Aktuelle Module:
-- [346 Cloud](01_Module/08_M346_Cloud/README.md) 
-- [114-143 Backup Systeme](01_Module/09_M114-143_BackupSys/README) 
+- 
 
 Module: 
 
+- [346 Cloud](01_Module/08_M346_Cloud/README.md) 
+- [114-143 Backup Systeme](01_Module/09_M114-143_BackupSys/README) 
 - [231 Datenschutz](01_Module/01_M231_Datenschutz/README.md)
 - [123 Serverdienste](01_Module/02_M123_Serverdienste/README.md)
 - [164 Datenbanken](01_Module/04_M164_Datenbanken/README.md)
