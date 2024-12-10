@@ -28,3 +28,5 @@ In diesem Ordner sind meine Projekte, dazugehörige Dokumentationen und Experime
 - Blue Topaz
 - Obsidian gruvbox
 - Things
+- Obsidianite
+
