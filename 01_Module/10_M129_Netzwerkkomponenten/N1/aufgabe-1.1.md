@@ -10,10 +10,6 @@
 ### Netzwerk Konfiguration
 Damit das Netzwerk in zwei geteilt werden kann erstelle ich **zwei /25er** Netze. Jede Abteilung hat 128 IP Adressen und total sind es 255 IP Adressen. 
 
-![02_network-2]()
-![01_network-1]()
-
-
 **Netzwerk ID's**
 Netzwerk 1: 160.160.250.0
 Netzwerk 2: 160.160.250.128
