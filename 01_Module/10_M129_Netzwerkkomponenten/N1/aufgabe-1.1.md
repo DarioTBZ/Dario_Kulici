@@ -7,14 +7,14 @@
 - Clients können die erste IP nach dem Router nutzen. 
 - Namenskonvention
 
-### Netzwerke
-Damit das Netzwerk in zwei geteilt werden kann erstelle ich **zwei /25er** Netze. Jede Abteilung hat 255 IP Adressen und total sind es 512 IP Adressen. 
+### Netzwerk Konfiguration
+Damit das Netzwerk in zwei geteilt werden kann erstelle ich **zwei /25er** Netze. Jede Abteilung hat 128 IP Adressen und total sind es 255 IP Adressen. 
 
 
 
 **Netzwerk ID's**
 Netzwerk 1: 160.160.250.0
-Netzwerk 2: 160.160.251.0
+Netzwerk 2: 160.160.250.128
 
 #### Netzwerk 1
 
@@ -22,16 +22,28 @@ Netzwerk 2: 160.160.251.0
 
 Router IP: 160.160.250.1
 
-Letzte IP: 160.160.250.254
+Letzte IP: 160.160.250.126
 
-Anzahl IP Adressen für PC's: 253
+Anzahl IP Adressen für PC's: 125
 
 #### Netzwerk 2
 
 <img width=50% height=50% alt="network-2" src="https://github.com/user-attachments/assets/865aaa79-1bbd-4596-97cb-f27feb53feaa">
 
-Router IP: 160.160.251.1
+Router IP: 160.160.250.129
 
-Letzte IP: 160.160.251.254
+Erste IP: 160.160.250.130
 
-Anzahl IP Adressen für PC's: 253
+Letzte IP: 160.160.250.254
+
+Anzahl IP Adressen für PC's: 125
+
+### Umsetzung
+Hier ist eine visuelle Übersicht vom Netzwerk. 
+
+Placeholder(networks-overview)
+
+#### Router Konfiguration
+Placeholder(Routerconfig)
+
+Auf dem Router sind zwei Interfaces mit den IP Adressen 160.160.250.1 und 160.160.250.129. Auf diese IP Adressen gehen die Hosts, um mit anderen Hosts zu kommunizieren. 
