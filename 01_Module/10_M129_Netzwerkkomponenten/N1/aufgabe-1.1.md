@@ -10,15 +10,13 @@
 ### Netzwerk Konfiguration
 Damit das Netzwerk in zwei geteilt werden kann erstelle ich **zwei /25er** Netze. Jede Abteilung hat 128 IP Adressen und total sind es 255 IP Adressen. 
 
-
-
 **Netzwerk ID's**
 Netzwerk 1: 160.160.250.0
 Netzwerk 2: 160.160.250.128
 
 #### Netzwerk 1
 
-<img width=50% height=50% alt="network-1" src="https://github.com/user-attachments/assets/72a7a2bf-bb81-47af-bbbc-960b5afe4ba1">
+<img width=50% height=50% alt="network-1" src="https://github.com/user-attachments/assets/319f1236-8553-40ee-a378-5c77bba3e31c">
 
 Router IP: 160.160.250.1
 
@@ -28,7 +26,7 @@ Anzahl IP Adressen für PC's: 125
 
 #### Netzwerk 2
 
-<img width=50% height=50% alt="network-2" src="https://github.com/user-attachments/assets/865aaa79-1bbd-4596-97cb-f27feb53feaa">
+<img width=50% height=50% alt="network-2" src="https://github.com/user-attachments/assets/1ad8642d-c88c-4529-bbbe-4c876a57a84f">
 
 Router IP: 160.160.250.129
 
