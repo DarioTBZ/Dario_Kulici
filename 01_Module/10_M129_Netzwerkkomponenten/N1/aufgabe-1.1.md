@@ -18,7 +18,7 @@ Netzwerk 2: 160.160.251.0
 
 #### Netzwerk 1
 
-Placeholder(Network-1)
+<img width=50% height=50% alt="network-1" src="https://github.com/user-attachments/assets/72a7a2bf-bb81-47af-bbbc-960b5afe4ba1">
 
 Router IP: 160.160.250.1
 Letzte IP: 160.160.250.254
@@ -26,7 +26,7 @@ Anzahl IP Adressen für PC's: 253
 
 #### Netzwerk 2
 
-Placeholder(Network-2)
+<img width=50% height=50% alt="network-2" src="https://github.com/user-attachments/assets/865aaa79-1bbd-4596-97cb-f27feb53feaa">
 
 Router IP: 160.160.251.1
 Letzte IP: 160.160.251.254
