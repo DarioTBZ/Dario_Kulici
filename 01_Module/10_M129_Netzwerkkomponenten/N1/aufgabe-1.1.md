@@ -18,7 +18,7 @@ Netzwerk 2: 160.160.250.128
 
 #### Netzwerk 1
 
-<img width=50% height=50% alt="network-1" src="https://github.com/user-attachments/assets/72a7a2bf-bb81-47af-bbbc-960b5afe4ba1">
+<img width=50% height=50% alt="network-1" src="https://github.com/user-attachments/assets/840b7014-7762-4ffa-8fb0-a64d88c6adcf">
 
 Router IP: 160.160.250.1
 
@@ -28,7 +28,7 @@ Anzahl IP Adressen für PC's: 125
 
 #### Netzwerk 2
 
-<img width=50% height=50% alt="network-2" src="https://github.com/user-attachments/assets/865aaa79-1bbd-4596-97cb-f27feb53feaa">
+<img width=50% height=50% alt="network-2" src="https://github.com/user-attachments/assets/afc18b6a-73fb-4f94-a2ab-c84092abdeb0">
 
 Router IP: 160.160.250.129
 
