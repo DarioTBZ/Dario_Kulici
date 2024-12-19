@@ -47,3 +47,9 @@ Placeholder(networks-overview)
 Placeholder(Routerconfig)
 
 Auf dem Router sind zwei Interfaces mit den IP Adressen 160.160.250.1 und 160.160.250.129. Auf diese IP Adressen gehen die Hosts, um mit anderen Hosts zu kommunizieren. 
+
+#### PC Konfiguration
+Placeholder(05_PC-01_config)
+
+Auf dem Bild ist PC-01 mit der ersten IP Adresse im Netzwerk. Der zweite PC hat die letzte IP Adresse. Hier eine Liste für eine bessere Übersicht. 
+
