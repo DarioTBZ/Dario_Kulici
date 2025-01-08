@@ -120,4 +120,5 @@ Nachdem Abschluss von **einem Subnetz** pingte ich vom einen PC den anderen und 
 
 Mein Filius Programm auf meinem Heim PC hatte verrückte Grafikfehler während ich die Aufgabe erledigte, aber es ging noch so. Hier ein Video zum Verständnis. 
 
-PlaceholderVideo
+https://github.com/user-attachments/assets/ff693cc4-bd1c-41df-ae25-a36f591cb07b
+
