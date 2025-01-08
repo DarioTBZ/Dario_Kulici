@@ -111,6 +111,7 @@ Nachdem Abschluss von **einem Subnetz** pingte ich vom einen PC den anderen und 
 - Gibt es Verbesserungsvorschläge bzgl. Netzwerk-Design?
 -  Welche zusätzlichen Informationen wären nützlich, um für dieses Netzwerk-Design einen Optimierungsvorschlag auszuarbeiten?
 
+### Antworten
 - In der Abteilung Einkauf sind so wie in jeder Abteilung noch 27 IP-Adressen frei.
 - Es können nicht mehr als 30 Mitarbeiter pro Abteilung arbeiten, weil es keine IP-Adressen mehr hat. 
 - Nein, weil zu wenig Adressen genutzt werden, also es somit Verschwendung ist und der Verwaltungsaufwand wäre zu gross. 
