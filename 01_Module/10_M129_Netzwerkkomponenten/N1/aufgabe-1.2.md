@@ -4,13 +4,16 @@
 - IP Range vom ISP: 59.136.34.0/24
 - Acht gleichgrosse Subnetze (eins für jede Abteilung)
 
+
 ### Netzwerk Konfiguration
 Für acht gleichgrosse Netze braucht es ein /27er Netzwerk. 
 
 Netzbits: 27
+
 Hostbits: 5
 
 5 + 27 = 32 Bits = volle IP Adresse
+
 
 Ein 27er Netz hat 8 Subnetze mit je 32 Adressen, davon **30 nutzbar von Hosts**. Das heisst die Subnetze sind folgendermassen aufgebaut.
 
@@ -30,16 +33,22 @@ Ein 27er Netz hat 8 Subnetze mit je 32 Adressen, davon **30 nutzbar von Hosts**.
 <img width=50% height=50% alt="01_subnetzconfig" src="">
 
 Netzwerk ID: 59.136.34.0
+
 Erste IP: 59.136.34.1
+
 Letzte IP: 59.136.34.30
+
 Broadcast: 59.136.34.31
 
 #### Netzwerk 2
 <img width=50% height=50% alt="02_subnetzconfig_2" src="">
 
 Netzwerk ID: 59.136.34.32
+
 Erste IP: 59.136.34.33
+
 Letzte IP: 59.136.34.62
+
 Broadcast: 59.136.34.63
 
 Hier verändern sich die 3 Bits im vierten Quartett. Da müssen die Bits einfach an der Netzwerk ID angepasst werden. Also hier im Bild eine 1 bei 32, weil die Netzwerk ID 32 ist. Im letzten Subnetz sind **alle 3 Netz Bits im vierten Oktett 1**. 
@@ -48,8 +57,11 @@ Hier verändern sich die 3 Bits im vierten Quartett. Da müssen die Bits einfach
 <img width=50% height=50% alt="03_subnetzconfig_6" src="">
 
 Netzwerk ID: 59.136.34.160
+
 Erste IP: 59.136.34.161
+
 Letzte IP: 59.136.34.190
+
 Broadcast: 59.136.34.191
 
 Ich zeige nicht alle Netzwerke im Excel auf dieser Dokumentation, sondern nur genug um mein Verständnis und die Richtigkeit zu vermitteln. 
