@@ -39,15 +39,15 @@ Anzahl IP Adressen für PC's: 125
 ### Umsetzung
 Hier ist eine visuelle Übersicht vom Netzwerk. 
 
-Placeholder(networks-overview)
+<img width=50% height=50% alt="network-overview" src="https://github.com/user-attachments/assets/4090d468-5f59-4d52-bc1f-dc8c9e3bf9c0">
 
 #### Router Konfiguration
-Placeholder(Routerconfig)
+<img width=50% height=50% alt="routerconfig" src="https://github.com/user-attachments/assets/3f09b989-970d-443c-94c1-9610b143fe05">
 
 Auf dem Router sind zwei Interfaces mit den IP Adressen 160.160.250.1 und 160.160.250.129. Auf diese IP Adressen gehen die Hosts, um mit anderen Hosts zu kommunizieren. 
 
 #### PC Konfiguration
-Placeholder(05_PC-01_config)
+<img width=50% height=50% alt="pc-01-config" src="https://github.com/user-attachments/assets/a814b45c-7858-4b22-93ad-b1933910980b">
 
 Auf dem Bild ist PC-01 mit der ersten IP Adresse im Netzwerk. Der zweite PC hat die letzte IP Adresse. Hier eine Liste für eine bessere Übersicht. 
 
