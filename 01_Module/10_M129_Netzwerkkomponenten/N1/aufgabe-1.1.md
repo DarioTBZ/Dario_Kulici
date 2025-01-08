@@ -1,7 +1,7 @@
-# Aufgabenstellung 1.1
+# N1 Aufgabenstellung 1.1
 
 ### Vorgaben
-- IP Range von ISP: 160.160.250.0 /24
+- IP Range vom ISP: 160.160.250.0 /24
 - Für die Abteilungen zwei gleichgrosse Subnetze
 - Erste Subnetz IP ist für Router reserviert
 - Clients können die erste IP nach dem Router nutzen. 
