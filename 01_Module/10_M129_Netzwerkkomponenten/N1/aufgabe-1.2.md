@@ -17,17 +17,18 @@ Hostbits: 5
 
 Ein 27er Netz hat 8 Subnetze mit je 32 Adressen, davon **30 nutzbar von Hosts**. Das heisst die Subnetze sind folgendermassen aufgebaut.
 
-| Subnetz ID | Netzwerk ID   | Netzanteil | Hostanteil |
-| ---------- | ------------- | ---------- | ---------- |
-| 1          | 59.136.34.0   | 2          | 30         |
-| 2          | 59.136.34.32  | 2          | 30         |
-| 3          | 59.136.34.64  | 2          | 30         |
-| 4          | 59.136.34.96  | 2          | 30         |
-| 5          | 59.136.34.128 | 2          | 30         |
-| 6          | 59.136.34.160 | 2          | 30         |
-| 7          | 59.136.34.192 | 2          | 30         |
-| 8          | 59.136.34.224 | 2          | 30         |
+| Subnetz ID | Netzwerk ID   | Verfügbare Adressen | Besetzte Adressen | Freie Adressen |
+| ---------- | ------------- | ------------------- | ----------------- | -------------- |
+| 1          | 59.136.34.0   | 30                  | 3                 | 27             |
+| 2          | 59.136.34.32  | 30                  | 3                 | 27             |
+| 3          | 59.136.34.64  | 30                  | 3                 | 27             |
+| 4          | 59.136.34.96  | 30                  | 3                 | 27             |
+| 5          | 59.136.34.128 | 30                  | 3                 | 27             |
+| 6          | 59.136.34.160 | 30                  | 3                 | 27             |
+| 7          | 59.136.34.192 | 30                  | 3                 | 27             |
+| 8          | 59.136.34.224 | 30                  | 3                 | 27             |
 
+Der Router und zwei PC's pro Subnetz sind die Geräte die eine IP-Adresse brauchen. Die restlichen 27 sind frei. 
 
 #### Netzwerk 1
 <img width=50% height=50% alt="01_subnetzconfig" src="https://github.com/user-attachments/assets/fda2da36-fab4-4c27-accc-712e82037e97">
@@ -83,6 +84,37 @@ Als nächstes nahm ich beide PCs und gab ihnen, die vorgeschriebenen IP-Adressen
 
 Nachdem Abschluss von **einem Subnetz** pingte ich vom einen PC den anderen und schaute ob der Ping ankam (und wieder zurück). Das gelang mir zu 100% ohne grosse Schwierigkeiten. 
 
+#### PC's Konfiguration
+
+| ID  | Name   | IP-Adresse    | CIDR |
+| --- | ------ | ------------- | ---- |
+| 1   | PC-10  | 59.136.34.10  | 27   |
+| 2   | PC-20  | 59.136.34.20  | 27   |
+| 3   | PC-40  | 59.136.34.40  | 27   |
+| 4   | PC-50  | 59.136.34.50  | 27   |
+| 5   | PC-70  | 59.136.34.70  | 27   |
+| 6   | PC-80  | 59.136.34.80  | 27   |
+| 7   | PC-110 | 59.136.34.110 | 27   |
+| 8   | PC-120 | 59.136.34.120 | 27   |
+| 9   | PC-130 | 59.136.34.130 | 27   |
+| 10  | PC-140 | 59.136.34.140 | 27   |
+| 11  | PC-170 | 59.136.34.170 | 27   |
+| 12  | PC-180 | 59.136.34.180 | 27   |
+| 13  | PC-200 | 59.136.34.200 | 27   |
+| 14  | PC-210 | 59.136.34.210 | 27   |
+| 15  | PC-230 | 59.136.34.230 | 27   |
+| 16  | PC-240 | 59.136.34.240 | 27   |
+### Formative Fragen
+- Wieviele freie IP-Adressen gibt es in der Abteilung **Einkauf**
+- Wo liegt die Grenze bzgl. Zuweisung der IPs an Mitarbeiter? (Pro Abteilung)
+- Ist dieses Netzwerk-Design realistisch? (Kritische Begründung)
+- Gibt es Verbesserungsvorschläge bzgl. Netzwerk-Design?
+-  Welche zusätzlichen Informationen wären nützlich, um für dieses Netzwerk-Design einen Optimierungsvorschlag auszuarbeiten?
+
+- In der Abteilung Einkauf sind so wie in jeder Abteilung noch 27 IP-Adressen frei.
+- Es können nicht mehr als 30 Mitarbeiter pro Abteilung arbeiten, weil es keine IP-Adressen mehr hat. 
+- Nein, weil zu wenig Adressen genutzt werden, also es somit Verschwendung ist und der Verwaltungsaufwand wäre zu gross. 
+- Wie viele Geräte es hat, die eine IP-Adresse brauchen und ob man erwartet, dass das Netzwerk wächst. 
 
 ### Fazit
 
