@@ -7,7 +7,7 @@ Falls etwas unklar ist bitte unter der E-Mail Adresse dario.kulici@edu.tbz.ch me
 # Inhalte
 
 Aktuelle Module:
-- 
+- [129 LAN Komponenten in Betrieb nehmen](10_M129_Netzwerkkomponenten/README.md) 
 
 Module: 
 
