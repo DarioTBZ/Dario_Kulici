@@ -49,6 +49,7 @@ Nur der Router und zwei PC's pro Subnetz brauchen IP-Adressen.
 
 
 <img width=50% height=50% alt="PCconfig" src="https://github.com/user-attachments/assets/87842bdd-6af5-4417-a46f-6014fbfff518">
+
 Auf diesem Bild sieht man die Konfiguration von PC-2. 
 
 Der Gateway und die Netzmaske sind die Felder, die gleich bleiben. Die IP ändert sich von PC zu PC. 
