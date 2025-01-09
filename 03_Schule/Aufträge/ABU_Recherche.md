@@ -17,10 +17,12 @@ Eine elektronische Umfrage erstellen und Ergebnisse dokumentieren.
 - [ ] Fazit (Schlussfolgerungen aus der Auswertung und Beantwortung der Leitfragen/Hypothesen, persönliche Reflexion zur Vorgehensweise), ca. 1 Seite
 
 ## Fortschritt
+<<<<<<< HEAD
 - [x] Leitfragen / Hypothesen definiert
 - [ ] Umfrage erstellt
 - [ ] Umfrage gesendet
 - [ ] Ergebnisse dokumentiert
+>>>>>>> origin/main
 
 ## Zusatz
 - 4 Leitfragen
