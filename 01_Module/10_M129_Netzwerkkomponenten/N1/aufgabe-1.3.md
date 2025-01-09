@@ -23,16 +23,16 @@ Hostteil: 4
 Nur der Router und zwei PC's pro Subnetz brauchen IP-Adressen. 
 
 #### Netzwerk 1
-<img width=50% height=50% alt="Netzwerk1" src="">
+<img width=50% height=50% alt="Netzwerk1" src="https://github.com/user-attachments/assets/70db611c-54a0-41c6-b99f-90bc7e2bd7bd">
 
 #### Netzwerk 2
-<img width=50% height=50% alt="Netzwerk2" src="">
+<img width=50% height=50% alt="Netzwerk2" src="https://github.com/user-attachments/assets/4dd0cf24-a16b-43ef-b410-d8bde7a9d945">
 
 #### Netzwerk 3
-<img width=50% height=50% alt="Netzwerk3" src="">
+<img width=50% height=50% alt="Netzwerk3" src="https://github.com/user-attachments/assets/91272eb5-c9f0-4855-ae14-9284c79a33b0">
 
 #### Netzwerk 4
-<img width=50% height=50% alt="Netzwerk4" src="">
+<img width=50% height=50% alt="Netzwerk4" src="https://github.com/user-attachments/assets/fa97c2a6-7c01-4777-b7e1-567a63ecba0c">
 
 ### PC Konfiguration
 
@@ -48,12 +48,12 @@ Nur der Router und zwei PC's pro Subnetz brauchen IP-Adressen.
 | 8   | PC-51 | 25.30.120.51 | 28   |
 
 
-<img width=50% height=50% alt="PCconfig" src="">
+<img width=50% height=50% alt="PCconfig" src="https://github.com/user-attachments/assets/87842bdd-6af5-4417-a46f-6014fbfff518">
 Auf diesem Bild sieht man die Konfiguration von PC-2. 
 
 Der Gateway und die Netzmaske sind die Felder, die gleich bleiben. Die IP ändert sich von PC zu PC. 
 
-<img width=50% height=50% alt="Pingtest" src="">
+<img width=50% height=50% alt="Pingtest" src="https://github.com/user-attachments/assets/d4efd72f-dc4e-4b68-afe2-1634d89762ec">
 
 Um zu beweisen, dass das Netz funktioniert hier ein Bild. 
 
