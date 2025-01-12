@@ -33,6 +33,6 @@ Als **erstes konfigurierte ich den Router**, weil dort alle Subnetze konfigurier
 
 
 ### Pingtest
-<img width=50% height=50% alt="Pingtest" src="">
+<img width=50% height=50% alt="PingtestPC2" src="https://github.com/user-attachments/assets/4dd0de62-f715-4ff6-88c3-31666efed673">
 
 Als letzter Schritt überprüfte ich ob der Ping in alle Netzwerke funktionierte. 
