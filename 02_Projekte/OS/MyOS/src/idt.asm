@@ -19,18 +19,18 @@ load_idt:
 ; - [esp + 4]: Interrupt-Nummer (Index in der IDT)
 ; - [esp + 8]: Adresse des Handlers
 set_idt_gate:
-    pusha                  ; Sichert Register
-    mov eax, [esp + 4]     ; Hole Interrupt-Nummer
-    mov ebx, [esp + 8]     ; Hole Handler-Adresse
-    shl eax, 4             ; Multipliziere die Nummer mit 16 (Offset)
-    lea ecx, [idt + eax]   ; Berechne IDT-Adresse
+    pusha
+    mov eax, [esp + 4]
+    mov ebx, [esp + 8]
+    shl eax, 3
+    lea ecx, [idt + eax]
 
-    mov word [ecx], bx     ; Adresse (niedrig)
-    mov word [ecx + 2], 0x08 ; Code-Segment
-    mov byte [ecx + 4], 0  ; Reserved
-    mov byte [ecx + 5], 0x8E ; Interrupt-Gate-Typ
-    shr ebx, 16            ; Obere Adresse
-    mov word [ecx + 6], bx ; Adresse (hoch)
+    mov word [ecx], bx
+    mov word [ecx + 2], 0x08
+    mov byte [ecx + 4], 0
+    mov byte [ecx + 5], 0x8E
+    shr ebx, 16
+    mov word [ecx + 6], bx
 
     popa
     ret
