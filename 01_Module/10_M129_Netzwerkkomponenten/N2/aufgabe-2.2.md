@@ -27,6 +27,15 @@ Nach zwei Subnetzen ändert sich das dritte Oktett. Also beispielsweise von 37.1
 
 <img width=50% height=50% alt="Netzwerk5und6" src="https://github.com/user-attachments/assets/ad1e491f-0a0b-4c9f-885d-3f1d55090071">
 
+### PC Konfiguration
+
+Ich habe bei jedem PC den **richtigen Gateway**, also die IP-Adresse vom **richtigen Interface** angegeben. Dann gab ich nur noch die IP-Adresse, die man aus der Namenskonvention auslesen konnte, ein und testete alles mit einem Ping zum anderen PC im gleichen Subnetz. 
+
+<img width=50% height=50% alt="PCconfig-gateway" src="https://github.com/user-attachments/assets/db136e5e-e34e-410a-ab37-77b21400765f">
+
+<img width=50% height=50% alt="PCconfig-ip" src="https://github.com/user-attachments/assets/ee59ec82-06c2-45f2-95c4-a2a355599115">
+
+#### IP-Vergebung PCs
 
 | ID  | Name    | IP-Adresse    | CIDR |
 | --- | ------- | ------------- | ---- |
@@ -46,14 +55,6 @@ Nach zwei Subnetzen ändert sich das dritte Oktett. Also beispielsweise von 37.1
 | 14  | PC-9003 | 37.105.99.3   | 25   |
 | 15  | PC-9130 | 37.105.99.130 | 25   |
 | 16  | PC-9131 | 37.105.99.131 | 25   |
-
-### PC Konfiguration
-
-Ich habe bei jedem PC den **richtigen Gateway**, also die IP-Adresse vom **richtigen Interface** angegeben. Dann gab ich nur noch die IP-Adresse, die man aus der Namenskonvention auslesen konnte, ein und testete alles mit einem Ping zum anderen PC im gleichen Subnetz. 
-
-<img width=50% height=50% alt="PCconfig-gateway" src="https://github.com/user-attachments/assets/db136e5e-e34e-410a-ab37-77b21400765f">
-
-<img width=50% height=50% alt="PCconfig-ip" src="https://github.com/user-attachments/assets/ee59ec82-06c2-45f2-95c4-a2a355599115">
 
 ### Testing
 
