@@ -19,7 +19,7 @@ Das erste und zweite Subnetz hat 3 IP-Adressen. Dazu gehören der Router und zwe
 
 Ich habe anhand vom [Bild im Auftrag](https://gitlab.com/ser-cal/m129-lb2/-/raw/main/N2/3/P2_3_subnetz-kreis_800.jpg) die Netzwerkkonfiguration auf Excel ausgefüllt.  
 
-<img width=50% height=50% alt="Netzwerk1und2" src="">
+<img width=50% height=50% alt="Netzwerk1und2" src="https://github.com/user-attachments/assets/ae6b1d63-5249-46c3-95a8-803a440b5d7a">
 
 ### PC Konfiguration
 
@@ -27,17 +27,17 @@ Ich habe anhand vom [Bild im Auftrag](https://gitlab.com/ser-cal/m129-lb2/-/raw/
 
 Das erste Subnetz ist ein /26er Netz. Da ist der Router die IP 34.112.98.1. 
 
-<img width=50% height=50% alt="Subnetz1PC-ip" src="">
+<img width=50% height=50% alt="Subnetz1PC-ip" src="https://github.com/user-attachments/assets/06438e83-df79-44d2-8520-343bf53eb7d8">
 
-<img width=50% height=50% alt="Subnetz1PC-gateway" src="">
+<img width=50% height=50% alt="Subnetz1PC-gateway" src="https://github.com/user-attachments/assets/21c58823-8353-463d-9238-84e1c312dc8d">
 
 #### PC in Subnetz 2
 
 Das zweite Subnetz ist ein /28er Netz. Da ist der Router die IP 34.112.98.65. 
 
-<img width=50% height=50% alt="Subnetz2PC-ip" src="">
+<img width=50% height=50% alt="Subnetz2PC-ip" src="https://github.com/user-attachments/assets/275e6f8b-3520-4b20-919f-b97c45ddbab8">
 
-<img width=50% height=50% alt="Subnetz2PC-gateway" src="">
+<img width=50% height=50% alt="Subnetz2PC-gateway" src="https://github.com/user-attachments/assets/5765d940-556e-4c70-ba17-cc08e897670a">
 
 ### Router Konfiguration
 
@@ -68,9 +68,9 @@ Der **ISP Router** leitet **sämtlichen Traffic zum Router 1** weiter, da kein a
 
 Ich habe wieder die ARP Tabellen der Router ausgefüllt, indem ich von überall hin und her PDUs gesendet habe. Danach konnte ich überall hin pingen und PDUs senden. 
 
-<img width=50% height=50% alt="TestingPing" src="">
+<img width=50% height=50% alt="TestingPing" src="https://github.com/user-attachments/assets/631d950c-30d1-4c63-b2f7-6ffe3de2cd10">
 
-<img width=50% height=50% alt="TestingPDU" src="">
+<img width=50% height=50% alt="TestingPDU" src="https://github.com/user-attachments/assets/f10e2cb8-9176-4f11-9403-a87da013d440">
 
 ### Fragen
 - Wieviele freie IP-Adressen gibt es in der Abteilung **Verkauf**
