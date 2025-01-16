@@ -40,7 +40,6 @@ Die ersten zwei Subnetze sind ganz normal also bspw. 133.95.48.0. Beim dritten N
 | 7   | PC-9130 | 133.95.49.30 | 25   |
 | 8   | PC-9140 | 133.95.49.40 | 25   |
 
-
 ### PCs
 
 Ich habe die PCs sauber konfiguriert, sodass sie die IP-Adresse im Namen nehmen konnten. 
