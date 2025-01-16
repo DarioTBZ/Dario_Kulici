@@ -25,7 +25,8 @@ Pro Subnetz ist eine IP-Adresse für den Router, für einen PC und für den ande
 
 Nach zwei Subnetzen ändert sich das dritte Oktett. Also beispielsweise von 37.105.**96**.1 auf 37.105.**97**.1.
 
-<img width=50% height=50% alt="Netzwerk5und6" src="">
+<img width=50% height=50% alt="Netzwerk5und6" src="https://github.com/user-attachments/assets/ad1e491f-0a0b-4c9f-885d-3f1d55090071">
+
 
 | ID  | Name    | IP-Adresse    | CIDR |
 | --- | ------- | ------------- | ---- |
@@ -50,17 +51,17 @@ Nach zwei Subnetzen ändert sich das dritte Oktett. Also beispielsweise von 37.1
 
 Ich habe bei jedem PC den **richtigen Gateway**, also die IP-Adresse vom **richtigen Interface** angegeben. Dann gab ich nur noch die IP-Adresse, die man aus der Namenskonvention auslesen konnte, ein und testete alles mit einem Ping zum anderen PC im gleichen Subnetz. 
 
-<img width=50% height=50% alt="PCconfig-gateway" src="">
+<img width=50% height=50% alt="PCconfig-gateway" src="https://github.com/user-attachments/assets/db136e5e-e34e-410a-ab37-77b21400765f">
 
-<img width=50% height=50% alt="PCconfig-ip" src="">
+<img width=50% height=50% alt="PCconfig-ip" src="https://github.com/user-attachments/assets/ee59ec82-06c2-45f2-95c4-a2a355599115">
 
 ### Testing
 
 Ich testete bei der Konfiguration den Ping zum anderen PC im selben Subnetz. Beispielsweise der Ping von PC-6002 zu PC-6003. Nachdem ich alles konfiguriert hatte testete ich die Kommunikation zwischen den Subnetzen. Das erste PDU wurde zum Router gesendet und wurde dann abgeworfen. Nachdem ich im Protokoll die Layers auslas, fiel mir auf, dass immer wenn ich das erste Mal ein Packet von einem Subnetz zu einem anderen sendete, es immer ein Layer 2 Problem war. Und zwar ist meine Vermutung, dass die ARP-Tabelle vom Router noch nicht ausgefüllt war und deswegen beim ersten Mal fehlschlägt. Erst beim zweiten Mal gelang das PDU an sein Ziel. 
 
-<img width=50% height=50% alt="Testing-ping" src="">
+<img width=50% height=50% alt="Testing-ping" src="https://github.com/user-attachments/assets/6d76eb9c-3e10-4dd6-b105-de24e07124e7">
 
-<img width=50% height=50% alt="Testing-PDU" src="">
+<img width=50% height=50% alt="Testing-PDU" src="https://github.com/user-attachments/assets/ff0621cd-75e3-414f-9baa-f5b6fca24248">
 
 ### Fragen
 - Wieviele freie IP-Adressen gibt es in der Abteilung **Marketing**?
