@@ -17,3 +17,4 @@
 
 ### [N3](N3/README.md) 
 - [N3 - 3.1](N3/aufgabe-3.1.md) 
+- [N3 - 3.2](N3/aufgabe-3.2.md) 
