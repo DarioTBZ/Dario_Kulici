@@ -13,6 +13,7 @@ Der ISP stellt ein /23er Netz zur Verfügung. Es sollen vier gleich grosse Netzw
 | 2          | 133.95.48.128 | 126                 | 3                 | 123            | Buchhaltung |
 | 3          | 133.95.49.0   | 126                 | 3                 | 123            | Verkauf     |
 | 4          | 133.95.49.128 | 126                 | 3                 | 123            | Einkauf     |
+
 Die besetzten IP-Adressen sind die des **Routers und der zwei PCs** pro Subnetz. 
 
 ### Excel Netzwerktabelle
