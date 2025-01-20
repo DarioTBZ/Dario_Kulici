@@ -18,14 +18,15 @@ Die besetzten IP-Adressen sind die des **Routers und der zwei PCs** pro Subnetz.
 ### Excel Netzwerktabelle
 Wichtig ist hier im dritten Oktett ein Bit umzuschalten. Das heisst das dritte Oktett wechselt von 48 auf 49. 
 
-<img width=50% height=50% alt="Netzwerk3und4" src="">
+<img width=50% height=50% alt="Netzwerk3und4" src="https://github.com/user-attachments/assets/0c099c35-13a5-4c57-9e29-de24e53642e1">
 
 ### PC Konfiguration
 Hier sieht man die Konfiguration der PCs. Es ändert sich lediglich der **Gateway und ein wenig die IP-Adresse**. 
 
-<img width=50% height=50% alt="PCconfig-ip" src="">
+<img width=50% height=50% alt="PCconfig-ip" src="https://github.com/user-attachments/assets/1d66f6d0-df78-4664-a192-7242e9f35961">
 
-<img width=50% height=50% alt="PCconfig" src="">
+<img width=50% height=50% alt="PCconfig" src="https://github.com/user-attachments/assets/ad0f59f5-7e4c-4b50-bedc-cc3d2d89a9e4">
+
 #### IP-Vergebung PCs
 
 | ID  | Name    | IP-Adresse    | CIDR |
@@ -44,9 +45,9 @@ Hier sieht man die Konfiguration der PCs. Es ändert sich lediglich der **Gatewa
 
 Wie immer waren die ersten PDUs nicht erfolgreich. Sobald der Router die ARP Tabelle ausgefüllt hat konnte ich erfolgreich pingen und PDUs senden. 
 
-<img width=50% height=50% alt="TestingPDU" src="">
+<img width=50% height=50% alt="TestingPDU" src="https://github.com/user-attachments/assets/9cddf268-9457-4255-9b85-fbab24144451">
 
-<img width=50% height=50% alt="TestingPing" src="">
+<img width=50% height=50% alt="TestingPing" src="https://github.com/user-attachments/assets/7c8322d2-21ac-4326-8eca-f686025d76e7">
 
 ### Fragen
 - Wieviele freie IP-Adressen gibt es in der Abteilung **Einkauf**
