@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <small>Erstellt von {{ post.author }} am {{ post.created_at }}</small>
+
+    {% if user.is_authenticated and user == post.author %}
+        <form action="{% url 'delete_post' post.pk %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Beitrag löschen</button>
+        </form>
+    {% endif %}
+
+    <h2>Kommentare</h2>
+    <ul>
+        {% for comment in comments %}
+            <li>
+                <p>{{ comment.content }}</p>
+                <small>Von {{ comment.author }} am {{ comment.created_at }}</small>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
