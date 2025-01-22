@@ -25,12 +25,14 @@
 
 #### Diagramm
 
-<img width=50% height=50% alt="Kuchendiagramm" src="">
+<img width=50% height=50% alt="Kuchendiagramm" src="https://github.com/user-attachments/assets/370bd3c3-610e-4640-93f5-b8e967620239">
 
 Auf dem Bild sieht man, dass das Transfer Netzwerk zum ISP ganz am Ende des Netzwerks ist und das Transfer Netz von A nach B nach Netz B. 
 
 **Transfernetz zu ISP**: 178.19.22.252
+
 **Transfernetz A nach B**: 178.19.22.192
+
 
 ### Routerkonfiguration
 
@@ -68,27 +70,27 @@ Auf dem Bild sieht man, dass das Transfer Netzwerk zum ISP ganz am Ende des Netz
 
 Als erstes konfigurierte ich die Router zuerst mit den entsprechenden Interfaces. Zum Beispiel setzte ich die Router IP für das Netz A, also 178.19.22.1. 
 
-<img width=50% height=50% alt="RealisierenNetzAConfig" src="">
+<img width=50% height=50% alt="RealisierenNetzAConfig" src="https://github.com/user-attachments/assets/707ef054-295d-45ce-8f0d-c85a7b92aaf2">
 
 Nachher setzte ich die Routen für alle Router. Beispielsweise die Route von Netz B zu Netz A. Das heisst Router B gibt alle Pakete die ins Netzwerk 178.19.22.0 müssen an die IP-Adresse von Router A über das Transfernetz. Der nächste Hop ist also 178.19.22.194. 
 
-<img width=50% height=50% alt="RealisierenRTBRouten" src="">
+<img width=50% height=50% alt="RealisierenRTBRouten" src="https://github.com/user-attachments/assets/f2f65d34-6326-4422-8539-ceef0208222d">
 
 
 ### Testing
 
 Ping von Netz A zu Netz B:
 
-<img width=50% height=50% alt="TestingNetzAzuB" src="">
+<img width=50% height=50% alt="TestingNetzAzuB" src="https://github.com/user-attachments/assets/c2887b78-d4ef-442a-bdf6-b2c95fbb593c">
 
 Ping von Netz A zu ISP:
 
-<img width=50% height=50% alt="TestingNetzAzuISP" src="">
+<img width=50% height=50% alt="TestingNetzAzuISP" src="https://github.com/user-attachments/assets/cef34d27-eaf3-4971-931a-8fd98fdb8082">
 
 Ping von Netz B zu Netz A: 
 
-<img width=50% height=50% alt="TestingNetzBzuA" src="">
+<img width=50% height=50% alt="TestingNetzBzuA" src="https://github.com/user-attachments/assets/6fecaff2-aeb8-4557-99b2-143cfbb5adda">
 
 Ping von Netz B zu ISP: 
 
-<img width=50% height=50% alt="TestingNetzBzuISP" src="">
+<img width=50% height=50% alt="TestingNetzBzuISP" src="https://github.com/user-attachments/assets/246a27cc-8807-43d0-a014-25118f1a6cda">
