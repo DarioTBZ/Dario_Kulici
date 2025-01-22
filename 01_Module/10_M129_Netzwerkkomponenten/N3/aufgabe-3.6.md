@@ -34,8 +34,7 @@
 
 ### Diagramm
 
-
-<img width=50% height=50% alt="Kuchendiagramm_3.6" src="">
+<img width=50% height=50% alt="Kuchendiagramm_3.6" src="https://github.com/user-attachments/assets/19a2da22-0f4d-476b-9635-761d37e8bf6b">
 
 Netz C ist ganz am Anfang des Netzwerks, dann folgen Netz A, I, T1, T2 und zum Schluss ist Netzwerk B mit 1024 IP-Adressen. Die Aufteilung wo die Netzwerke sind hätte man anders machen können. Ich habe **es so gelöst**, dass **Netz B ganz am Schluss** ist und der Rest **am Anfang vom Netzwerk**. 
 
@@ -86,9 +85,9 @@ Netz C ist ganz am Anfang des Netzwerks, dann folgen Netz A, I, T1, T2 und zum S
 
 ### Exceltabellen
 
-<img width=50% height=50% alt="ExcelNetzwerkB" src="">
+<img width=50% height=50% alt="ExcelNetzwerkB" src="https://github.com/user-attachments/assets/5748cb4f-2419-4e1c-a660-4d942e6a4a52">
 
-<img width=50% height=50% alt="ExcelNetzwerkC" src="">
+<img width=50% height=50% alt="ExcelNetzwerkC" src="https://github.com/user-attachments/assets/7d58e2c7-b62b-42cc-92f2-c5a1e8fa988f">
 
 Auf diesen Bildern sieht man die Excel Konfigurationen der Netzwerke B und C. 
 
@@ -118,9 +117,9 @@ Auf diesen Bildern sieht man die Excel Konfigurationen der Netzwerke B und C.
 
 Ping von Netz A zu Netz B und C:
 
-<img width=50% height=50% alt="TestingPingvonAzuBC" src="">
+<img width=50% height=50% alt="TestingPingvonAzuBC" src="https://github.com/user-attachments/assets/5a5ff939-076c-4eba-bc94-5a99c1738836">
 
 Ping von Netz B zu Internet:
 
-<img width=50% height=50% alt="TestingPingvonBzuInternet" src="">
+<img width=50% height=50% alt="TestingPingvonBzuInternet" src="https://github.com/user-attachments/assets/3efd9f17-1c09-4f2c-ab6c-1e92d29d304d">
 
