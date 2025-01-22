@@ -28,7 +28,7 @@
 
 ### Diagramm 
 
-<img width=50% height=50% alt="Kuchendiagramm-3.5" src="https://github.com/user-attachments/assets/a35dd680-116e-4dff-aaf0-af9219a85655">
+<img width=50% height=50% alt="Kuchendiagramm-3.5" src="https://github.com/user-attachments/assets/1f081fd7-447d-491e-a2fb-624b318c151e">
 
 Netz A hat 50 Geräte und ein Netz mit 62 Adressen. Bei **Netz B ist das Problem**, dass ein /25er **Netz zu klein ist**. Deswegen muss ein **grösseres** genommen werden, also ein /24er. Dadurch, dass aber auf dem **ersten Kreis** kein Platz mehr ist, ist Netz B einfach auf dem **zweiten Kreis**. Die Transfer Netze sind am Ende des ersten Kreises, da sonst kein Platz mehr da ist. 
 
