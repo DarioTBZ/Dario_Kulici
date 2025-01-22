@@ -41,9 +41,9 @@ Auf dem Bild sieht man, dass das Transfer Netzwerk zum ISP ganz am Ende des Netz
 
 Auf diesen Bildern sieht man die Excel Konfiguration von allen Netzwerken. 
 
-<img width=50% height=50% alt="ExcelNetzwerkAB" src="">
+<img width=50% height=50% alt="ExcelNetzwerkAB" src="https://github.com/user-attachments/assets/41bb6557-4dc6-4ed4-8e8b-bc16de9e6b58">
 
-<img width=50% height=50% alt="ExcelTransfer" src="">
+<img width=50% height=50% alt="ExcelTransfer" src="https://github.com/user-attachments/assets/ed799e55-0b5b-4e1f-a3bd-2a6bc86d9b66">
 
 
 ### Router Konfiguration
