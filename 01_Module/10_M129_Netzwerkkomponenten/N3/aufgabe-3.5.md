@@ -28,7 +28,7 @@
 
 ### Diagramm 
 
-<img width=50% height=50% alt="Kuchendiagramm-3.5" src="">
+<img width=50% height=50% alt="Kuchendiagramm-3.5" src="https://github.com/user-attachments/assets/a35dd680-116e-4dff-aaf0-af9219a85655">
 
 Netz A hat 50 Geräte und ein Netz mit 62 Adressen. Bei **Netz B ist das Problem**, dass ein /25er **Netz zu klein ist**. Deswegen muss ein **grösseres** genommen werden, also ein /24er. Dadurch, dass aber auf dem **ersten Kreis** kein Platz mehr ist, ist Netz B einfach auf dem **zweiten Kreis**. Die Transfer Netze sind am Ende des ersten Kreises, da sonst kein Platz mehr da ist. 
 
@@ -72,17 +72,17 @@ Danach definierte ich die Routen von allen Router, damit die Pakete korrekt gero
 
 Ping von Netz A zu Netz B:
 
-<img width=50% height=50% alt="TestingNetzAzuB" src="">
+<img width=50% height=50% alt="TestingNetzAzuB" src="https://github.com/user-attachments/assets/d23c4ea5-1a22-4714-b66c-391054e2a924">
 
 Ping von Netz A zu ISP:
 
-<img width=50% height=50% alt="TestingNetzAzuISP" src="">
+<img width=50% height=50% alt="TestingNetzAzuISP" src="https://github.com/user-attachments/assets/cd58862a-b1b8-4cf1-9f3c-a0d78a2d58ee">
 
 Ping von Netz B zu Netz A: 
 
-<img width=50% height=50% alt="TestingNetzBzuA" src="">
+<img width=50% height=50% alt="TestingNetzBzuA" src="https://github.com/user-attachments/assets/6c27ada8-dbaf-4c87-89fc-5b6f5f3eb8e2">
 
 Ping von Netz B zu ISP: 
 
-<img width=50% height=50% alt="TestingNetzBzuISP" src="https">
+<img width=50% height=50% alt="TestingNetzBzuISP" src="https://github.com/user-attachments/assets/7da91af0-7d1d-4cdd-addd-b7e24ee4932a">
 
