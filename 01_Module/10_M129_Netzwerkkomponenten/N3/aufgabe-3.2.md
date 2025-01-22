@@ -28,4 +28,4 @@ Ich gehe wieder so vor, dass ich zuerst Layer 1, dann Layer 2 und als letztes La
 | ------------------------------- | -------------------------------------------------------- |
 | Überprüfung der Konfigurationen | Falsche Konfiguration, Konfiguration angepasst           |
 | Ping zu allen Netzwerken        | Ping fehlgeschlagen, --> Überprüfung der Konfigurationen |
-|                                 |                                                          |
+
