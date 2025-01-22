@@ -5,3 +5,4 @@
 - [Aufgabe 3.2](aufgabe-3.2.md) 
 - [Aufgabe 3.3](aufgabe-3.3.md) 
 - [Aufgabe 3.4](aufgabe-3.4.md) 
+- [Aufgabe 3.5](aufgabe-3.5.md) 
