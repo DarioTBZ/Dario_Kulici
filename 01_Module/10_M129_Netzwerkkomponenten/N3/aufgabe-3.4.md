@@ -23,6 +23,9 @@
 | Netz Internet   | 4      | 178.19.22.252 /30       | 255.255.255.252                     | 178.19.22.255    |
 | Transfer Netz   | 4      | 178.19.22.192 /30       | 255.255.255.252                     | 178.19.22.195    |
 
+
+Ich habe mich beim Transfer Netzwerk dazu entschieden die ID **192 zu nehmen**, weil es in diesem Moment gut auf dem Kreis ausgesehen hat. Spätestens wenn man ein Netzwerk erweitern oder hinzufügen wollen würde müsste das **Transfer Netzwerk aufgeschoben werden**. 
+
 #### Diagramm
 
 <img width=50% height=50% alt="Kuchendiagramm" src="https://github.com/user-attachments/assets/370bd3c3-610e-4640-93f5-b8e967620239">
@@ -34,7 +37,16 @@ Auf dem Bild sieht man, dass das Transfer Netzwerk zum ISP ganz am Ende des Netz
 **Transfernetz A nach B**: 178.19.22.192
 
 
-### Routerkonfiguration
+### Exceltabellen
+
+Auf diesen Bildern sieht man die Excel Konfiguration von allen Netzwerken. 
+
+<img width=50% height=50% alt="ExcelNetzwerkAB" src="">
+
+<img width=50% height=50% alt="ExcelTransfer" src="">
+
+
+### Router Konfiguration
 
 #### Router Interfaces
 
@@ -74,6 +86,7 @@ Als erstes konfigurierte ich die Router zuerst mit den entsprechenden Interfaces
 
 Nachher setzte ich die Routen für alle Router. Beispielsweise die Route von Netz B zu Netz A. Das heisst Router B gibt alle Pakete die ins Netzwerk 178.19.22.0 müssen an die IP-Adresse von Router A über das Transfernetz. Der nächste Hop ist also 178.19.22.194. 
 
+
 <img width=50% height=50% alt="RealisierenRTBRouten" src="https://github.com/user-attachments/assets/f2f65d34-6326-4422-8539-ceef0208222d">
 
 
@@ -94,3 +107,7 @@ Ping von Netz B zu Netz A:
 Ping von Netz B zu ISP: 
 
 <img width=50% height=50% alt="TestingNetzBzuISP" src="https://github.com/user-attachments/assets/246a27cc-8807-43d0-a014-25118f1a6cda">
+
+### Fazit
+
+Alles hat gut geklappt. Ich hatte teilweise Schwierigkeiten, fand aber die Ursache recht schnell heraus und konnte das Problem lösen. 
