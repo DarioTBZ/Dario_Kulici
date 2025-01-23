@@ -1,12 +1,12 @@
 # N3 Aufgabenstellung 3.8
 
 ### Vorgaben
-- Ohne Inter Vlan Routing
+- Netzwerk ohne Inter Vlan Routing
 
 
 ### Vorgehen
 
-Als erstes verkabelte ich alle Interfaces vom Switch zu den richtigen PCs. Danach erstellte ich die Vlans auf dem Switch. Die Abteilungen erhalten jeweils zwei Access Interfaces. Das letzte Interfaces, was zum Router geht ist auf Trunk eingestellt, damit er alle Vlans durchlässt. Auf dem Router erstellte ich die Sub Interfaces nach Vorgabe, die 802.1Q Enkapsulierung aktiviert und die Änderungen mit ``write-memory`` angewendet. 
+Als erstes verkabelte ich alle Interfaces vom Switch zu den richtigen PCs. Danach erstellte ich die Vlans auf dem Switch. Die Abteilungen erhalten jeweils zwei Access Interfaces. Das letzte Interfaces, was zum Router geht ist auf Trunk eingestellt, damit er alle Vlans durchlässt. Auf dem Router erstellte ich die Sub Interfaces nach Vorgabe, die 802.1Q Enkapsulierung aktiviert und die Änderungen mit ``write memory`` angewendet. 
 
 #### Switch Config
 
@@ -16,7 +16,7 @@ Hier sieht man die erstellten Vlans.
 
 #### Router Config
 
-Auf diesem Bild sieht man die angewendeten Befehle. Zusätzlich überprüfte ich mit ``show running-config`` die aktuelle Konfiguration und sicherte die Konfiguration mit ``write-memory``.
+Auf diesem Bild sieht man die angewendeten Befehle. Zusätzlich überprüfte ich mit ``show running-config`` die aktuelle Konfiguration und sicherte die Konfiguration mit ``write memory``.
 
 <img width=50% height=50% alt="RouterConfig" src="https://github.com/user-attachments/assets/b03b1d16-7e73-4a9c-bdee-d70e6a417373">
 

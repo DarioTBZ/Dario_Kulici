@@ -23,3 +23,4 @@
 - [N3 - 3.5](N3/aufgabe-3.5.md) 
 - [N3 - 3.6](N3/aufgabe-3.6.md) 
 - [N3 - 3.8](N3/aufgabe-3.8.md) 
+- [N3 - 3.9](N3/aufgabe-3.9.md) 

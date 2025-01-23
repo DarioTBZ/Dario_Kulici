@@ -8,3 +8,4 @@
 - [Aufgabe 3.5](aufgabe-3.5.md) 
 - [Aufgabe 3.6](aufgabe-3.6.md) 
 - [Aufgabe 3.8](aufgabe-3.8.md) 
+- [Aufgabe 3.9](aufgabe-3.9.md) 
