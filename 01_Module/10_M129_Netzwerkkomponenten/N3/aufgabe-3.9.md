@@ -11,11 +11,12 @@ Das Vlan 50 musste ich auf dem Router logischerweise auf dem zweiten Interface e
 
 ### Switch Config
 
-<img width=50% height=50% alt="SwitchVlans" src="">
+<img width=50% height=50% alt="Switch0Vlans" src="https://github.com/user-attachments/assets/26654672-fd60-4693-af92-773e3c8a1f58">
+<img width=50% height=50% alt="Switch1Vlans" src="https://github.com/user-attachments/assets/823c9ae9-7575-4929-bb91-0d0b9b3c9a43">
 
 ### Router Config
 
-<img width=50% height=50% alt="Routerconfig" src="">
+<img width=50% height=50% alt="Routerconfig" src="https://github.com/user-attachments/assets/55f4c03c-f379-4c42-bf07-d44bb754ccdb">
 
 ### Fazit
 
