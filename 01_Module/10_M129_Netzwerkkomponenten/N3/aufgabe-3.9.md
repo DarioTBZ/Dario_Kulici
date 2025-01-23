@@ -19,4 +19,4 @@ Das Vlan 50 musste ich auf dem Router logischerweise auf dem zweiten Interface e
 
 ### Fazit
 
-Zusammenfassend kann ich sagen, dass ich verstanden habe wie Vlans funktionieren. Dennoch verstehe ich nicht wie man Inter Vlan Routing aktiviert oder deaktiviert. In der Übung 3.8 musste man das Netzwerk ohne Inter Vlan Routing erstellen und hier bei 3.9 mit. Die Herangehensweise der beiden Übungen war genau gleich. Das heisst ich habe hier bei 3.9 genau das gleiche wie auf 3.8 gemacht. 
+Zusammenfassend kann ich sagen, dass ich verstanden habe wie Vlans funktionieren. Dennoch verstehe ich nicht wie man Inter Vlan Routing aktiviert oder deaktiviert. In der Übung 3.8 musste man das Netzwerk ohne Inter Vlan Routing erstellen und hier bei 3.9 mit. Die Herangehensweise der beiden Übungen war genau gleich. Das heisst ich habe hier bei 3.9 genau das gleiche wie auf 3.8. 
