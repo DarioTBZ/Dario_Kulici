@@ -23,11 +23,11 @@ Das Vlan 50 musste ich auf dem Router logischerweise auf dem zweiten Interface e
 
 Verschiedene PDUs:
 
-<img width=50% height=50% alt="PDUs" src="">
+<img width=50% height=50% alt="PDUs" src="https://github.com/user-attachments/assets/34dd7d91-01fa-4760-8f11-3357f67795c5">
 
 Ping von PC-11 zu PC-51:
 
-<img width=50% height=50% alt="Ping" src="">
+<img width=50% height=50% alt="Ping" src="https://github.com/user-attachments/assets/e2ce95f5-f55d-43dd-bed1-04d6ef908595">
 
 ### Fazit
 
