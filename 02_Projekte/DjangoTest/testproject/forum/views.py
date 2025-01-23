@@ -2,6 +2,8 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .models import Post, Category
 from .forms import PostForm
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib import messages
 
 # Create your views here.
 def post_list(request):
@@ -36,3 +38,15 @@ def create_post(request):
     else:
         form = PostForm()
     return render(request, 'forum/create_post.html', {'form': form})
+
+def register(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            messages.success(request, f'Konto für {username} wurde erstellt!')
+            return redirect('login')
+        else:
+            form = UserCreationForm()
+        return render(request, 'forum/register.html', {'form': form})
