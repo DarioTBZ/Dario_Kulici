@@ -39,6 +39,6 @@ def encode_message(image_path, output_path, message):
     print(f"Nachricht wurde in {output_path} codiert!")
 
 # Beispiel: Nachricht in ein Bild codieren
-encode_message("input.png", "output.png", "Geheime Nachricht!")
+encode_message("input.png", "output.png", "De Code ish 3214")
 
 # Yt Video: https://www.youtube.com/watch?v=u_luy52v7z4
