@@ -1,32 +1,39 @@
 {% extends 'forum/base.html' %}
 
 {% block content %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ post.title }}</title>
-</head>
-<body>
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.content }}</p>
-    <small>Erstellt von {{ post.author }} am {{ post.created_at }}</small>
+<div class="container mt-4">
+    <!-- Beitrag -->
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h1 class="card-title">{{ post.title }}</h1>
+            <p class="card-text">{{ post.content }}</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Erstellt von {{ post.author }} am {{ post.created_at | date:"M. d, Y, h:i A" }}</small>
+                {% if user == post.author %}
+                    <form action="{% url 'delete_post' post.pk %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger btn-sm">Beitrag löschen</button>
+                    </form>
+                {% endif %}
+        </div>
+    </div>
 
-    {% if user.is_authenticated and user == post.author %}
-        <form action="{% url 'delete_post' post.pk %}" method="post">
-            {% csrf_token %}
-            <button type="submit">Beitrag löschen</button>
-        </form>
-    {% endif %}
+    {% if user.is_authenticated %}
+        <div class="card mt-4 shadow-sm">
+            <div class="card-body">
+                <h2 class="card-title">Neuer Kommentar</h2>
+                <form method="post">
+                    {% csrf_token }
+                    <div class="mb-3">
+                        <textarea name="content" class="form-control" rows="3" placeholder="Schreibe einen Kommentar..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kommentar absenden</button>
+                </form>
+            </div>
+        </div>
+    {% else %}
 
-    <h2>Kommentare</h2>
-    <ul>
-        {% for comment in comments %}
-            <li>
-                <p>{{ comment.content }}</p>
-                <small>Von {{ comment.author }} am {{ comment.created_at }}</small>
-            </li>
-        {% endfor %}
-    </ul>
-</body>
-</html>
+
+</div>
+
 {% endblock %}
