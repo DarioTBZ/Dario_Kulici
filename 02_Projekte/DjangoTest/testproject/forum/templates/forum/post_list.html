@@ -2,8 +2,9 @@
 
 {% block content %}
 <div class="container mt-4">
-    <h1 class="mb-4">Beiträge</h1>
-
+    <h1 class="mb-4 text-light">Beiträge</h1>
+    <br>
+    <h5 class="mb-3 text-light">Vorgeschlagen</h3>
     {% for post in posts %}
     <div class="list-group">
         <div class="list-group-item list-group-item-action flex-column align-items-start mb-3 rounded shadow-sm" data-href="{% url 'post_detail' post.pk %}" style="cursor: pointer;">
@@ -19,8 +20,20 @@
         </div>
     {% endfor %}
     </div>
-</div>
 
+    <div class="list-group">
+        <div class="list-group-item list-group-item-action flex-column align-items-start mb-3 rounded shadow-sm" style="cursor: pointer;">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Platzhalter Kategorie "Alle"</h5>
+                <small class="text-muted">Datum</small>
+    
+                <p class="mb-1">Inhalt</p>
+                <small class="text-muted">Erstellt von Benutzer</small>
+            </div>
+        </div>
+    </div>
+    
+</div>
 <script>
 
     document.querySelectorAll('.list-group-item').forEach(item => {

@@ -3,9 +3,10 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 from django.contrib.auth import login
+from django import forms
 
-from .models import Post, Category
-from .forms import PostForm
+from .models import Post, Comment
+from .forms import PostForm, CommentForm
 
 # Create your views here.
 def post_list(request):
@@ -55,3 +56,31 @@ def register(request):
 @login_required
 def profile(request):
     return render(request, 'forum/profile.html')
+
+def post_detail(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    comments = post.comments.all()
+
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.author = request.user
+            comment.save()
+            return redirect('post_detail', pk=post.pk)
+    else:
+        form = CommentForm()
+    
+    return render(request, 'forum/post_detail.html', {
+        'post': post,
+        'comments': comments,
+        'form': form,
+    })
+
+def profile_view(request):
+    user = request.user
+    context = {
+        'username': user.username,
+    }
+    return render(request, 'home.html', context)
