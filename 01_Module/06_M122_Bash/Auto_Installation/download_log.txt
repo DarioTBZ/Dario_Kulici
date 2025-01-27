@@ -1,9 +1,0 @@
-2024-07-11 14:35:29 - Aktualisieren von Homebrew gestartet.
-2024-07-11 14:35:32 - Homebrew erfolgreich aktualisiert.
-2024-07-11 14:35:35 - Installation von 2048 CLI (c2048) gestartet.
-2024-07-11 14:35:36 - 2048 CLI (c2048) erfolgreich installiert.
-2024-07-11 14:35:40 - Installation von Moon Buggy gestartet.
-2024-07-11 14:35:41 - Moon Buggy erfolgreich installiert.
-2024-07-11 14:35:44 - Installation von Space Invaders (ninvaders) gestartet.
-2024-07-11 14:35:45 - Space Invaders (ninvaders) erfolgreich installiert.
-2024-07-11 14:35:45 - Skript abgeschlossen.

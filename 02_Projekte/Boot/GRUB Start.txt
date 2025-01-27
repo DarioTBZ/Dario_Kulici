@@ -1,7 +1,0 @@
-GRUB Start
-
-set root=(hd0,gpt1)  # EFI-Partition (falls vorhanden)
-chainloader /EFI/Microsoft/Boot/bootmgfw.efi
-boot
-
-ls to Show partitions. 
