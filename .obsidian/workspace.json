@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "ed2d7f6b8dadb627",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ede1a4d01995f91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d517ecf6a0519256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Projekte/DjangoTest/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f984c6baee202f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8a73607fc2a9fcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "682b84fa8131a4dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1c0dffff93cc055b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "21f64358d8c12537",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08b015084121efde",
+    "type": "split",
+    "children": [
+      {
+        "id": "37389034f2c32e1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "478eb7c27f096d0d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_Projekte/DjangoTest/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "cb5bacace037191f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02_Projekte/DjangoTest/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "e4e101d691c29bae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b8fd98745db9bf1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02_Projekte/DjangoTest/README.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d517ecf6a0519256",
+  "lastOpenFiles": [
+    "02_Projekte/DjangoTest/testproject/forum/templates/forum/profile.html",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/tzdata/zoneinfo/__pycache__/__init__.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/tzdata/zoneinfo/__pycache__",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/tzdata/__pycache__/__init__.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/tzdata/__pycache__",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/messages/__pycache__/views.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/messages/__pycache__/__init__.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/messages/__pycache__/test.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/messages/__pycache__/utils.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/messages/__pycache__/context_processors.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/messages/__pycache__/middleware.cpython-313.pyc",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/LICENSE.md",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/admin/static/admin/css/vendor/select2/LICENSE-SELECT2.md",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/admin/static/admin/img/gis/move_vertex_on.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/admin/static/admin/img/gis/move_vertex_off.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_polygon_on.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_polygon_off.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_point_off.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_point_on.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_line_off.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_line_on.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/admin/static/admin/img/tooltag-arrowright.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/django/contrib/admin/static/admin/img/tooltag-add.svg",
+    "02_Projekte/DjangoTest/venv/Lib/site-packages/idna-3.10.dist-info/LICENSE.md"
+  ]
+}
