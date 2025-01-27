@@ -1,0 +1,84 @@
+[gd_scene load_steps=3 format=3 uid="uid://6s37tuu0jml3"]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_3m7vf"]
+[ext_resource type="FontFile" uid="uid://sg5tpw3m5u13" path="res://assets/Placeholders/Fonts/PoetsenOne-Regular.ttf" id="1_a77d0"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3m7vf")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.223921, 0.345976, 0.235861, 1)
+
+[node name="MarginButtons" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_top = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginButtons"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="Play" type="Button" parent="MarginButtons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_a77d0")
+theme_override_font_sizes/font_size = 30
+text = "Play"
+
+[node name="Stash" type="Button" parent="MarginButtons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_a77d0")
+theme_override_font_sizes/font_size = 30
+text = "Stash"
+
+[node name="Settings" type="Button" parent="MarginButtons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_a77d0")
+theme_override_font_sizes/font_size = 30
+text = "Settings"
+
+[node name="Quit" type="Button" parent="MarginButtons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_a77d0")
+theme_override_font_sizes/font_size = 30
+text = "Quit"
+
+[node name="MarginTitle" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -45.0
+offset_right = 45.0
+offset_bottom = 40.0
+grow_horizontal = 2
+theme_override_constants/margin_top = 50
+
+[node name="Title" type="Label" parent="MarginTitle"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_a77d0")
+theme_override_font_sizes/font_size = 56
+text = "Better Run 1"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="MarginButtons/VBoxContainer/Play" to="." method="play_button_pressed"]
+[connection signal="pressed" from="MarginButtons/VBoxContainer/Stash" to="." method="_on_stash_pressed"]
+[connection signal="pressed" from="MarginButtons/VBoxContainer/Settings" to="." method="settings_button_pressed"]
+[connection signal="pressed" from="MarginButtons/VBoxContainer/Quit" to="." method="quit_button_pressed"]

@@ -1,0 +1,206 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1716795915
+icon.svg::CompressedTexture2D::5515163852356872467::1716794926::1716794926::1::::<><>::
+::res://assets/::1716795899
+::res://assets/Asset Pack/::1716794963
+Assets.png::CompressedTexture2D::8826804243156750904::1716794926::1716794926::1::::<><>::
+background.png::CompressedTexture2D::9199338295760939883::1716794926::1716794926::1::::<><>::
+cursor 2.png::CompressedTexture2D::9089137992151486288::1716794926::1716794926::1::::<><>::
+cursor.png::CompressedTexture2D::6573796528562826734::1716794926::1716794926::1::::<><>::
+level complete  ui.png::CompressedTexture2D::8234104474508770143::1716794926::1716794926::1::::<><>::
+Map animations.png::CompressedTexture2D::8100356559847603385::1716794926::1716794926::1::::<><>::
+Map Level.png::CompressedTexture2D::7242008910860518592::1716794926::1716794926::1::::<><>::
+No bottons Map Level.png::CompressedTexture2D::4376923929084086848::1716794926::1716794926::1::::<><>::
+refine background.png::CompressedTexture2D::6217632672605668271::1716794926::1716794926::1::::<><>::
+retry u.i.png::CompressedTexture2D::4863882938801358981::1716794926::1716794926::1::::<><>::
+td.n1.png::CompressedTexture2D::9068279425454483436::1716794926::1716794926::1::::<><>::
+td.n2.png::CompressedTexture2D::8247019009143478810::1716794926::1716794926::1::::<><>::
+td.n3.png::CompressedTexture2D::3436818952322917817::1716794926::1716794926::1::::<><>::
+td.n4.png::CompressedTexture2D::3969113787129917338::1716794926::1716794926::1::::<><>::
+td.n5.png::CompressedTexture2D::1132100145615255073::1716794926::1716794926::1::::<><>::
+td.n6.png::CompressedTexture2D::3541770459165509066::1716794926::1716794926::1::::<><>::
+td.n7.png::CompressedTexture2D::1952985831742362225::1716794926::1716794926::1::::<><>::
+You win u.i.png::CompressedTexture2D::6643842870863519746::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Lights/::1716794951
+barrel.png::CompressedTexture2D::9140069138520323402::1716794926::1716794926::1::::<><>::
+chery bomb.png::CompressedTexture2D::2972525169963288538::1716794926::1716794926::1::::<><>::
+flamethrower.png::CompressedTexture2D::7634963031318258389::1716794926::1716794926::1::::<><>::
+noise.png::CompressedTexture2D::5706565168488460167::1716794926::1716794926::1::::<><>::
+Torche , switch between this two - Cópia.png::CompressedTexture2D::2605599777460205869::1716794926::1716794926::1::::<><>::
+Torche , switch between this two.png::CompressedTexture2D::1032025047252645167::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/::1716794963
+::res://assets/Asset Pack/Monsters/DICE 1/::1716794958
+Creature.png::CompressedTexture2D::3884897199810918916::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 1/Attack/::1716794958
+1attack.png::CompressedTexture2D::2671393983363371058::1716794926::1716794926::1::::<><>::
+2attack.png::CompressedTexture2D::1145189685472776761::1716794926::1716794926::1::::<><>::
+3attack.png::CompressedTexture2D::4701219047712238803::1716794926::1716794926::1::::<><>::
+4attack.png::CompressedTexture2D::9099769883453543247::1716794926::1716794926::1::::<><>::
+5attack.png::CompressedTexture2D::8552778147031004029::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 1/Death/::1716794958
+1death.png::CompressedTexture2D::8922380989391798917::1716794926::1716794926::1::::<><>::
+2death.png::CompressedTexture2D::6410820241750062118::1716794926::1716794926::1::::<><>::
+3death.png::CompressedTexture2D::3340248660503809883::1716794926::1716794926::1::::<><>::
+4death.png::CompressedTexture2D::4168709569493327564::1716794926::1716794926::1::::<><>::
+5death.png::CompressedTexture2D::5636086238435446084::1716794926::1716794926::1::::<><>::
+6death.png::CompressedTexture2D::4395869506256970577::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 1/Walk/::1716794958
+1walk.png::CompressedTexture2D::2131468635496927946::1716794926::1716794926::1::::<><>::
+2walk.png::CompressedTexture2D::1864649881856496435::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 2/::1716794958
+CREATURE.png::CompressedTexture2D::3423051342407234428::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 2/Attack/::1716794958
+1attack.png::CompressedTexture2D::6605477969842537519::1716794926::1716794926::1::::<><>::
+2attack.png::CompressedTexture2D::8129162435915280913::1716794926::1716794926::1::::<><>::
+3attack.png::CompressedTexture2D::4093554439063089348::1716794926::1716794926::1::::<><>::
+4attack.png::CompressedTexture2D::3121733395973645586::1716794926::1716794926::1::::<><>::
+5attack.png::CompressedTexture2D::4627923000519033750::1716794926::1716794926::1::::<><>::
+6attack.png::CompressedTexture2D::6815865141576945254::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 2/Death/::1716794958
+1death.png::CompressedTexture2D::7991350926532611740::1716794926::1716794926::1::::<><>::
+2death.png::CompressedTexture2D::8553504813183374062::1716794926::1716794926::1::::<><>::
+3death.png::CompressedTexture2D::4784900618667042707::1716794926::1716794926::1::::<><>::
+4death.png::CompressedTexture2D::1539136628001366773::1716794926::1716794926::1::::<><>::
+5death.png::CompressedTexture2D::4450020732911646865::1716794926::1716794926::1::::<><>::
+6death.png::CompressedTexture2D::6302718272149793331::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 2/Walk/::1716794953
+1walk.png::CompressedTexture2D::5594440256415723888::1716794926::1716794926::1::::<><>::
+2walk.png::CompressedTexture2D::5452935421429551957::1716794926::1716794926::1::::<><>::
+3walk.png::CompressedTexture2D::6892154708120611483::1716794926::1716794926::1::::<><>::
+4walk.png::CompressedTexture2D::7385397578161606979::1716794926::1716794926::1::::<><>::
+5walk.png::CompressedTexture2D::6062494844113143052::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 3/::1716794958
+creature 3.png::CompressedTexture2D::6498657677803004880::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 3/Attack/::1716794958
+1attack.png::CompressedTexture2D::8474574304946534497::1716794926::1716794926::1::::<><>::
+2attack.png::CompressedTexture2D::1731174396518261710::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 3/Death/::1716794958
+1death.png::CompressedTexture2D::365550680758764870::1716794926::1716794926::1::::<><>::
+2death.png::CompressedTexture2D::4412109130355904457::1716794926::1716794926::1::::<><>::
+3death.png::CompressedTexture2D::6519475165829909898::1716794926::1716794926::1::::<><>::
+4death.png::CompressedTexture2D::2560254162984129605::1716794926::1716794926::1::::<><>::
+5death.png::CompressedTexture2D::4176003212993162554::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 3/Walk/::1716794958
+1walk.png::CompressedTexture2D::7458347457759681595::1716794926::1716794926::1::::<><>::
+2walk.png::CompressedTexture2D::2978944141357081515::1716794926::1716794926::1::::<><>::
+3walk.png::CompressedTexture2D::7251684979023159098::1716794926::1716794926::1::::<><>::
+4walk.png::CompressedTexture2D::7199434252907229035::1716794926::1716794926::1::::<><>::
+5walk.png::CompressedTexture2D::8502373682048799809::1716794926::1716794926::1::::<><>::
+6walk.png::CompressedTexture2D::4337109968856888566::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 4/::1716794958
+Slime.png::CompressedTexture2D::8381578421607434051::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 4/Attack/::1716794958
+1attack.png::CompressedTexture2D::8818012887278612084::1716794926::1716794926::1::::<><>::
+2attack.png::CompressedTexture2D::186751621149977089::1716794926::1716794926::1::::<><>::
+3attack.png::CompressedTexture2D::77718378593777906::1716794926::1716794926::1::::<><>::
+4attack.png::CompressedTexture2D::1373245436260102418::1716794926::1716794926::1::::<><>::
+5attack.png::CompressedTexture2D::8243102423392092982::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 4/Death/::1716794958
+1death.png::CompressedTexture2D::7449701141099986907::1716794926::1716794926::1::::<><>::
+2death.png::CompressedTexture2D::6298427345176309964::1716794926::1716794926::1::::<><>::
+3death.png::CompressedTexture2D::7092384753969782389::1716794926::1716794926::1::::<><>::
+4death.png::CompressedTexture2D::127371848313051410::1716794926::1716794926::1::::<><>::
+5death.png::CompressedTexture2D::4410146460715753352::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 4/Walk/::1716794951
+1walk.png::CompressedTexture2D::1778186793810009086::1716794926::1716794926::1::::<><>::
+2walk.png::CompressedTexture2D::4113415391085220015::1716794926::1716794926::1::::<><>::
+3walk.png::CompressedTexture2D::3449418643704639401::1716794926::1716794926::1::::<><>::
+4walk.png::CompressedTexture2D::5306057011109415119::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 5/::1716794963
+Creature.png::CompressedTexture2D::320875914691110015::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 5/Attack/::1716794963
+1attack.png::CompressedTexture2D::8412519595963331275::1716794926::1716794926::1::::<><>::
+2attack.png::CompressedTexture2D::7385085022889846866::1716794926::1716794926::1::::<><>::
+3attack.png::CompressedTexture2D::1764537376999847401::1716794926::1716794926::1::::<><>::
+4attack.png::CompressedTexture2D::6681007058596989629::1716794926::1716794926::1::::<><>::
+5attack.png::CompressedTexture2D::2228533367304254637::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 5/Death/::1716794963
+1death.png::CompressedTexture2D::3700702340583215357::1716794926::1716794926::1::::<><>::
+2death.png::CompressedTexture2D::4992543472000770428::1716794926::1716794926::1::::<><>::
+3death.png::CompressedTexture2D::3253853680420323561::1716794926::1716794926::1::::<><>::
+4death.png::CompressedTexture2D::1962067986475366038::1716794926::1716794926::1::::<><>::
+5death.png::CompressedTexture2D::7680352913266548084::1716794926::1716794926::1::::<><>::
+6death.png::CompressedTexture2D::7006207557934620958::1716794926::1716794926::1::::<><>::
+7death.png::CompressedTexture2D::1989749326052181773::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 5/Jump/::1716794963
+1jump.png::CompressedTexture2D::3869518156983590040::1716794926::1716794926::1::::<><>::
+2jump.png::CompressedTexture2D::6416648609107700285::1716794926::1716794926::1::::<><>::
+3jump.png::CompressedTexture2D::5197200633248190094::1716794926::1716794926::1::::<><>::
+4jump.png::CompressedTexture2D::7121454204791940990::1716794926::1716794926::1::::<><>::
+5jump.png::CompressedTexture2D::6974601017613263770::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 5/Walk/::1716794963
+1walk.png::CompressedTexture2D::1872686567721816737::1716794926::1716794926::1::::<><>::
+2walk.png::CompressedTexture2D::7863034078370511604::1716794926::1716794926::1::::<><>::
+3walk.png::CompressedTexture2D::4394376865958424109::1716794926::1716794926::1::::<><>::
+4walk.png::CompressedTexture2D::2477649903322266679::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 6/::1716794963
+creature.png::CompressedTexture2D::9165300668081592737::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 6/Attack/::1716794951
+1attack.png::CompressedTexture2D::8364609251958597682::1716794926::1716794926::1::::<><>::
+2attack.png::CompressedTexture2D::9217871880644311705::1716794926::1716794926::1::::<><>::
+3attack.png::CompressedTexture2D::8478886884617248358::1716794926::1716794926::1::::<><>::
+4attack.png::CompressedTexture2D::4681908265855695718::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 6/Death/::1716794963
+1death.png::CompressedTexture2D::7621484423183055371::1716794926::1716794926::1::::<><>::
+2death.png::CompressedTexture2D::294953975715461532::1716794926::1716794926::1::::<><>::
+3death.png::CompressedTexture2D::505281965819820489::1716794926::1716794926::1::::<><>::
+4death.png::CompressedTexture2D::6543186178220001131::1716794926::1716794926::1::::<><>::
+5death.png::CompressedTexture2D::2139114093061877009::1716794926::1716794926::1::::<><>::
+6death.png::CompressedTexture2D::709447164262588926::1716794926::1716794926::1::::<><>::
+7death.png::CompressedTexture2D::2135484841501520934::1716794926::1716794926::1::::<><>::
+8death.png::CompressedTexture2D::3458486241502033686::1716794926::1716794926::1::::<><>::
+::res://assets/Asset Pack/Monsters/DICE 6/Walk/::1716794963
+1walk.png::CompressedTexture2D::6584241363656468623::1716794926::1716794926::1::::<><>::
+2walk.png::CompressedTexture2D::3434506859883490993::1716794926::1716794926::1::::<><>::
+3walk.png::CompressedTexture2D::4858511980124508507::1716794926::1716794926::1::::<><>::
+4walk.png::CompressedTexture2D::7626278349676370647::1716794926::1716794926::1::::<><>::
+5walk.png::CompressedTexture2D::7842747589570784372::1716794926::1716794926::1::::<><>::
+6walk.png::CompressedTexture2D::4159473835516637975::1716794926::1716794926::1::::<><>::
+7walk.png::CompressedTexture2D::6002525884324563527::1716794926::1716794926::1::::<><>::
+8walk.png::CompressedTexture2D::8698337315759391606::1716794926::1716794926::1::::<><>::
+9walk.png::CompressedTexture2D::4442610512894589441::1716794926::1716794926::1::::<><>::
+::res://assets/Placeholders/::1716794963
+::res://assets/Placeholders/Fonts/::1716794963
+PoetsenOne-Regular.ttf::FontFile::1277641715001508880::1716794926::1716794926::1::::<><>::
+::res://assets/Placeholders/Spritesheet/::1716794963
+allSprites_default.png::CompressedTexture2D::7436268754085010709::1716794926::1716794926::1::::<><>::
+allSprites_default.xml::TextFile::-1::1716794926::0::1::::<><>::
+allSprites_retina.png::CompressedTexture2D::728810605204360569::1716794926::1716794926::1::::<><>::
+allSprites_retina.xml::TextFile::-1::1716794926::0::1::::<><>::
+onlyObjects_default.png::CompressedTexture2D::3019940854660507472::1716794926::1716794926::1::::<><>::
+onlyObjects_default.xml::TextFile::-1::1716794926::0::1::::<><>::
+onlyObjects_retina.png::CompressedTexture2D::6556729547011277788::1716794926::1716794926::1::::<><>::
+onlyObjects_retina.xml::TextFile::-1::1716794926::0::1::::<><>::
+topdownTanks_vector.svg::CompressedTexture2D::1101403776332634263::1716794926::1716794926::1::::<><>::
+vector_characters.svg::CompressedTexture2D::4094930273520754048::1716794926::1716794926::1::::<><>::
+vector_tiles.svg::CompressedTexture2D::819892910859144054::1716794926::1716794926::1::::<><>::
+::res://scenes/::1716795899
+bullet.tscn::PackedScene::1348042656453986659::1716794926::0::1::::<><>::uid://bja48qi8dpr7e::::res://assets/Placeholders/Spritesheet/onlyObjects_default.png<>res://scripts/bullet.gd
+game.tscn::PackedScene::4408589317107366365::1716794926::0::1::::<><>::res://scripts/game.gd<>uid://dd7gi3qgh58wf::::res://assets/Placeholders/Spritesheet/allSprites_default.png<>uid://sg5tpw3m5u13::::res://assets/Placeholders/Fonts/PoetsenOne-Regular.ttf<>uid://b5ngtoh3b5h14::::res://scenes/player.tscn<>res://scripts/deathscreen.gd<>res://scripts/bulletmanager.gd
+menu.tscn::PackedScene::2214771203336723482::1716794926::0::1::::<><>::res://scripts/menu.gd<>uid://sg5tpw3m5u13::::res://assets/Placeholders/Fonts/PoetsenOne-Regular.ttf
+player.tscn::PackedScene::4519321883092890733::1716794926::0::1::::<><>::res://scripts/player.gd<>uid://bylu5yin3u881::::res://assets/Placeholders/Spritesheet/vector_characters.svg<>res://scripts/healthsystem.gd<>uid://ycp5xyxuayww::::res://scenes/ui.tscn
+stash.tscn::PackedScene::878404670036534682::1716794926::0::1::::<><>::res://scripts/stash.gd
+ui.tscn::PackedScene::1689626577713669890::1716794926::0::1::::<><>::res://scripts/ui.gd<>uid://ct30iwpgd0pvd::::res://themes/ui.themes.tres
+::res://scripts/::1716795899
+bullet.gd::GDScript::-1::1716794926::0::1::::<>Area2D<>::
+bulletmanager.gd::GDScript::-1::1716794926::0::1::::<>Node2D<>::
+deathscreen.gd::GDScript::-1::1716794926::0::1::::<>CanvasLayer<>::
+game.gd::GDScript::-1::1716794926::0::1::::<>Node2D<>::
+healthsystem.gd::GDScript::-1::1716794926::0::1::::HealthSystem<>Node<>::
+menu.gd::GDScript::-1::1716794926::0::1::::<>Control<>::
+player.gd::GDScript::-1::1716794926::0::1::::<>CharacterBody2D<>::
+stash.gd::GDScript::-1::1716794926::0::1::::<>CanvasLayer<>::
+ui.gd::GDScript::-1::1716794926::0::1::::PlayerUI<>CanvasLayer<>::
+::res://sketches/::1716795899
+map_1.png::CompressedTexture2D::3662067310929115223::1716794926::1716794926::1::::<><>::
+::res://sprites/::1716795899
+road_brk_lt.png::CompressedTexture2D::1521744292055171946::1716794926::1716794926::1::::<><>::
+road_brk_rt.png::CompressedTexture2D::8531246320457523466::1716794926::1716794926::1::::<><>::
+road_str.png::CompressedTexture2D::3647834000744495221::1716794926::1716794926::1::::<><>::
+rock_1.png::CompressedTexture2D::723476241221929309::1716794926::1716794926::1::::<><>::
+rock_2.png::CompressedTexture2D::7781451913298286482::1716794926::1716794926::1::::<><>::
+rock_3.png::CompressedTexture2D::4079671464876907641::1716794926::1716794926::1::::<><>::
+tree_1.png::CompressedTexture2D::6882032347632100570::1716794926::1716794926::1::::<><>::
+tree_2.png::CompressedTexture2D::8918216772697409556::1716794926::1716794926::1::::<><>::
+::res://themes/::1716795899
+ui.themes.tres::Theme::6165765363756283521::1716794926::0::1::::<><>::

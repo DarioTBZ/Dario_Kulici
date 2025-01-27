@@ -1,0 +1,12 @@
+{% extends 'forum/base.html' %}
+
+{% block content %}
+
+<h1>Neuen Beitrag erstellen</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Beitrag erstellen</button>
+</form>
+{% endblock %}

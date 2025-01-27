@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#gameboard {
+    width: 300px;
+    height: 300px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Kreis {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgba(92, 133, 223, 0.842);
+}
+.Kreuz {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.Kreuz:before, .Kreuz:after {
+    content: "";
+    position:absolute;
+    background-color: rgb(209, 38, 38);
+}
+.Kreuz:before {
+    left: 50%;
+    width: 30%;
+    margin-left: -15%;
+    height: 100%;
+}
+
+.Kreuz:after {
+    top: 50%;
+    height: 30%;
+    margin-top: -15%;
+    width: 100%;
+}
